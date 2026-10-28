@@ -816,9 +816,33 @@
     "y": 0.6729
    }
   },
-  "forts/barricade": {
+  "forts/fortress.team": {
    "frame": {
     "x": 231,
+    "y": 475,
+    "w": 54,
+    "h": 45
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 54,
+    "h": 45
+   },
+   "sourceSize": {
+    "w": 54,
+    "h": 45
+   },
+   "anchor": {
+    "x": 1.0731,
+    "y": 0.6233
+   }
+  },
+  "forts/barricade": {
+   "frame": {
+    "x": 287,
     "y": 475,
     "w": 213,
     "h": 190
@@ -842,7 +866,7 @@
   },
   "forts/outpost": {
    "frame": {
-    "x": 446,
+    "x": 502,
     "y": 475,
     "w": 128,
     "h": 188
@@ -864,9 +888,33 @@
     "y": 0.6934
    }
   },
+  "forts/outpost.team": {
+   "frame": {
+    "x": 632,
+    "y": 475,
+    "w": 41,
+    "h": 23
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 41,
+    "h": 23
+   },
+   "sourceSize": {
+    "w": 41,
+    "h": 23
+   },
+   "anchor": {
+    "x": -0.0256,
+    "y": 5.537
+   }
+  },
   "forts/colony": {
    "frame": {
-    "x": 576,
+    "x": 675,
     "y": 475,
     "w": 140,
     "h": 90
@@ -890,7 +938,7 @@
   },
   "forts/airfield": {
    "frame": {
-    "x": 718,
+    "x": 817,
     "y": 475,
     "w": 220,
     "h": 166
@@ -912,9 +960,33 @@
     "y": 0.5
    }
   },
+  "forts/airfield.team": {
+   "frame": {
+    "x": 1039,
+    "y": 475,
+    "w": 23,
+    "h": 15
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 23,
+    "h": 15
+   },
+   "sourceSize": {
+    "w": 23,
+    "h": 15
+   },
+   "anchor": {
+    "x": -3.6957,
+    "y": 5.1333
+   }
+  },
   "forts/radar": {
    "frame": {
-    "x": 940,
+    "x": 1064,
     "y": 475,
     "w": 126,
     "h": 172
@@ -938,7 +1010,7 @@
   },
   "forts/pollution": {
    "frame": {
-    "x": 1068,
+    "x": 1192,
     "y": 475,
     "w": 128,
     "h": 89
@@ -962,7 +1034,7 @@
   },
   "forts/pollution2": {
    "frame": {
-    "x": 1198,
+    "x": 1322,
     "y": 475,
     "w": 128,
     "h": 89

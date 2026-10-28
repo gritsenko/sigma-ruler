@@ -4,7 +4,7 @@
    "frame": {
     "x": 2,
     "y": 2,
-    "w": 119,
+    "w": 140,
     "h": 255
    },
    "rotated": false,
@@ -12,11 +12,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 119,
+    "w": 140,
     "h": 255
    },
    "sourceSize": {
-    "w": 119,
+    "w": 140,
     "h": 255
    },
    "anchor": {
@@ -26,9 +26,9 @@
   },
   "unit/worker/idle/3/0.team": {
    "frame": {
-    "x": 123,
+    "x": 144,
     "y": 2,
-    "w": 119,
+    "w": 140,
     "h": 255
    },
    "rotated": false,
@@ -36,11 +36,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 119,
+    "w": 140,
     "h": 255
    },
    "sourceSize": {
-    "w": 119,
+    "w": 140,
     "h": 255
    },
    "anchor": {
@@ -50,9 +50,9 @@
   },
   "unit/settler/idle/3/0": {
    "frame": {
-    "x": 244,
+    "x": 286,
     "y": 2,
-    "w": 228,
+    "w": 233,
     "h": 291
    },
    "rotated": false,
@@ -60,11 +60,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 228,
+    "w": 233,
     "h": 291
    },
    "sourceSize": {
-    "w": 228,
+    "w": 233,
     "h": 291
    },
    "anchor": {
@@ -74,9 +74,9 @@
   },
   "unit/settler/idle/3/0.team": {
    "frame": {
-    "x": 474,
+    "x": 521,
     "y": 2,
-    "w": 228,
+    "w": 233,
     "h": 291
    },
    "rotated": false,
@@ -84,11 +84,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 228,
+    "w": 233,
     "h": 291
    },
    "sourceSize": {
-    "w": 228,
+    "w": 233,
     "h": 291
    },
    "anchor": {
@@ -98,9 +98,9 @@
   },
   "unit/warrior/idle/3/0": {
    "frame": {
-    "x": 704,
+    "x": 756,
     "y": 2,
-    "w": 168,
+    "w": 174,
     "h": 255
    },
    "rotated": false,
@@ -108,11 +108,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 168,
+    "w": 174,
     "h": 255
    },
    "sourceSize": {
-    "w": 168,
+    "w": 174,
     "h": 255
    },
    "anchor": {
@@ -122,9 +122,9 @@
   },
   "unit/warrior/idle/3/0.team": {
    "frame": {
-    "x": 874,
+    "x": 932,
     "y": 2,
-    "w": 168,
+    "w": 174,
     "h": 255
    },
    "rotated": false,
@@ -132,11 +132,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 168,
+    "w": 174,
     "h": 255
    },
    "sourceSize": {
-    "w": 168,
+    "w": 174,
     "h": 255
    },
    "anchor": {
@@ -146,9 +146,9 @@
   },
   "unit/scout/idle/3/0": {
    "frame": {
-    "x": 1044,
+    "x": 1108,
     "y": 2,
-    "w": 110,
+    "w": 115,
     "h": 255
    },
    "rotated": false,
@@ -156,11 +156,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 110,
+    "w": 115,
     "h": 255
    },
    "sourceSize": {
-    "w": 110,
+    "w": 115,
     "h": 255
    },
    "anchor": {
@@ -170,9 +170,9 @@
   },
   "unit/scout/idle/3/0.team": {
    "frame": {
-    "x": 1156,
+    "x": 1225,
     "y": 2,
-    "w": 110,
+    "w": 115,
     "h": 255
    },
    "rotated": false,
@@ -180,11 +180,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 110,
+    "w": 115,
     "h": 255
    },
    "sourceSize": {
-    "w": 110,
+    "w": 115,
     "h": 255
    },
    "anchor": {
@@ -194,9 +194,9 @@
   },
   "unit/spearman/idle/3/0": {
    "frame": {
-    "x": 1268,
+    "x": 1342,
     "y": 2,
-    "w": 111,
+    "w": 119,
     "h": 270
    },
    "rotated": false,
@@ -204,11 +204,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 111,
+    "w": 119,
     "h": 270
    },
    "sourceSize": {
-    "w": 111,
+    "w": 119,
     "h": 270
    },
    "anchor": {
@@ -218,9 +218,9 @@
   },
   "unit/spearman/idle/3/0.team": {
    "frame": {
-    "x": 1381,
+    "x": 1463,
     "y": 2,
-    "w": 111,
+    "w": 119,
     "h": 270
    },
    "rotated": false,
@@ -228,11 +228,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 111,
+    "w": 119,
     "h": 270
    },
    "sourceSize": {
-    "w": 111,
+    "w": 119,
     "h": 270
    },
    "anchor": {
@@ -242,9 +242,9 @@
   },
   "unit/archer/idle/3/0": {
    "frame": {
-    "x": 1494,
+    "x": 1584,
     "y": 2,
-    "w": 98,
+    "w": 101,
     "h": 270
    },
    "rotated": false,
@@ -252,11 +252,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 98,
+    "w": 101,
     "h": 270
    },
    "sourceSize": {
-    "w": 98,
+    "w": 101,
     "h": 270
    },
    "anchor": {
@@ -266,9 +266,9 @@
   },
   "unit/archer/idle/3/0.team": {
    "frame": {
-    "x": 1594,
+    "x": 1687,
     "y": 2,
-    "w": 98,
+    "w": 101,
     "h": 270
    },
    "rotated": false,
@@ -276,11 +276,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 98,
+    "w": 101,
     "h": 270
    },
    "sourceSize": {
-    "w": 98,
+    "w": 101,
     "h": 270
    },
    "anchor": {
@@ -290,9 +290,9 @@
   },
   "unit/chariot/idle/3/0": {
    "frame": {
-    "x": 1694,
+    "x": 1790,
     "y": 2,
-    "w": 200,
+    "w": 212,
     "h": 272
    },
    "rotated": false,
@@ -300,11 +300,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 200,
+    "w": 212,
     "h": 272
    },
    "sourceSize": {
-    "w": 200,
+    "w": 212,
     "h": 272
    },
    "anchor": {
@@ -316,7 +316,7 @@
    "frame": {
     "x": 2,
     "y": 295,
-    "w": 200,
+    "w": 212,
     "h": 272
    },
    "rotated": false,
@@ -324,11 +324,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 200,
+    "w": 212,
     "h": 272
    },
    "sourceSize": {
-    "w": 200,
+    "w": 212,
     "h": 272
    },
    "anchor": {
@@ -338,9 +338,9 @@
   },
   "unit/horseman/idle/3/0": {
    "frame": {
-    "x": 204,
+    "x": 216,
     "y": 295,
-    "w": 140,
+    "w": 154,
     "h": 291
    },
    "rotated": false,
@@ -348,11 +348,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 140,
+    "w": 154,
     "h": 291
    },
    "sourceSize": {
-    "w": 140,
+    "w": 154,
     "h": 291
    },
    "anchor": {
@@ -362,9 +362,9 @@
   },
   "unit/horseman/idle/3/0.team": {
    "frame": {
-    "x": 346,
+    "x": 372,
     "y": 295,
-    "w": 140,
+    "w": 154,
     "h": 291
    },
    "rotated": false,
@@ -372,11 +372,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 140,
+    "w": 154,
     "h": 291
    },
    "sourceSize": {
-    "w": 140,
+    "w": 154,
     "h": 291
    },
    "anchor": {
@@ -386,9 +386,9 @@
   },
   "unit/swordsman/idle/3/0": {
    "frame": {
-    "x": 488,
+    "x": 528,
     "y": 295,
-    "w": 136,
+    "w": 142,
     "h": 270
    },
    "rotated": false,
@@ -396,11 +396,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 136,
+    "w": 142,
     "h": 270
    },
    "sourceSize": {
-    "w": 136,
+    "w": 142,
     "h": 270
    },
    "anchor": {
@@ -410,9 +410,9 @@
   },
   "unit/swordsman/idle/3/0.team": {
    "frame": {
-    "x": 626,
+    "x": 672,
     "y": 295,
-    "w": 136,
+    "w": 142,
     "h": 270
    },
    "rotated": false,
@@ -420,11 +420,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 136,
+    "w": 142,
     "h": 270
    },
    "sourceSize": {
-    "w": 136,
+    "w": 142,
     "h": 270
    },
    "anchor": {
@@ -434,9 +434,9 @@
   },
   "unit/catapult/idle/3/0": {
    "frame": {
-    "x": 764,
+    "x": 816,
     "y": 295,
-    "w": 222,
+    "w": 263,
     "h": 194
    },
    "rotated": false,
@@ -444,11 +444,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 222,
+    "w": 263,
     "h": 194
    },
    "sourceSize": {
-    "w": 222,
+    "w": 263,
     "h": 194
    },
    "anchor": {
@@ -458,9 +458,9 @@
   },
   "unit/catapult/idle/3/0.team": {
    "frame": {
-    "x": 988,
+    "x": 1081,
     "y": 295,
-    "w": 222,
+    "w": 263,
     "h": 194
    },
    "rotated": false,
@@ -468,11 +468,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 222,
+    "w": 263,
     "h": 194
    },
    "sourceSize": {
-    "w": 222,
+    "w": 263,
     "h": 194
    },
    "anchor": {
@@ -482,9 +482,9 @@
   },
   "unit/curragh/idle/3/0": {
    "frame": {
-    "x": 1212,
+    "x": 1346,
     "y": 295,
-    "w": 184,
+    "w": 202,
     "h": 250
    },
    "rotated": false,
@@ -492,11 +492,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 184,
+    "w": 202,
     "h": 250
    },
    "sourceSize": {
-    "w": 184,
+    "w": 202,
     "h": 250
    },
    "anchor": {
@@ -506,9 +506,9 @@
   },
   "unit/curragh/idle/3/0.team": {
    "frame": {
-    "x": 1398,
+    "x": 1550,
     "y": 295,
-    "w": 184,
+    "w": 202,
     "h": 250
    },
    "rotated": false,
@@ -516,11 +516,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 184,
+    "w": 202,
     "h": 250
    },
    "sourceSize": {
-    "w": 184,
+    "w": 202,
     "h": 250
    },
    "anchor": {
@@ -530,9 +530,9 @@
   },
   "unit/galley/idle/3/0": {
    "frame": {
-    "x": 1584,
+    "x": 1754,
     "y": 295,
-    "w": 232,
+    "w": 233,
     "h": 304
    },
    "rotated": false,
@@ -540,11 +540,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 232,
+    "w": 233,
     "h": 304
    },
    "sourceSize": {
-    "w": 232,
+    "w": 233,
     "h": 304
    },
    "anchor": {
@@ -556,7 +556,7 @@
    "frame": {
     "x": 2,
     "y": 601,
-    "w": 232,
+    "w": 233,
     "h": 304
    },
    "rotated": false,
@@ -564,11 +564,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 232,
+    "w": 233,
     "h": 304
    },
    "sourceSize": {
-    "w": 232,
+    "w": 233,
     "h": 304
    },
    "anchor": {
@@ -578,9 +578,9 @@
   },
   "unit/pikeman/idle/3/0": {
    "frame": {
-    "x": 236,
+    "x": 237,
     "y": 601,
-    "w": 129,
+    "w": 131,
     "h": 373
    },
    "rotated": false,
@@ -588,11 +588,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 129,
+    "w": 131,
     "h": 373
    },
    "sourceSize": {
-    "w": 129,
+    "w": 131,
     "h": 373
    },
    "anchor": {
@@ -602,9 +602,9 @@
   },
   "unit/pikeman/idle/3/0.team": {
    "frame": {
-    "x": 367,
+    "x": 370,
     "y": 601,
-    "w": 129,
+    "w": 131,
     "h": 373
    },
    "rotated": false,
@@ -612,11 +612,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 129,
+    "w": 131,
     "h": 373
    },
    "sourceSize": {
-    "w": 129,
+    "w": 131,
     "h": 373
    },
    "anchor": {
@@ -626,9 +626,9 @@
   },
   "unit/medieval_infantry/idle/3/0": {
    "frame": {
-    "x": 498,
+    "x": 503,
     "y": 601,
-    "w": 168,
+    "w": 172,
     "h": 270
    },
    "rotated": false,
@@ -636,11 +636,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 168,
+    "w": 172,
     "h": 270
    },
    "sourceSize": {
-    "w": 168,
+    "w": 172,
     "h": 270
    },
    "anchor": {
@@ -650,9 +650,9 @@
   },
   "unit/medieval_infantry/idle/3/0.team": {
    "frame": {
-    "x": 668,
+    "x": 677,
     "y": 601,
-    "w": 168,
+    "w": 172,
     "h": 270
    },
    "rotated": false,
@@ -660,11 +660,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 168,
+    "w": 172,
     "h": 270
    },
    "sourceSize": {
-    "w": 168,
+    "w": 172,
     "h": 270
    },
    "anchor": {
@@ -674,9 +674,9 @@
   },
   "unit/longbowman/idle/3/0": {
    "frame": {
-    "x": 838,
+    "x": 851,
     "y": 601,
-    "w": 108,
+    "w": 111,
     "h": 332
    },
    "rotated": false,
@@ -684,11 +684,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 108,
+    "w": 111,
     "h": 332
    },
    "sourceSize": {
-    "w": 108,
+    "w": 111,
     "h": 332
    },
    "anchor": {
@@ -698,9 +698,9 @@
   },
   "unit/longbowman/idle/3/0.team": {
    "frame": {
-    "x": 948,
+    "x": 964,
     "y": 601,
-    "w": 108,
+    "w": 111,
     "h": 332
    },
    "rotated": false,
@@ -708,11 +708,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 108,
+    "w": 111,
     "h": 332
    },
    "sourceSize": {
-    "w": 108,
+    "w": 111,
     "h": 332
    },
    "anchor": {
@@ -722,9 +722,9 @@
   },
   "unit/knight/idle/3/0": {
    "frame": {
-    "x": 1058,
+    "x": 1077,
     "y": 601,
-    "w": 172,
+    "w": 176,
     "h": 322
    },
    "rotated": false,
@@ -732,11 +732,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 172,
+    "w": 176,
     "h": 322
    },
    "sourceSize": {
-    "w": 172,
+    "w": 176,
     "h": 322
    },
    "anchor": {
@@ -746,9 +746,9 @@
   },
   "unit/knight/idle/3/0.team": {
    "frame": {
-    "x": 1232,
+    "x": 1255,
     "y": 601,
-    "w": 172,
+    "w": 176,
     "h": 322
    },
    "rotated": false,
@@ -756,11 +756,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 172,
+    "w": 176,
     "h": 322
    },
    "sourceSize": {
-    "w": 172,
+    "w": 176,
     "h": 322
    },
    "anchor": {
@@ -770,9 +770,9 @@
   },
   "unit/trebuchet/idle/3/0": {
    "frame": {
-    "x": 1406,
+    "x": 1433,
     "y": 601,
-    "w": 257,
+    "w": 261,
     "h": 297
    },
    "rotated": false,
@@ -780,11 +780,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 257,
+    "w": 261,
     "h": 297
    },
    "sourceSize": {
-    "w": 257,
+    "w": 261,
     "h": 297
    },
    "anchor": {
@@ -794,9 +794,9 @@
   },
   "unit/trebuchet/idle/3/0.team": {
    "frame": {
-    "x": 1665,
+    "x": 1696,
     "y": 601,
-    "w": 257,
+    "w": 261,
     "h": 297
    },
    "rotated": false,
@@ -804,11 +804,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 257,
+    "w": 261,
     "h": 297
    },
    "sourceSize": {
-    "w": 257,
+    "w": 261,
     "h": 297
    },
    "anchor": {
@@ -820,7 +820,7 @@
    "frame": {
     "x": 2,
     "y": 976,
-    "w": 217,
+    "w": 260,
     "h": 207
    },
    "rotated": false,
@@ -828,11 +828,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 217,
+    "w": 260,
     "h": 207
    },
    "sourceSize": {
-    "w": 217,
+    "w": 260,
     "h": 207
    },
    "anchor": {
@@ -842,9 +842,9 @@
   },
   "unit/cannon/idle/3/0.team": {
    "frame": {
-    "x": 221,
+    "x": 264,
     "y": 976,
-    "w": 217,
+    "w": 260,
     "h": 207
    },
    "rotated": false,
@@ -852,11 +852,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 217,
+    "w": 260,
     "h": 207
    },
    "sourceSize": {
-    "w": 217,
+    "w": 260,
     "h": 207
    },
    "anchor": {
@@ -866,9 +866,9 @@
   },
   "unit/explorer/idle/3/0": {
    "frame": {
-    "x": 440,
+    "x": 526,
     "y": 976,
-    "w": 141,
+    "w": 144,
     "h": 260
    },
    "rotated": false,
@@ -876,11 +876,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 141,
+    "w": 144,
     "h": 260
    },
    "sourceSize": {
-    "w": 141,
+    "w": 144,
     "h": 260
    },
    "anchor": {
@@ -890,9 +890,9 @@
   },
   "unit/explorer/idle/3/0.team": {
    "frame": {
-    "x": 583,
+    "x": 672,
     "y": 976,
-    "w": 141,
+    "w": 144,
     "h": 260
    },
    "rotated": false,
@@ -900,11 +900,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 141,
+    "w": 144,
     "h": 260
    },
    "sourceSize": {
-    "w": 141,
+    "w": 144,
     "h": 260
    },
    "anchor": {
@@ -914,9 +914,9 @@
   },
   "unit/musketman/idle/3/0": {
    "frame": {
-    "x": 726,
+    "x": 818,
     "y": 976,
-    "w": 98,
+    "w": 105,
     "h": 270
    },
    "rotated": false,
@@ -924,11 +924,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 98,
+    "w": 105,
     "h": 270
    },
    "sourceSize": {
-    "w": 98,
+    "w": 105,
     "h": 270
    },
    "anchor": {
@@ -938,9 +938,9 @@
   },
   "unit/musketman/idle/3/0.team": {
    "frame": {
-    "x": 826,
+    "x": 925,
     "y": 976,
-    "w": 98,
+    "w": 105,
     "h": 270
    },
    "rotated": false,
@@ -948,11 +948,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 98,
+    "w": 105,
     "h": 270
    },
    "sourceSize": {
-    "w": 98,
+    "w": 105,
     "h": 270
    },
    "anchor": {
@@ -962,9 +962,9 @@
   },
   "unit/cavalry/idle/3/0": {
    "frame": {
-    "x": 926,
+    "x": 1032,
     "y": 976,
-    "w": 122,
+    "w": 137,
     "h": 311
    },
    "rotated": false,
@@ -972,11 +972,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 122,
+    "w": 137,
     "h": 311
    },
    "sourceSize": {
-    "w": 122,
+    "w": 137,
     "h": 311
    },
    "anchor": {
@@ -986,9 +986,9 @@
   },
   "unit/cavalry/idle/3/0.team": {
    "frame": {
-    "x": 1050,
+    "x": 1171,
     "y": 976,
-    "w": 122,
+    "w": 137,
     "h": 311
    },
    "rotated": false,
@@ -996,11 +996,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 122,
+    "w": 137,
     "h": 311
    },
    "sourceSize": {
-    "w": 122,
+    "w": 137,
     "h": 311
    },
    "anchor": {
@@ -1010,9 +1010,9 @@
   },
   "unit/caravel/idle/3/0": {
    "frame": {
-    "x": 1174,
+    "x": 1310,
     "y": 976,
-    "w": 170,
+    "w": 171,
     "h": 333
    },
    "rotated": false,
@@ -1020,11 +1020,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 170,
+    "w": 171,
     "h": 333
    },
    "sourceSize": {
-    "w": 170,
+    "w": 171,
     "h": 333
    },
    "anchor": {
@@ -1034,9 +1034,9 @@
   },
   "unit/caravel/idle/3/0.team": {
    "frame": {
-    "x": 1346,
+    "x": 1483,
     "y": 976,
-    "w": 170,
+    "w": 171,
     "h": 333
    },
    "rotated": false,
@@ -1044,11 +1044,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 170,
+    "w": 171,
     "h": 333
    },
    "sourceSize": {
-    "w": 170,
+    "w": 171,
     "h": 333
    },
    "anchor": {
@@ -1058,9 +1058,9 @@
   },
   "unit/galleon/idle/3/0": {
    "frame": {
-    "x": 1518,
+    "x": 1656,
     "y": 976,
-    "w": 198,
+    "w": 201,
     "h": 401
    },
    "rotated": false,
@@ -1068,11 +1068,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 198,
+    "w": 201,
     "h": 401
    },
    "sourceSize": {
-    "w": 198,
+    "w": 201,
     "h": 401
    },
    "anchor": {
@@ -1082,9 +1082,9 @@
   },
   "unit/galleon/idle/3/0.team": {
    "frame": {
-    "x": 1718,
-    "y": 976,
-    "w": 198,
+    "x": 2,
+    "y": 1379,
+    "w": 201,
     "h": 401
    },
    "rotated": false,
@@ -1092,11 +1092,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 198,
+    "w": 201,
     "h": 401
    },
    "sourceSize": {
-    "w": 198,
+    "w": 201,
     "h": 401
    },
    "anchor": {
@@ -1106,9 +1106,9 @@
   },
   "unit/frigate/idle/3/0": {
    "frame": {
-    "x": 2,
+    "x": 205,
     "y": 1379,
-    "w": 207,
+    "w": 229,
     "h": 378
    },
    "rotated": false,
@@ -1116,11 +1116,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 207,
+    "w": 229,
     "h": 378
    },
    "sourceSize": {
-    "w": 207,
+    "w": 229,
     "h": 378
    },
    "anchor": {
@@ -1130,9 +1130,9 @@
   },
   "unit/frigate/idle/3/0.team": {
    "frame": {
-    "x": 211,
+    "x": 436,
     "y": 1379,
-    "w": 207,
+    "w": 229,
     "h": 378
    },
    "rotated": false,
@@ -1140,11 +1140,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 207,
+    "w": 229,
     "h": 378
    },
    "sourceSize": {
-    "w": 207,
+    "w": 229,
     "h": 378
    },
    "anchor": {
@@ -1154,9 +1154,9 @@
   },
   "unit/privateer/idle/3/0": {
    "frame": {
-    "x": 420,
+    "x": 667,
     "y": 1379,
-    "w": 181,
+    "w": 200,
     "h": 324
    },
    "rotated": false,
@@ -1164,11 +1164,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 181,
+    "w": 200,
     "h": 324
    },
    "sourceSize": {
-    "w": 181,
+    "w": 200,
     "h": 324
    },
    "anchor": {
@@ -1178,9 +1178,9 @@
   },
   "unit/privateer/idle/3/0.team": {
    "frame": {
-    "x": 603,
+    "x": 869,
     "y": 1379,
-    "w": 181,
+    "w": 200,
     "h": 324
    },
    "rotated": false,
@@ -1188,11 +1188,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 181,
+    "w": 200,
     "h": 324
    },
    "sourceSize": {
-    "w": 181,
+    "w": 200,
     "h": 324
    },
    "anchor": {
@@ -1206,7 +1206,7 @@
   "format": "RGBA8888",
   "size": {
    "w": 2048,
-   "h": 1759
+   "h": 1782
   },
   "scale": "2.0"
  }
