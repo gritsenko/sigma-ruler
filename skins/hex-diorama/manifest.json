@@ -1,0 +1,1039 @@
+{
+ "format": "myciv3-skin",
+ "version": 2,
+ "name": "Hex diorama",
+ "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1 + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + heads s4:codex_0 + techs s4:codex_1 + techs s7:codex_0",
+ "tileSize": 128,
+ "atlases": [
+  "objects.json",
+  "decor.json",
+  "units.json",
+  "sites.json",
+  "props.json",
+  "portraits.json"
+ ],
+ "overlays": {
+  "terrain:mountains": {
+   "variants": [
+    "terrain/mountains/0",
+    "terrain/mountains/1",
+    "terrain/mountains/2"
+   ]
+  },
+  "terrain:hills": {
+   "variants": [
+    "terrain/hills/0",
+    "terrain/hills/1",
+    "terrain/hills/2"
+   ]
+  },
+  "terrain:forest": {
+   "variants": [
+    "terrain/forest/0",
+    "terrain/forest/1",
+    "terrain/forest/2"
+   ]
+  },
+  "terrain:jungle": {
+   "variants": [
+    "terrain/jungle/0",
+    "terrain/jungle/1",
+    "terrain/jungle/2"
+   ]
+  },
+  "city:*:0": {
+   "variants": [
+    "sites/city0"
+   ]
+  },
+  "city:*:1": {
+   "variants": [
+    "sites/city1"
+   ]
+  },
+  "city:*:2": {
+   "variants": [
+    "sites/city2"
+   ]
+  },
+  "city:*:walls": {
+   "variants": [
+    "sites/walls"
+   ]
+  },
+  "site:hut": {
+   "variants": [
+    "sites/hut"
+   ]
+  },
+  "site:camp": {
+   "variants": [
+    "sites/camp"
+   ]
+  },
+  "city:*:0@1": {
+   "variants": [
+    "sites/city0@1"
+   ]
+  },
+  "city:*:1@1": {
+   "variants": [
+    "sites/city1@1"
+   ]
+  },
+  "city:*:2@1": {
+   "variants": [
+    "sites/city2@1"
+   ]
+  },
+  "city:*:walls@1": {
+   "variants": [
+    "sites/walls@1"
+   ]
+  },
+  "resource:wheat": {
+   "variants": [
+    "resources/wheat"
+   ]
+  },
+  "resource:cattle": {
+   "variants": [
+    "resources/cattle"
+   ]
+  },
+  "resource:game": {
+   "variants": [
+    "resources/game"
+   ]
+  },
+  "resource:fish": {
+   "variants": [
+    "resources/fish"
+   ]
+  },
+  "resource:whales": {
+   "variants": [
+    "resources/whales"
+   ]
+  },
+  "resource:gold": {
+   "variants": [
+    "resources/gold"
+   ]
+  },
+  "resource:oasis": {
+   "variants": [
+    "resources/oasis"
+   ]
+  },
+  "resource:wines": {
+   "variants": [
+    "resources/wines"
+   ]
+  },
+  "resource:furs": {
+   "variants": [
+    "resources/furs"
+   ]
+  },
+  "resource:dyes": {
+   "variants": [
+    "resources/dyes"
+   ]
+  },
+  "resource:incense": {
+   "variants": [
+    "resources/incense"
+   ]
+  },
+  "resource:spices": {
+   "variants": [
+    "resources/spices"
+   ]
+  },
+  "resource:ivory": {
+   "variants": [
+    "resources/ivory"
+   ]
+  },
+  "resource:silks": {
+   "variants": [
+    "resources/silks"
+   ]
+  },
+  "resource:gems": {
+   "variants": [
+    "resources/gems"
+   ]
+  },
+  "resource:sugar": {
+   "variants": [
+    "resources/sugar"
+   ]
+  },
+  "resource:tropical_fruit": {
+   "variants": [
+    "resources/tropical_fruit"
+   ]
+  },
+  "resource:tobacco": {
+   "variants": [
+    "resources/tobacco"
+   ]
+  },
+  "resource:horses": {
+   "variants": [
+    "resources/horses"
+   ]
+  },
+  "resource:iron": {
+   "variants": [
+    "resources/iron"
+   ]
+  },
+  "resource:saltpeter": {
+   "variants": [
+    "resources/saltpeter"
+   ]
+  },
+  "resource:coal": {
+   "variants": [
+    "resources/coal"
+   ]
+  },
+  "resource:oil": {
+   "variants": [
+    "resources/oil"
+   ]
+  },
+  "resource:rubber": {
+   "variants": [
+    "resources/rubber"
+   ]
+  },
+  "resource:aluminum": {
+   "variants": [
+    "resources/aluminum"
+   ]
+  },
+  "resource:uranium": {
+   "variants": [
+    "resources/uranium"
+   ]
+  },
+  "improvement:irrigation": {
+   "variants": [
+    "works/irrigation",
+    "works/irrigation2"
+   ]
+  },
+  "improvement:mine": {
+   "variants": [
+    "works/mine",
+    "works/mine2"
+   ]
+  },
+  "terrain:volcano": {
+   "variants": [
+    "volcano/volcano0",
+    "volcano/volcano1",
+    "volcano/volcano2"
+   ]
+  },
+  "improvement:fortress": {
+   "variants": [
+    "forts/fortress"
+   ]
+  },
+  "improvement:barricade": {
+   "variants": [
+    "forts/barricade"
+   ]
+  },
+  "site:outpost": {
+   "variants": [
+    "forts/outpost"
+   ]
+  },
+  "site:colony": {
+   "variants": [
+    "forts/colony"
+   ]
+  },
+  "site:airfield": {
+   "variants": [
+    "forts/airfield"
+   ]
+  },
+  "site:radar": {
+   "variants": [
+    "forts/radar"
+   ]
+  },
+  "improvement:pollution": {
+   "variants": [
+    "forts/pollution",
+    "forts/pollution2"
+   ]
+  }
+ },
+ "units": {
+  "worker": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "settler": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "warrior": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "scout": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "spearman": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "archer": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "chariot": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "horseman": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "swordsman": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "catapult": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "curragh": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "galley": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "pikeman": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "medieval_infantry": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "longbowman": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "knight": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "trebuchet": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "cannon": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "explorer": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "musketman": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "cavalry": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "caravel": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "galleon": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "frigate": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  },
+  "privateer": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    }
+   },
+   "mirror": true
+  }
+ },
+ "terrain": {
+  "hexGround": {
+   "textures": {
+    "grassland": {
+     "image": "ground/grassland.png",
+     "tilesAcross": 4
+    },
+    "plains": {
+     "image": "ground/plains.png",
+     "tilesAcross": 4
+    },
+    "desert": {
+     "image": "ground/desert.png",
+     "tilesAcross": 4
+    },
+    "tundra": {
+     "image": "ground/tundra.png",
+     "tilesAcross": 4
+    },
+    "marsh": {
+     "image": "ground/marsh.png",
+     "tilesAcross": 4
+    },
+    "coast": {
+     "image": "ground/coast.png",
+     "tilesAcross": 6
+    },
+    "ocean": {
+     "image": "ground/ocean.png",
+     "tilesAcross": 8
+    },
+    "road": {
+     "image": "ground/road.png",
+     "tilesAcross": 2
+    },
+    "river": {
+     "image": "ground/river.png",
+     "tilesAcross": 2
+    },
+    "flood_plain": {
+     "image": "ground/flood_plain.png",
+     "tilesAcross": 4
+    },
+    "sea": {
+     "image": "ground/sea.png",
+     "tilesAcross": 1
+    }
+   },
+   "ground": {
+    "mountains": "plains",
+    "hills": "grassland",
+    "forest": "grassland",
+    "jungle": "grassland",
+    "volcano": "plains"
+   },
+   "decor": {
+    "kinds": {
+     "tuft": {
+      "variants": 4
+     },
+     "rock": {
+      "variants": 4
+     },
+     "bush": {
+      "variants": 4
+     },
+     "patch": {
+      "variants": 4
+     },
+     "patchb": {
+      "variants": 4
+     },
+     "patchc": {
+      "variants": 4
+     },
+     "turf": {
+      "variants": 4,
+      "flat": true
+     },
+     "bare": {
+      "variants": 4,
+      "flat": true
+     },
+     "shrub": {
+      "variants": 4
+     },
+     "rocks": {
+      "variants": 4
+     },
+     "dry": {
+      "variants": 4
+     },
+     "ochre": {
+      "variants": 4,
+      "flat": true
+     },
+     "olive": {
+      "variants": 4,
+      "flat": true
+     },
+     "srocks": {
+      "variants": 4
+     },
+     "blades": {
+      "variants": 4
+     },
+     "leaves": {
+      "variants": 4
+     },
+     "pebbles": {
+      "variants": 4
+     }
+    },
+    "patches": [
+     "patch",
+     "patchb",
+     "patchc"
+    ],
+    "surface": {
+     "grassland": {
+      "tints": [
+       "rgba(206,222,96,0.32)",
+       "rgba(64,96,34,0.26)",
+       "rgba(150,170,60,0.3)"
+      ],
+      "bases": [
+       "turf",
+       "turf",
+       "turf",
+       "bare",
+       "olive"
+      ],
+      "extras": [
+       "shrub",
+       "rocks",
+       "bush"
+      ],
+      "small": [
+       "blades",
+       "blades",
+       "tuft",
+       "leaves",
+       "pebbles"
+      ]
+     },
+     "plains": {
+      "tints": [
+       "rgba(222,170,70,0.32)",
+       "rgba(120,124,48,0.26)",
+       "rgba(240,210,110,0.3)"
+      ],
+      "bases": [
+       "dry",
+       "dry",
+       "ochre",
+       "olive"
+      ],
+      "extras": [
+       "srocks",
+       "dry",
+       "rock"
+      ],
+      "small": [
+       "blades",
+       "tuft",
+       "pebbles"
+      ]
+     },
+     "tundra": {
+      "tints": [
+       "rgba(180,190,168,0.3)",
+       "rgba(86,98,80,0.26)"
+      ],
+      "bases": [
+       "bare",
+       "olive"
+      ],
+      "extras": [
+       "rocks",
+       "srocks",
+       "rock"
+      ],
+      "small": [
+       "pebbles",
+       "blades"
+      ]
+     },
+     "desert": {
+      "tints": [
+       "rgba(250,232,176,0.36)",
+       "rgba(196,150,86,0.24)"
+      ],
+      "bases": [
+       "ochre"
+      ],
+      "extras": [
+       "srocks",
+       "rock"
+      ],
+      "small": [
+       "pebbles"
+      ]
+     },
+     "marsh": {
+      "tints": [
+       "rgba(56,88,48,0.3)"
+      ],
+      "bases": [
+       "turf",
+       "olive"
+      ],
+      "extras": [
+       "shrub",
+       "bush"
+      ],
+      "small": [
+       "blades",
+       "tuft"
+      ]
+     },
+     "flood_plain": {
+      "tints": [
+       "rgba(120,150,52,0.3)",
+       "rgba(92,64,34,0.24)"
+      ],
+      "bases": [
+       "turf",
+       "olive",
+       "bare"
+      ],
+      "extras": [
+       "shrub"
+      ],
+      "small": [
+       "blades",
+       "tuft",
+       "blades"
+      ]
+     }
+    },
+    "shore": {
+     "rocks": [
+      "rock",
+      "rocks"
+     ],
+     "pebbles": [
+      "pebbles"
+     ]
+    }
+   },
+   "coast": {
+    "deep": "sea",
+    "shallow": "coast",
+    "beach": "desert",
+    "steps": [
+     "#1b8fb0",
+     "#22a9c8"
+    ],
+    "foam": "rgba(255,255,255,0.8)"
+   },
+   "ways": {
+    "road": {
+     "texture": "road",
+     "width": 0.1,
+     "rim": 0.01,
+     "rimColor": "#7a5230",
+     "bevel": {
+      "width": 0.014,
+      "color": "#c18453"
+     },
+     "noise": [
+      0.015,
+      0.5
+     ]
+    },
+    "rail": {
+     "color": "#38312a",
+     "width": 0.012,
+     "gauge": 0.045,
+     "ties": "#5c4632"
+    },
+    "river": {
+     "texture": "river",
+     "width": 0.07,
+     "bank": 0.013,
+     "bankColor": "#4d5a2c",
+     "noise": [
+      0.03,
+      0.6
+     ],
+     "mouth": 0.28
+    }
+   }
+  }
+ },
+ "citySizes": [
+  1,
+  7,
+  13
+ ],
+ "wallsMaxSize": 6,
+ "portraits": {
+  "worker": {
+   "base": "unit/worker/portrait",
+   "team": "unit/worker/portrait.team"
+  },
+  "settler": {
+   "base": "unit/settler/portrait",
+   "team": "unit/settler/portrait.team"
+  },
+  "warrior": {
+   "base": "unit/warrior/portrait",
+   "team": "unit/warrior/portrait.team"
+  },
+  "scout": {
+   "base": "unit/scout/portrait",
+   "team": "unit/scout/portrait.team"
+  },
+  "spearman": {
+   "base": "unit/spearman/portrait",
+   "team": "unit/spearman/portrait.team"
+  },
+  "archer": {
+   "base": "unit/archer/portrait",
+   "team": "unit/archer/portrait.team"
+  },
+  "chariot": {
+   "base": "unit/chariot/portrait",
+   "team": "unit/chariot/portrait.team"
+  },
+  "horseman": {
+   "base": "unit/horseman/portrait",
+   "team": "unit/horseman/portrait.team"
+  },
+  "swordsman": {
+   "base": "unit/swordsman/portrait",
+   "team": "unit/swordsman/portrait.team"
+  },
+  "catapult": {
+   "base": "unit/catapult/portrait",
+   "team": "unit/catapult/portrait.team"
+  },
+  "curragh": {
+   "base": "unit/curragh/portrait",
+   "team": "unit/curragh/portrait.team"
+  },
+  "galley": {
+   "base": "unit/galley/portrait",
+   "team": "unit/galley/portrait.team"
+  },
+  "pikeman": {
+   "base": "unit/pikeman/portrait",
+   "team": "unit/pikeman/portrait.team"
+  },
+  "medieval_infantry": {
+   "base": "unit/medieval_infantry/portrait",
+   "team": "unit/medieval_infantry/portrait.team"
+  },
+  "longbowman": {
+   "base": "unit/longbowman/portrait",
+   "team": "unit/longbowman/portrait.team"
+  },
+  "knight": {
+   "base": "unit/knight/portrait",
+   "team": "unit/knight/portrait.team"
+  },
+  "trebuchet": {
+   "base": "unit/trebuchet/portrait",
+   "team": "unit/trebuchet/portrait.team"
+  },
+  "cannon": {
+   "base": "unit/cannon/portrait",
+   "team": "unit/cannon/portrait.team"
+  },
+  "explorer": {
+   "base": "unit/explorer/portrait",
+   "team": "unit/explorer/portrait.team"
+  },
+  "musketman": {
+   "base": "unit/musketman/portrait",
+   "team": "unit/musketman/portrait.team"
+  },
+  "cavalry": {
+   "base": "unit/cavalry/portrait",
+   "team": "unit/cavalry/portrait.team"
+  },
+  "caravel": {
+   "base": "unit/caravel/portrait",
+   "team": "unit/caravel/portrait.team"
+  },
+  "galleon": {
+   "base": "unit/galleon/portrait",
+   "team": "unit/galleon/portrait.team"
+  },
+  "frigate": {
+   "base": "unit/frigate/portrait",
+   "team": "unit/frigate/portrait.team"
+  },
+  "privateer": {
+   "base": "unit/privateer/portrait",
+   "team": "unit/privateer/portrait.team"
+  }
+ },
+ "pediaArt": {
+  "unit:worker": "pedia/unit/worker.png",
+  "unit:settler": "pedia/unit/settler.png",
+  "unit:warrior": "pedia/unit/warrior.png",
+  "unit:scout": "pedia/unit/scout.png",
+  "unit:spearman": "pedia/unit/spearman.png",
+  "unit:archer": "pedia/unit/archer.png",
+  "unit:chariot": "pedia/unit/chariot.png",
+  "unit:horseman": "pedia/unit/horseman.png",
+  "unit:swordsman": "pedia/unit/swordsman.png",
+  "unit:catapult": "pedia/unit/catapult.png",
+  "unit:curragh": "pedia/unit/curragh.png",
+  "unit:galley": "pedia/unit/galley.png",
+  "unit:pikeman": "pedia/unit/pikeman.png",
+  "unit:medieval_infantry": "pedia/unit/medieval_infantry.png",
+  "unit:longbowman": "pedia/unit/longbowman.png",
+  "unit:knight": "pedia/unit/knight.png",
+  "unit:trebuchet": "pedia/unit/trebuchet.png",
+  "unit:cannon": "pedia/unit/cannon.png",
+  "unit:explorer": "pedia/unit/explorer.png",
+  "unit:musketman": "pedia/unit/musketman.png",
+  "unit:cavalry": "pedia/unit/cavalry.png",
+  "unit:caravel": "pedia/unit/caravel.png",
+  "unit:galleon": "pedia/unit/galleon.png",
+  "unit:frigate": "pedia/unit/frigate.png",
+  "unit:privateer": "pedia/unit/privateer.png"
+ },
+ "citizenHeads": {
+  "sheet": "city/heads.png",
+  "columns": 6,
+  "rowsTotal": 3,
+  "cell": 96,
+  "faceColumns": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "rows": {
+   "happy": 0,
+   "content": 1,
+   "unhappy": 2
+  },
+  "specialists": {
+   "entertainer": [
+    5,
+    0
+   ],
+   "taxman": [
+    5,
+    1
+   ],
+   "scientist": [
+    5,
+    2
+   ]
+  }
+ },
+ "techIcons": {
+  "alphabet": "tech/alphabet.png",
+  "bronze_working": "tech/bronze_working.png",
+  "ceremonial_burial": "tech/ceremonial_burial.png",
+  "horseback_riding": "tech/horseback_riding.png",
+  "iron_working": "tech/iron_working.png",
+  "masonry": "tech/masonry.png",
+  "pottery": "tech/pottery.png",
+  "the_wheel": "tech/the_wheel.png",
+  "warrior_code": "tech/warrior_code.png",
+  "astronomy": "tech/astronomy.png",
+  "banking": "tech/banking.png",
+  "chemistry": "tech/chemistry.png",
+  "chivalry": "tech/chivalry.png",
+  "code_of_laws": "tech/code_of_laws.png",
+  "construction": "tech/construction.png",
+  "currency": "tech/currency.png",
+  "democracy": "tech/democracy.png",
+  "economics": "tech/economics.png",
+  "education": "tech/education.png",
+  "engineering": "tech/engineering.png",
+  "feudalism": "tech/feudalism.png",
+  "free_artistry": "tech/free_artistry.png",
+  "gunpowder": "tech/gunpowder.png",
+  "invention": "tech/invention.png",
+  "literature": "tech/literature.png",
+  "magnetism": "tech/magnetism.png",
+  "map_making": "tech/map_making.png",
+  "mathematics": "tech/mathematics.png",
+  "metallurgy": "tech/metallurgy.png",
+  "military_tradition": "tech/military_tradition.png",
+  "monarchy": "tech/monarchy.png",
+  "monotheism": "tech/monotheism.png",
+  "music_theory": "tech/music_theory.png",
+  "mysticism": "tech/mysticism.png",
+  "navigation": "tech/navigation.png",
+  "philosophy": "tech/philosophy.png",
+  "physics": "tech/physics.png",
+  "polytheism": "tech/polytheism.png",
+  "printing_press": "tech/printing_press.png",
+  "the_republic": "tech/the_republic.png",
+  "theology": "tech/theology.png",
+  "theory_of_gravity": "tech/theory_of_gravity.png",
+  "writing": "tech/writing.png"
+ }
+}

@@ -1,0 +1,253 @@
+{
+ "frames": {
+  "sites/city0": {
+   "frame": {
+    "x": 2,
+    "y": 2,
+    "w": 241,
+    "h": 166
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 241,
+    "h": 166
+   },
+   "sourceSize": {
+    "w": 241,
+    "h": 166
+   },
+   "anchor": {
+    "x": 0.478,
+    "y": 0.7031
+   }
+  },
+  "sites/city1": {
+   "frame": {
+    "x": 245,
+    "y": 2,
+    "w": 273,
+    "h": 226
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 273,
+    "h": 226
+   },
+   "sourceSize": {
+    "w": 273,
+    "h": 226
+   },
+   "anchor": {
+    "x": 0.4689,
+    "y": 0.784
+   }
+  },
+  "sites/city2": {
+   "frame": {
+    "x": 520,
+    "y": 2,
+    "w": 287,
+    "h": 191
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 287,
+    "h": 191
+   },
+   "sourceSize": {
+    "w": 287,
+    "h": 191
+   },
+   "anchor": {
+    "x": 0.4817,
+    "y": 0.7444
+   }
+  },
+  "sites/walls": {
+   "frame": {
+    "x": 809,
+    "y": 2,
+    "w": 281,
+    "h": 187
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 281,
+    "h": 187
+   },
+   "sourceSize": {
+    "w": 281,
+    "h": 187
+   },
+   "anchor": {
+    "x": 0.4783,
+    "y": 0.7401
+   }
+  },
+  "sites/hut": {
+   "frame": {
+    "x": 1092,
+    "y": 2,
+    "w": 153,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 153,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 153,
+    "h": 120
+   },
+   "anchor": {
+    "x": 0.4601,
+    "y": 0.5933
+   }
+  },
+  "sites/camp": {
+   "frame": {
+    "x": 1247,
+    "y": 2,
+    "w": 162,
+    "h": 115
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 162,
+    "h": 115
+   },
+   "sourceSize": {
+    "w": 162,
+    "h": 115
+   },
+   "anchor": {
+    "x": 0.4741,
+    "y": 0.5757
+   }
+  },
+  "sites/city0@1": {
+   "frame": {
+    "x": 1411,
+    "y": 2,
+    "w": 250,
+    "h": 171
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 250,
+    "h": 171
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 171
+   },
+   "anchor": {
+    "x": 0.4608,
+    "y": 0.6971
+   }
+  },
+  "sites/city1@1": {
+   "frame": {
+    "x": 1663,
+    "y": 2,
+    "w": 284,
+    "h": 237
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 284,
+    "h": 237
+   },
+   "sourceSize": {
+    "w": 284,
+    "h": 237
+   },
+   "anchor": {
+    "x": 0.4507,
+    "y": 0.7831
+   }
+  },
+  "sites/city2@1": {
+   "frame": {
+    "x": 2,
+    "y": 241,
+    "w": 296,
+    "h": 250
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 296,
+    "h": 250
+   },
+   "sourceSize": {
+    "w": 296,
+    "h": 250
+   },
+   "anchor": {
+    "x": 0.4671,
+    "y": 0.7924
+   }
+  },
+  "sites/walls@1": {
+   "frame": {
+    "x": 300,
+    "y": 241,
+    "w": 290,
+    "h": 256
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 290,
+    "h": 256
+   },
+   "sourceSize": {
+    "w": 290,
+    "h": 256
+   },
+   "anchor": {
+    "x": 0.4634,
+    "y": 0.7525
+   }
+  }
+ },
+ "meta": {
+  "image": "sites.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 2048,
+   "h": 499
+  },
+  "scale": "2.0"
+ }
+}
