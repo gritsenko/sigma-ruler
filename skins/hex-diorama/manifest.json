@@ -2,7 +2,7 @@
  "format": "myciv3-skin",
  "version": 2,
  "name": "Hex diorama",
- "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1 + poses s13:codex_1:poses1+poses2+poses6,s13:codex_0:poses3+poses5+poses7,s13:codex_3:poses4 + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + heads s4:codex_0 + techs s4:codex_1 + techs s7:codex_0",
+ "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1 + poses s13:codex_1:poses1+poses2+poses6,s13:codex_0:poses3+poses5+poses7,s13:codex_3:poses4,s14:codex_4:posesw + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + heads s4:codex_0 + techs s4:codex_1 + techs s7:codex_0",
  "tileSize": 128,
  "atlases": [
   "objects.json",
@@ -293,6 +293,31 @@
      "loop": false
     },
     "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "road": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "irrigate": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "mine": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "clear": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "build": {
      "frames": 1,
      "ms": 1000,
      "loop": false
