@@ -1,0 +1,1405 @@
+{
+ "frames": {
+  "unit/caravel/idle/3/0.team": {
+   "frame": {
+    "x": 2,
+    "y": 2,
+    "w": 171,
+    "h": 333
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 171,
+    "h": 333
+   },
+   "sourceSize": {
+    "w": 171,
+    "h": 333
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/galleon/idle/3/0": {
+   "frame": {
+    "x": 175,
+    "y": 2,
+    "w": 201,
+    "h": 401
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 201,
+    "h": 401
+   },
+   "sourceSize": {
+    "w": 201,
+    "h": 401
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/galleon/idle/3/0.team": {
+   "frame": {
+    "x": 378,
+    "y": 2,
+    "w": 201,
+    "h": 401
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 201,
+    "h": 401
+   },
+   "sourceSize": {
+    "w": 201,
+    "h": 401
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/frigate/idle/3/0": {
+   "frame": {
+    "x": 581,
+    "y": 2,
+    "w": 229,
+    "h": 378
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 229,
+    "h": 378
+   },
+   "sourceSize": {
+    "w": 229,
+    "h": 378
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/frigate/idle/3/0.team": {
+   "frame": {
+    "x": 812,
+    "y": 2,
+    "w": 229,
+    "h": 378
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 229,
+    "h": 378
+   },
+   "sourceSize": {
+    "w": 229,
+    "h": 378
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/privateer/idle/3/0": {
+   "frame": {
+    "x": 1043,
+    "y": 2,
+    "w": 200,
+    "h": 324
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 200,
+    "h": 324
+   },
+   "sourceSize": {
+    "w": 200,
+    "h": 324
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/privateer/idle/3/0.team": {
+   "frame": {
+    "x": 1245,
+    "y": 2,
+    "w": 200,
+    "h": 324
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 200,
+    "h": 324
+   },
+   "sourceSize": {
+    "w": 200,
+    "h": 324
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/jaguar_warrior/idle/3/0": {
+   "frame": {
+    "x": 1447,
+    "y": 2,
+    "w": 144,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 260
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/jaguar_warrior/idle/3/0.team": {
+   "frame": {
+    "x": 1593,
+    "y": 2,
+    "w": 144,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 260
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/bowman/idle/3/0": {
+   "frame": {
+    "x": 1739,
+    "y": 2,
+    "w": 141,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 141,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 141,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/bowman/idle/3/0.team": {
+   "frame": {
+    "x": 1882,
+    "y": 2,
+    "w": 141,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 141,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 141,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/hoplite/idle/3/0": {
+   "frame": {
+    "x": 2,
+    "y": 405,
+    "w": 126,
+    "h": 291
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 126,
+    "h": 291
+   },
+   "sourceSize": {
+    "w": 126,
+    "h": 291
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/hoplite/idle/3/0.team": {
+   "frame": {
+    "x": 130,
+    "y": 405,
+    "w": 126,
+    "h": 291
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 126,
+    "h": 291
+   },
+   "sourceSize": {
+    "w": 126,
+    "h": 291
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/impi/idle/3/0": {
+   "frame": {
+    "x": 258,
+    "y": 405,
+    "w": 139,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 139,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 139,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/impi/idle/3/0.team": {
+   "frame": {
+    "x": 399,
+    "y": 405,
+    "w": 139,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 139,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 139,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/legionary/idle/3/0": {
+   "frame": {
+    "x": 540,
+    "y": 405,
+    "w": 144,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/legionary/idle/3/0.team": {
+   "frame": {
+    "x": 686,
+    "y": 405,
+    "w": 144,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/immortals/idle/3/0": {
+   "frame": {
+    "x": 832,
+    "y": 405,
+    "w": 156,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 156,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 156,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/immortals/idle/3/0.team": {
+   "frame": {
+    "x": 990,
+    "y": 405,
+    "w": 156,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 156,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 156,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/war_chariot/idle/3/0": {
+   "frame": {
+    "x": 1148,
+    "y": 405,
+    "w": 197,
+    "h": 285
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 197,
+    "h": 285
+   },
+   "sourceSize": {
+    "w": 197,
+    "h": 285
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/war_chariot/idle/3/0.team": {
+   "frame": {
+    "x": 1347,
+    "y": 405,
+    "w": 197,
+    "h": 285
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 197,
+    "h": 285
+   },
+   "sourceSize": {
+    "w": 197,
+    "h": 285
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/three_man_chariot/idle/3/0": {
+   "frame": {
+    "x": 1546,
+    "y": 405,
+    "w": 193,
+    "h": 324
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 193,
+    "h": 324
+   },
+   "sourceSize": {
+    "w": 193,
+    "h": 324
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/three_man_chariot/idle/3/0.team": {
+   "frame": {
+    "x": 1741,
+    "y": 405,
+    "w": 193,
+    "h": 324
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 193,
+    "h": 324
+   },
+   "sourceSize": {
+    "w": 193,
+    "h": 324
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/mounted_warrior/idle/3/0": {
+   "frame": {
+    "x": 2,
+    "y": 731,
+    "w": 169,
+    "h": 301
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 169,
+    "h": 301
+   },
+   "sourceSize": {
+    "w": 169,
+    "h": 301
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/mounted_warrior/idle/3/0.team": {
+   "frame": {
+    "x": 173,
+    "y": 731,
+    "w": 169,
+    "h": 301
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 169,
+    "h": 301
+   },
+   "sourceSize": {
+    "w": 169,
+    "h": 301
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/gallic_swordsman/idle/3/0": {
+   "frame": {
+    "x": 344,
+    "y": 731,
+    "w": 166,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 166,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 166,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/gallic_swordsman/idle/3/0.team": {
+   "frame": {
+    "x": 512,
+    "y": 731,
+    "w": 166,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 166,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 166,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/numidian_mercenary/idle/3/0": {
+   "frame": {
+    "x": 680,
+    "y": 731,
+    "w": 112,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/numidian_mercenary/idle/3/0.team": {
+   "frame": {
+    "x": 794,
+    "y": 731,
+    "w": 112,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/javelin_thrower/idle/3/0": {
+   "frame": {
+    "x": 908,
+    "y": 731,
+    "w": 143,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 143,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 143,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/javelin_thrower/idle/3/0.team": {
+   "frame": {
+    "x": 1053,
+    "y": 731,
+    "w": 143,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 143,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 143,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/enkidu_warrior/idle/3/0": {
+   "frame": {
+    "x": 1198,
+    "y": 731,
+    "w": 141,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 141,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 141,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/enkidu_warrior/idle/3/0.team": {
+   "frame": {
+    "x": 1341,
+    "y": 731,
+    "w": 141,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 141,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 141,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/chasqui_scout/idle/3/0": {
+   "frame": {
+    "x": 1484,
+    "y": 731,
+    "w": 105,
+    "h": 255
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 105,
+    "h": 255
+   },
+   "sourceSize": {
+    "w": 105,
+    "h": 255
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/chasqui_scout/idle/3/0.team": {
+   "frame": {
+    "x": 1591,
+    "y": 731,
+    "w": 105,
+    "h": 255
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 105,
+    "h": 255
+   },
+   "sourceSize": {
+    "w": 105,
+    "h": 255
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/ancient_cavalry/idle/3/0": {
+   "frame": {
+    "x": 1698,
+    "y": 731,
+    "w": 164,
+    "h": 311
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 164,
+    "h": 311
+   },
+   "sourceSize": {
+    "w": 164,
+    "h": 311
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/ancient_cavalry/idle/3/0.team": {
+   "frame": {
+    "x": 1864,
+    "y": 731,
+    "w": 164,
+    "h": 311
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 164,
+    "h": 311
+   },
+   "sourceSize": {
+    "w": 164,
+    "h": 311
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/crusader/idle/3/0": {
+   "frame": {
+    "x": 2,
+    "y": 1044,
+    "w": 177,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 177,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 177,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/crusader/idle/3/0.team": {
+   "frame": {
+    "x": 181,
+    "y": 1044,
+    "w": 177,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 177,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 177,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/dromon/idle/3/0": {
+   "frame": {
+    "x": 360,
+    "y": 1044,
+    "w": 265,
+    "h": 306
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 265,
+    "h": 306
+   },
+   "sourceSize": {
+    "w": 265,
+    "h": 306
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/dromon/idle/3/0.team": {
+   "frame": {
+    "x": 627,
+    "y": 1044,
+    "w": 265,
+    "h": 306
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 265,
+    "h": 306
+   },
+   "sourceSize": {
+    "w": 265,
+    "h": 306
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/rider/idle/3/0": {
+   "frame": {
+    "x": 894,
+    "y": 1044,
+    "w": 147,
+    "h": 311
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 147,
+    "h": 311
+   },
+   "sourceSize": {
+    "w": 147,
+    "h": 311
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/rider/idle/3/0.team": {
+   "frame": {
+    "x": 1043,
+    "y": 1044,
+    "w": 147,
+    "h": 311
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 147,
+    "h": 311
+   },
+   "sourceSize": {
+    "w": 147,
+    "h": 311
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/samurai/idle/3/0": {
+   "frame": {
+    "x": 1192,
+    "y": 1044,
+    "w": 94,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 94,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 94,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/samurai/idle/3/0.team": {
+   "frame": {
+    "x": 1288,
+    "y": 1044,
+    "w": 94,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 94,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 94,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/war_elephant/idle/3/0": {
+   "frame": {
+    "x": 1384,
+    "y": 1044,
+    "w": 287,
+    "h": 427
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 287,
+    "h": 427
+   },
+   "sourceSize": {
+    "w": 287,
+    "h": 427
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/war_elephant/idle/3/0.team": {
+   "frame": {
+    "x": 1673,
+    "y": 1044,
+    "w": 287,
+    "h": 427
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 287,
+    "h": 427
+   },
+   "sourceSize": {
+    "w": 287,
+    "h": 427
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/keshik/idle/3/0": {
+   "frame": {
+    "x": 2,
+    "y": 1473,
+    "w": 168,
+    "h": 301
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 168,
+    "h": 301
+   },
+   "sourceSize": {
+    "w": 168,
+    "h": 301
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/keshik/idle/3/0.team": {
+   "frame": {
+    "x": 172,
+    "y": 1473,
+    "w": 168,
+    "h": 301
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 168,
+    "h": 301
+   },
+   "sourceSize": {
+    "w": 168,
+    "h": 301
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/ansar_warrior/idle/3/0": {
+   "frame": {
+    "x": 342,
+    "y": 1473,
+    "w": 232,
+    "h": 342
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 232,
+    "h": 342
+   },
+   "sourceSize": {
+    "w": 232,
+    "h": 342
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/ansar_warrior/idle/3/0.team": {
+   "frame": {
+    "x": 576,
+    "y": 1473,
+    "w": 232,
+    "h": 342
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 232,
+    "h": 342
+   },
+   "sourceSize": {
+    "w": 232,
+    "h": 342
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/berserk/idle/3/0": {
+   "frame": {
+    "x": 810,
+    "y": 1473,
+    "w": 138,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 138,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 138,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/berserk/idle/3/0.team": {
+   "frame": {
+    "x": 950,
+    "y": 1473,
+    "w": 138,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 138,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 138,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/musketeer/idle/3/0": {
+   "frame": {
+    "x": 1090,
+    "y": 1473,
+    "w": 183,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 183,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 183,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/musketeer/idle/3/0.team": {
+   "frame": {
+    "x": 1275,
+    "y": 1473,
+    "w": 183,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 183,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 183,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/conquistador/idle/3/0": {
+   "frame": {
+    "x": 1460,
+    "y": 1473,
+    "w": 164,
+    "h": 311
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 164,
+    "h": 311
+   },
+   "sourceSize": {
+    "w": 164,
+    "h": 311
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/conquistador/idle/3/0.team": {
+   "frame": {
+    "x": 1626,
+    "y": 1473,
+    "w": 164,
+    "h": 311
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 164,
+    "h": 311
+   },
+   "sourceSize": {
+    "w": 164,
+    "h": 311
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/sipahi/idle/3/0": {
+   "frame": {
+    "x": 1792,
+    "y": 1473,
+    "w": 168,
+    "h": 311
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 168,
+    "h": 311
+   },
+   "sourceSize": {
+    "w": 168,
+    "h": 311
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ },
+ "meta": {
+  "image": "units2.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 2048,
+   "h": 1817
+  },
+  "scale": "2.0"
+ }
+}

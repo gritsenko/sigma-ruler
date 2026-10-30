@@ -1,0 +1,949 @@
+{
+ "frames": {
+  "unit/flak/portrait.team": {
+   "frame": {
+    "x": 2,
+    "y": 2,
+    "w": 160,
+    "h": 132
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 132
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 132
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/mobile_sam/portrait": {
+   "frame": {
+    "x": 164,
+    "y": 2,
+    "w": 160,
+    "h": 149
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 149
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 149
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/mobile_sam/portrait.team": {
+   "frame": {
+    "x": 326,
+    "y": 2,
+    "w": 160,
+    "h": 149
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 149
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 149
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/tank/portrait": {
+   "frame": {
+    "x": 488,
+    "y": 2,
+    "w": 160,
+    "h": 145
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 145
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 145
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/tank/portrait.team": {
+   "frame": {
+    "x": 650,
+    "y": 2,
+    "w": 160,
+    "h": 145
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 145
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 145
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/panzer/portrait": {
+   "frame": {
+    "x": 812,
+    "y": 2,
+    "w": 160,
+    "h": 134
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 134
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 134
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/panzer/portrait.team": {
+   "frame": {
+    "x": 974,
+    "y": 2,
+    "w": 160,
+    "h": 134
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 134
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 134
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/ironclad/portrait": {
+   "frame": {
+    "x": 1136,
+    "y": 2,
+    "w": 160,
+    "h": 146
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 146
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 146
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/ironclad/portrait.team": {
+   "frame": {
+    "x": 1298,
+    "y": 2,
+    "w": 160,
+    "h": 146
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 146
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 146
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/transport/portrait": {
+   "frame": {
+    "x": 1460,
+    "y": 2,
+    "w": 160,
+    "h": 146
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 146
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 146
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/transport/portrait.team": {
+   "frame": {
+    "x": 1622,
+    "y": 2,
+    "w": 160,
+    "h": 146
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 146
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 146
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/destroyer/portrait": {
+   "frame": {
+    "x": 1784,
+    "y": 2,
+    "w": 160,
+    "h": 150
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 150
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 150
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/destroyer/portrait.team": {
+   "frame": {
+    "x": 2,
+    "y": 154,
+    "w": 160,
+    "h": 150
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 150
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 150
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/cruiser/portrait": {
+   "frame": {
+    "x": 164,
+    "y": 154,
+    "w": 160,
+    "h": 142
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 142
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 142
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/cruiser/portrait.team": {
+   "frame": {
+    "x": 326,
+    "y": 154,
+    "w": 160,
+    "h": 142
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 142
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 142
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/battleship/portrait": {
+   "frame": {
+    "x": 488,
+    "y": 154,
+    "w": 160,
+    "h": 156
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 156
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 156
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/battleship/portrait.team": {
+   "frame": {
+    "x": 650,
+    "y": 154,
+    "w": 160,
+    "h": 156
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 156
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 156
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/aegis_cruiser/portrait": {
+   "frame": {
+    "x": 812,
+    "y": 154,
+    "w": 154,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 154,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 154,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/aegis_cruiser/portrait.team": {
+   "frame": {
+    "x": 968,
+    "y": 154,
+    "w": 154,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 154,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 154,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/carrier/portrait": {
+   "frame": {
+    "x": 1124,
+    "y": 154,
+    "w": 160,
+    "h": 139
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 139
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 139
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/carrier/portrait.team": {
+   "frame": {
+    "x": 1286,
+    "y": 154,
+    "w": 160,
+    "h": 139
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 139
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 139
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/submarine/portrait": {
+   "frame": {
+    "x": 1448,
+    "y": 154,
+    "w": 160,
+    "h": 140
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 140
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 140
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/submarine/portrait.team": {
+   "frame": {
+    "x": 1610,
+    "y": 154,
+    "w": 160,
+    "h": 140
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 140
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 140
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/nuclear_submarine/portrait": {
+   "frame": {
+    "x": 1772,
+    "y": 154,
+    "w": 160,
+    "h": 138
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 138
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 138
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/nuclear_submarine/portrait.team": {
+   "frame": {
+    "x": 2,
+    "y": 316,
+    "w": 160,
+    "h": 138
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 138
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 138
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/fighter/portrait": {
+   "frame": {
+    "x": 164,
+    "y": 316,
+    "w": 160,
+    "h": 122
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 122
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/fighter/portrait.team": {
+   "frame": {
+    "x": 326,
+    "y": 316,
+    "w": 160,
+    "h": 122
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 122
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/bomber/portrait": {
+   "frame": {
+    "x": 488,
+    "y": 316,
+    "w": 160,
+    "h": 106
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 106
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 106
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/bomber/portrait.team": {
+   "frame": {
+    "x": 650,
+    "y": 316,
+    "w": 160,
+    "h": 106
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 106
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 106
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/f_15/portrait": {
+   "frame": {
+    "x": 812,
+    "y": 316,
+    "w": 160,
+    "h": 134
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 134
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 134
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/f_15/portrait.team": {
+   "frame": {
+    "x": 974,
+    "y": 316,
+    "w": 160,
+    "h": 134
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 134
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 134
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/stealth_fighter/portrait": {
+   "frame": {
+    "x": 1136,
+    "y": 316,
+    "w": 160,
+    "h": 131
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 131
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 131
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/stealth_fighter/portrait.team": {
+   "frame": {
+    "x": 1298,
+    "y": 316,
+    "w": 160,
+    "h": 131
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 131
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 131
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/cruise_missile/portrait": {
+   "frame": {
+    "x": 1460,
+    "y": 316,
+    "w": 160,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 128
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/cruise_missile/portrait.team": {
+   "frame": {
+    "x": 1622,
+    "y": 316,
+    "w": 160,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 128
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/tactical_nuke/portrait": {
+   "frame": {
+    "x": 1784,
+    "y": 316,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/tactical_nuke/portrait.team": {
+   "frame": {
+    "x": 2,
+    "y": 478,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/icbm/portrait": {
+   "frame": {
+    "x": 164,
+    "y": 478,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/icbm/portrait.team": {
+   "frame": {
+    "x": 326,
+    "y": 478,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ },
+ "meta": {
+  "image": "portraits2.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 2048,
+   "h": 640
+  },
+  "scale": "2.0"
+ }
+}

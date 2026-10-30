@@ -1,0 +1,637 @@
+{
+ "frames": {
+  "unit/cruiser/idle/3/0": {
+   "frame": {
+    "x": 2,
+    "y": 2,
+    "w": 284,
+    "h": 336
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 284,
+    "h": 336
+   },
+   "sourceSize": {
+    "w": 284,
+    "h": 336
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/cruiser/idle/3/0.team": {
+   "frame": {
+    "x": 288,
+    "y": 2,
+    "w": 284,
+    "h": 336
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 284,
+    "h": 336
+   },
+   "sourceSize": {
+    "w": 284,
+    "h": 336
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/battleship/idle/3/0": {
+   "frame": {
+    "x": 574,
+    "y": 2,
+    "w": 286,
+    "h": 392
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 286,
+    "h": 392
+   },
+   "sourceSize": {
+    "w": 286,
+    "h": 392
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/battleship/idle/3/0.team": {
+   "frame": {
+    "x": 862,
+    "y": 2,
+    "w": 286,
+    "h": 392
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 286,
+    "h": 392
+   },
+   "sourceSize": {
+    "w": 286,
+    "h": 392
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/aegis_cruiser/idle/3/0": {
+   "frame": {
+    "x": 1150,
+    "y": 2,
+    "w": 259,
+    "h": 398
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 259,
+    "h": 398
+   },
+   "sourceSize": {
+    "w": 259,
+    "h": 398
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/aegis_cruiser/idle/3/0.team": {
+   "frame": {
+    "x": 1411,
+    "y": 2,
+    "w": 259,
+    "h": 398
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 259,
+    "h": 398
+   },
+   "sourceSize": {
+    "w": 259,
+    "h": 398
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/carrier/idle/3/0": {
+   "frame": {
+    "x": 1672,
+    "y": 2,
+    "w": 248,
+    "h": 356
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 248,
+    "h": 356
+   },
+   "sourceSize": {
+    "w": 248,
+    "h": 356
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/carrier/idle/3/0.team": {
+   "frame": {
+    "x": 2,
+    "y": 402,
+    "w": 248,
+    "h": 356
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 248,
+    "h": 356
+   },
+   "sourceSize": {
+    "w": 248,
+    "h": 356
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/submarine/idle/3/0": {
+   "frame": {
+    "x": 252,
+    "y": 402,
+    "w": 250,
+    "h": 296
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 250,
+    "h": 296
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 296
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/submarine/idle/3/0.team": {
+   "frame": {
+    "x": 504,
+    "y": 402,
+    "w": 250,
+    "h": 296
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 250,
+    "h": 296
+   },
+   "sourceSize": {
+    "w": 250,
+    "h": 296
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/nuclear_submarine/idle/3/0": {
+   "frame": {
+    "x": 756,
+    "y": 402,
+    "w": 267,
+    "h": 316
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 267,
+    "h": 316
+   },
+   "sourceSize": {
+    "w": 267,
+    "h": 316
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/nuclear_submarine/idle/3/0.team": {
+   "frame": {
+    "x": 1025,
+    "y": 402,
+    "w": 267,
+    "h": 316
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 267,
+    "h": 316
+   },
+   "sourceSize": {
+    "w": 267,
+    "h": 316
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/fighter/idle/3/0": {
+   "frame": {
+    "x": 1294,
+    "y": 402,
+    "w": 171,
+    "h": 231
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 171,
+    "h": 231
+   },
+   "sourceSize": {
+    "w": 171,
+    "h": 231
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/fighter/idle/3/0.team": {
+   "frame": {
+    "x": 1467,
+    "y": 402,
+    "w": 171,
+    "h": 231
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 171,
+    "h": 231
+   },
+   "sourceSize": {
+    "w": 171,
+    "h": 231
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/bomber/idle/3/0": {
+   "frame": {
+    "x": 1640,
+    "y": 402,
+    "w": 200,
+    "h": 238
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 200,
+    "h": 238
+   },
+   "sourceSize": {
+    "w": 200,
+    "h": 238
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/bomber/idle/3/0.team": {
+   "frame": {
+    "x": 1842,
+    "y": 402,
+    "w": 200,
+    "h": 238
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 200,
+    "h": 238
+   },
+   "sourceSize": {
+    "w": 200,
+    "h": 238
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/f_15/idle/3/0": {
+   "frame": {
+    "x": 2,
+    "y": 760,
+    "w": 272,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 272,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 272,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/f_15/idle/3/0.team": {
+   "frame": {
+    "x": 276,
+    "y": 760,
+    "w": 272,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 272,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 272,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/stealth_fighter/idle/3/0": {
+   "frame": {
+    "x": 550,
+    "y": 760,
+    "w": 261,
+    "h": 259
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 261,
+    "h": 259
+   },
+   "sourceSize": {
+    "w": 261,
+    "h": 259
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/stealth_fighter/idle/3/0.team": {
+   "frame": {
+    "x": 813,
+    "y": 760,
+    "w": 261,
+    "h": 259
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 261,
+    "h": 259
+   },
+   "sourceSize": {
+    "w": 261,
+    "h": 259
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/cruise_missile/idle/3/0": {
+   "frame": {
+    "x": 1076,
+    "y": 760,
+    "w": 220,
+    "h": 218
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 220,
+    "h": 218
+   },
+   "sourceSize": {
+    "w": 220,
+    "h": 218
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/cruise_missile/idle/3/0.team": {
+   "frame": {
+    "x": 1298,
+    "y": 760,
+    "w": 220,
+    "h": 218
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 220,
+    "h": 218
+   },
+   "sourceSize": {
+    "w": 220,
+    "h": 218
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/tactical_nuke/idle/3/0": {
+   "frame": {
+    "x": 1520,
+    "y": 760,
+    "w": 120,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 120,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 120,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/tactical_nuke/idle/3/0.team": {
+   "frame": {
+    "x": 1642,
+    "y": 760,
+    "w": 120,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 120,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 120,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/icbm/idle/3/0": {
+   "frame": {
+    "x": 1764,
+    "y": 760,
+    "w": 146,
+    "h": 383
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 146,
+    "h": 383
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 383
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/icbm/idle/3/0.team": {
+   "frame": {
+    "x": 2,
+    "y": 1145,
+    "w": 146,
+    "h": 383
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 146,
+    "h": 383
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 383
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ },
+ "meta": {
+  "image": "units4.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 2048,
+   "h": 1530
+  },
+  "scale": "2.0"
+ }
+}

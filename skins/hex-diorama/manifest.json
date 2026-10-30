@@ -2,17 +2,19 @@
  "format": "myciv3-skin",
  "version": 2,
  "name": "Hex diorama",
- "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1 + poses s13:codex_1:poses1+poses2+poses6,s13:codex_0:poses3+poses5+poses7,s13:codex_3:poses4,s14:codex_4:posesw + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + heads s4:codex_0 + techs s4:codex_1 + techs s7:codex_0",
+ "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s24:codex_1:jet_fighter+helicopter+stealth_bomber,s24:codex_2:modern_armor,s25:codex_0:modern_paratrooper,s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1,s20:codex_1,s22:codex_0 + poses s26:codex_0:poses26+poses27,s13:codex_1:poses1+poses2+poses6,s13:codex_0:poses3+poses5+poses7,s13:codex_3:poses4,s14:codex_4:posesw,s21:codex_1:poses8+poses9+poses10+poses11+poses12,s23:codex_0:poses13+poses14+poses15+poses16+poses17+poses18+poses19+poses20+poses21+poses22+poses23+poses24+poses25 + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + heads s4:codex_0 + techs s4:codex_1 + techs s7:codex_0 + techs s16:codex_0 + buildings s19:codex_0:hospital+battlefield_medicine + buildings s18:codex_0 + buildings s17:codex_0",
  "tileSize": 128,
  "atlases": [
   "objects.json",
   "decor.json",
   "units.json",
-  "poses.json",
-  "poses2.json",
+  "units2.json",
+  "units3.json",
+  "units4.json",
   "sites.json",
   "props.json",
-  "portraits.json"
+  "portraits.json",
+  "portraits2.json"
  ],
  "overlays": {
   "terrain:mountains": {
@@ -280,6 +282,106 @@
   }
  },
  "units": {
+  "jet_fighter": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "helicopter": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "stealth_bomber": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "modern_armor": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "modern_paratrooper": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
   "worker": {
    "anims": {
     "idle": {
@@ -804,6 +906,1266 @@
     }
    },
    "mirror": true
+  },
+  "jaguar_warrior": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "bowman": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "hoplite": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "impi": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "legionary": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "immortals": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "war_chariot": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "three_man_chariot": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "mounted_warrior": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "gallic_swordsman": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "numidian_mercenary": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "javelin_thrower": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "enkidu_warrior": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "chasqui_scout": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "ancient_cavalry": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "crusader": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "dromon": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "rider": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "samurai": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "war_elephant": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "keshik": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "ansar_warrior": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "berserk": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "musketeer": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "conquistador": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "sipahi": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "cossack": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "swiss_mercenary": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "hwacha": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "carrack": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "man_o_war": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "leader": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "scientific_leader": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "army": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "rifleman": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "infantry": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "guerilla": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "marine": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "paratrooper": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "tow_infantry": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "mech_infantry": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "artillery": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "radar_artillery": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "flak": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "mobile_sam": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "tank": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "panzer": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "ironclad": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "transport": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "destroyer": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "cruiser": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "battleship": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "aegis_cruiser": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "carrier": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "submarine": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "nuclear_submarine": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "fighter": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "bomber": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "f_15": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "stealth_fighter": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "cruise_missile": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "tactical_nuke": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "icbm": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
   }
  },
  "terrain": {
@@ -1101,6 +2463,293 @@
    }
   }
  },
+ "lazyAtlases": {
+  "jet_fighter": [
+   "poses.json"
+  ],
+  "helicopter": [
+   "poses.json"
+  ],
+  "stealth_bomber": [
+   "poses.json"
+  ],
+  "modern_armor": [
+   "poses.json"
+  ],
+  "modern_paratrooper": [
+   "poses.json"
+  ],
+  "worker": [
+   "poses.json"
+  ],
+  "settler": [
+   "poses.json"
+  ],
+  "warrior": [
+   "poses.json"
+  ],
+  "scout": [
+   "poses.json"
+  ],
+  "spearman": [
+   "poses.json",
+   "poses2.json"
+  ],
+  "archer": [
+   "poses2.json"
+  ],
+  "chariot": [
+   "poses2.json"
+  ],
+  "horseman": [
+   "poses2.json"
+  ],
+  "swordsman": [
+   "poses2.json"
+  ],
+  "catapult": [
+   "poses2.json"
+  ],
+  "curragh": [
+   "poses2.json"
+  ],
+  "galley": [
+   "poses2.json"
+  ],
+  "pikeman": [
+   "poses2.json"
+  ],
+  "medieval_infantry": [
+   "poses2.json"
+  ],
+  "longbowman": [
+   "poses2.json"
+  ],
+  "knight": [
+   "poses2.json"
+  ],
+  "trebuchet": [
+   "poses2.json"
+  ],
+  "cannon": [
+   "poses2.json"
+  ],
+  "explorer": [
+   "poses2.json"
+  ],
+  "musketman": [
+   "poses2.json",
+   "poses3.json"
+  ],
+  "cavalry": [
+   "poses3.json"
+  ],
+  "caravel": [
+   "poses3.json"
+  ],
+  "galleon": [
+   "poses3.json"
+  ],
+  "frigate": [
+   "poses3.json"
+  ],
+  "privateer": [
+   "poses3.json"
+  ],
+  "jaguar_warrior": [
+   "poses3.json"
+  ],
+  "bowman": [
+   "poses3.json"
+  ],
+  "hoplite": [
+   "poses3.json"
+  ],
+  "impi": [
+   "poses3.json"
+  ],
+  "legionary": [
+   "poses3.json"
+  ],
+  "immortals": [
+   "poses3.json"
+  ],
+  "war_chariot": [
+   "poses3.json"
+  ],
+  "three_man_chariot": [
+   "poses3.json"
+  ],
+  "mounted_warrior": [
+   "poses3.json"
+  ],
+  "gallic_swordsman": [
+   "poses3.json",
+   "poses4.json"
+  ],
+  "numidian_mercenary": [
+   "poses4.json"
+  ],
+  "javelin_thrower": [
+   "poses4.json"
+  ],
+  "enkidu_warrior": [
+   "poses4.json"
+  ],
+  "chasqui_scout": [
+   "poses4.json"
+  ],
+  "ancient_cavalry": [
+   "poses4.json"
+  ],
+  "crusader": [
+   "poses4.json"
+  ],
+  "dromon": [
+   "poses4.json"
+  ],
+  "rider": [
+   "poses4.json"
+  ],
+  "samurai": [
+   "poses4.json"
+  ],
+  "war_elephant": [
+   "poses4.json"
+  ],
+  "keshik": [
+   "poses4.json",
+   "poses5.json"
+  ],
+  "ansar_warrior": [
+   "poses5.json"
+  ],
+  "berserk": [
+   "poses5.json"
+  ],
+  "musketeer": [
+   "poses5.json"
+  ],
+  "conquistador": [
+   "poses5.json"
+  ],
+  "sipahi": [
+   "poses5.json"
+  ],
+  "cossack": [
+   "poses5.json"
+  ],
+  "swiss_mercenary": [
+   "poses5.json"
+  ],
+  "hwacha": [
+   "poses5.json"
+  ],
+  "carrack": [
+   "poses5.json"
+  ],
+  "man_o_war": [
+   "poses5.json",
+   "poses6.json"
+  ],
+  "leader": [
+   "poses6.json"
+  ],
+  "scientific_leader": [
+   "poses6.json"
+  ],
+  "army": [
+   "poses6.json"
+  ],
+  "rifleman": [
+   "poses6.json"
+  ],
+  "infantry": [
+   "poses6.json"
+  ],
+  "guerilla": [
+   "poses6.json"
+  ],
+  "marine": [
+   "poses6.json"
+  ],
+  "paratrooper": [
+   "poses6.json"
+  ],
+  "tow_infantry": [
+   "poses6.json"
+  ],
+  "mech_infantry": [
+   "poses6.json"
+  ],
+  "artillery": [
+   "poses6.json"
+  ],
+  "radar_artillery": [
+   "poses6.json"
+  ],
+  "flak": [
+   "poses6.json",
+   "poses7.json"
+  ],
+  "mobile_sam": [
+   "poses7.json"
+  ],
+  "tank": [
+   "poses7.json"
+  ],
+  "panzer": [
+   "poses7.json"
+  ],
+  "ironclad": [
+   "poses7.json"
+  ],
+  "transport": [
+   "poses7.json"
+  ],
+  "destroyer": [
+   "poses7.json"
+  ],
+  "cruiser": [
+   "poses7.json"
+  ],
+  "battleship": [
+   "poses7.json"
+  ],
+  "aegis_cruiser": [
+   "poses7.json"
+  ],
+  "carrier": [
+   "poses7.json"
+  ],
+  "submarine": [
+   "poses8.json"
+  ],
+  "nuclear_submarine": [
+   "poses8.json"
+  ],
+  "fighter": [
+   "poses8.json"
+  ],
+  "bomber": [
+   "poses8.json"
+  ],
+  "f_15": [
+   "poses8.json"
+  ],
+  "stealth_fighter": [
+   "poses8.json"
+  ],
+  "cruise_missile": [
+   "poses8.json"
+  ],
+  "tactical_nuke": [
+   "poses8.json"
+  ],
+  "icbm": [
+   "poses8.json"
+  ]
+ },
  "citySizes": [
   1,
   7,
@@ -1108,6 +2757,26 @@
  ],
  "wallsMaxSize": 6,
  "portraits": {
+  "jet_fighter": {
+   "base": "unit/jet_fighter/portrait",
+   "team": "unit/jet_fighter/portrait.team"
+  },
+  "helicopter": {
+   "base": "unit/helicopter/portrait",
+   "team": "unit/helicopter/portrait.team"
+  },
+  "stealth_bomber": {
+   "base": "unit/stealth_bomber/portrait",
+   "team": "unit/stealth_bomber/portrait.team"
+  },
+  "modern_armor": {
+   "base": "unit/modern_armor/portrait",
+   "team": "unit/modern_armor/portrait.team"
+  },
+  "modern_paratrooper": {
+   "base": "unit/modern_paratrooper/portrait",
+   "team": "unit/modern_paratrooper/portrait.team"
+  },
   "worker": {
    "base": "unit/worker/portrait",
    "team": "unit/worker/portrait.team"
@@ -1207,9 +2876,266 @@
   "privateer": {
    "base": "unit/privateer/portrait",
    "team": "unit/privateer/portrait.team"
+  },
+  "jaguar_warrior": {
+   "base": "unit/jaguar_warrior/portrait",
+   "team": "unit/jaguar_warrior/portrait.team"
+  },
+  "bowman": {
+   "base": "unit/bowman/portrait",
+   "team": "unit/bowman/portrait.team"
+  },
+  "hoplite": {
+   "base": "unit/hoplite/portrait",
+   "team": "unit/hoplite/portrait.team"
+  },
+  "impi": {
+   "base": "unit/impi/portrait",
+   "team": "unit/impi/portrait.team"
+  },
+  "legionary": {
+   "base": "unit/legionary/portrait",
+   "team": "unit/legionary/portrait.team"
+  },
+  "immortals": {
+   "base": "unit/immortals/portrait",
+   "team": "unit/immortals/portrait.team"
+  },
+  "war_chariot": {
+   "base": "unit/war_chariot/portrait",
+   "team": "unit/war_chariot/portrait.team"
+  },
+  "three_man_chariot": {
+   "base": "unit/three_man_chariot/portrait",
+   "team": "unit/three_man_chariot/portrait.team"
+  },
+  "mounted_warrior": {
+   "base": "unit/mounted_warrior/portrait",
+   "team": "unit/mounted_warrior/portrait.team"
+  },
+  "gallic_swordsman": {
+   "base": "unit/gallic_swordsman/portrait",
+   "team": "unit/gallic_swordsman/portrait.team"
+  },
+  "numidian_mercenary": {
+   "base": "unit/numidian_mercenary/portrait",
+   "team": "unit/numidian_mercenary/portrait.team"
+  },
+  "javelin_thrower": {
+   "base": "unit/javelin_thrower/portrait",
+   "team": "unit/javelin_thrower/portrait.team"
+  },
+  "enkidu_warrior": {
+   "base": "unit/enkidu_warrior/portrait",
+   "team": "unit/enkidu_warrior/portrait.team"
+  },
+  "chasqui_scout": {
+   "base": "unit/chasqui_scout/portrait",
+   "team": "unit/chasqui_scout/portrait.team"
+  },
+  "ancient_cavalry": {
+   "base": "unit/ancient_cavalry/portrait",
+   "team": "unit/ancient_cavalry/portrait.team"
+  },
+  "crusader": {
+   "base": "unit/crusader/portrait",
+   "team": "unit/crusader/portrait.team"
+  },
+  "dromon": {
+   "base": "unit/dromon/portrait",
+   "team": "unit/dromon/portrait.team"
+  },
+  "rider": {
+   "base": "unit/rider/portrait",
+   "team": "unit/rider/portrait.team"
+  },
+  "samurai": {
+   "base": "unit/samurai/portrait",
+   "team": "unit/samurai/portrait.team"
+  },
+  "war_elephant": {
+   "base": "unit/war_elephant/portrait",
+   "team": "unit/war_elephant/portrait.team"
+  },
+  "keshik": {
+   "base": "unit/keshik/portrait",
+   "team": "unit/keshik/portrait.team"
+  },
+  "ansar_warrior": {
+   "base": "unit/ansar_warrior/portrait",
+   "team": "unit/ansar_warrior/portrait.team"
+  },
+  "berserk": {
+   "base": "unit/berserk/portrait",
+   "team": "unit/berserk/portrait.team"
+  },
+  "musketeer": {
+   "base": "unit/musketeer/portrait",
+   "team": "unit/musketeer/portrait.team"
+  },
+  "conquistador": {
+   "base": "unit/conquistador/portrait",
+   "team": "unit/conquistador/portrait.team"
+  },
+  "sipahi": {
+   "base": "unit/sipahi/portrait",
+   "team": "unit/sipahi/portrait.team"
+  },
+  "cossack": {
+   "base": "unit/cossack/portrait",
+   "team": "unit/cossack/portrait.team"
+  },
+  "swiss_mercenary": {
+   "base": "unit/swiss_mercenary/portrait",
+   "team": "unit/swiss_mercenary/portrait.team"
+  },
+  "hwacha": {
+   "base": "unit/hwacha/portrait",
+   "team": "unit/hwacha/portrait.team"
+  },
+  "carrack": {
+   "base": "unit/carrack/portrait",
+   "team": "unit/carrack/portrait.team"
+  },
+  "man_o_war": {
+   "base": "unit/man_o_war/portrait",
+   "team": "unit/man_o_war/portrait.team"
+  },
+  "leader": {
+   "base": "unit/leader/portrait",
+   "team": "unit/leader/portrait.team"
+  },
+  "scientific_leader": {
+   "base": "unit/scientific_leader/portrait",
+   "team": "unit/scientific_leader/portrait.team"
+  },
+  "army": {
+   "base": "unit/army/portrait",
+   "team": "unit/army/portrait.team"
+  },
+  "rifleman": {
+   "base": "unit/rifleman/portrait",
+   "team": "unit/rifleman/portrait.team"
+  },
+  "infantry": {
+   "base": "unit/infantry/portrait",
+   "team": "unit/infantry/portrait.team"
+  },
+  "guerilla": {
+   "base": "unit/guerilla/portrait",
+   "team": "unit/guerilla/portrait.team"
+  },
+  "marine": {
+   "base": "unit/marine/portrait",
+   "team": "unit/marine/portrait.team"
+  },
+  "paratrooper": {
+   "base": "unit/paratrooper/portrait",
+   "team": "unit/paratrooper/portrait.team"
+  },
+  "tow_infantry": {
+   "base": "unit/tow_infantry/portrait",
+   "team": "unit/tow_infantry/portrait.team"
+  },
+  "mech_infantry": {
+   "base": "unit/mech_infantry/portrait",
+   "team": "unit/mech_infantry/portrait.team"
+  },
+  "artillery": {
+   "base": "unit/artillery/portrait",
+   "team": "unit/artillery/portrait.team"
+  },
+  "radar_artillery": {
+   "base": "unit/radar_artillery/portrait",
+   "team": "unit/radar_artillery/portrait.team"
+  },
+  "flak": {
+   "base": "unit/flak/portrait",
+   "team": "unit/flak/portrait.team"
+  },
+  "mobile_sam": {
+   "base": "unit/mobile_sam/portrait",
+   "team": "unit/mobile_sam/portrait.team"
+  },
+  "tank": {
+   "base": "unit/tank/portrait",
+   "team": "unit/tank/portrait.team"
+  },
+  "panzer": {
+   "base": "unit/panzer/portrait",
+   "team": "unit/panzer/portrait.team"
+  },
+  "ironclad": {
+   "base": "unit/ironclad/portrait",
+   "team": "unit/ironclad/portrait.team"
+  },
+  "transport": {
+   "base": "unit/transport/portrait",
+   "team": "unit/transport/portrait.team"
+  },
+  "destroyer": {
+   "base": "unit/destroyer/portrait",
+   "team": "unit/destroyer/portrait.team"
+  },
+  "cruiser": {
+   "base": "unit/cruiser/portrait",
+   "team": "unit/cruiser/portrait.team"
+  },
+  "battleship": {
+   "base": "unit/battleship/portrait",
+   "team": "unit/battleship/portrait.team"
+  },
+  "aegis_cruiser": {
+   "base": "unit/aegis_cruiser/portrait",
+   "team": "unit/aegis_cruiser/portrait.team"
+  },
+  "carrier": {
+   "base": "unit/carrier/portrait",
+   "team": "unit/carrier/portrait.team"
+  },
+  "submarine": {
+   "base": "unit/submarine/portrait",
+   "team": "unit/submarine/portrait.team"
+  },
+  "nuclear_submarine": {
+   "base": "unit/nuclear_submarine/portrait",
+   "team": "unit/nuclear_submarine/portrait.team"
+  },
+  "fighter": {
+   "base": "unit/fighter/portrait",
+   "team": "unit/fighter/portrait.team"
+  },
+  "bomber": {
+   "base": "unit/bomber/portrait",
+   "team": "unit/bomber/portrait.team"
+  },
+  "f_15": {
+   "base": "unit/f_15/portrait",
+   "team": "unit/f_15/portrait.team"
+  },
+  "stealth_fighter": {
+   "base": "unit/stealth_fighter/portrait",
+   "team": "unit/stealth_fighter/portrait.team"
+  },
+  "cruise_missile": {
+   "base": "unit/cruise_missile/portrait",
+   "team": "unit/cruise_missile/portrait.team"
+  },
+  "tactical_nuke": {
+   "base": "unit/tactical_nuke/portrait",
+   "team": "unit/tactical_nuke/portrait.team"
+  },
+  "icbm": {
+   "base": "unit/icbm/portrait",
+   "team": "unit/icbm/portrait.team"
   }
  },
  "pediaArt": {
+  "unit:jet_fighter": "pedia/unit/jet_fighter.png",
+  "unit:helicopter": "pedia/unit/helicopter.png",
+  "unit:stealth_bomber": "pedia/unit/stealth_bomber.png",
+  "unit:modern_armor": "pedia/unit/modern_armor.png",
+  "unit:modern_paratrooper": "pedia/unit/modern_paratrooper.png",
   "unit:worker": "pedia/unit/worker.png",
   "unit:settler": "pedia/unit/settler.png",
   "unit:warrior": "pedia/unit/warrior.png",
@@ -1234,7 +3160,70 @@
   "unit:caravel": "pedia/unit/caravel.png",
   "unit:galleon": "pedia/unit/galleon.png",
   "unit:frigate": "pedia/unit/frigate.png",
-  "unit:privateer": "pedia/unit/privateer.png"
+  "unit:privateer": "pedia/unit/privateer.png",
+  "unit:jaguar_warrior": "pedia/unit/jaguar_warrior.png",
+  "unit:bowman": "pedia/unit/bowman.png",
+  "unit:hoplite": "pedia/unit/hoplite.png",
+  "unit:impi": "pedia/unit/impi.png",
+  "unit:legionary": "pedia/unit/legionary.png",
+  "unit:immortals": "pedia/unit/immortals.png",
+  "unit:war_chariot": "pedia/unit/war_chariot.png",
+  "unit:three_man_chariot": "pedia/unit/three_man_chariot.png",
+  "unit:mounted_warrior": "pedia/unit/mounted_warrior.png",
+  "unit:gallic_swordsman": "pedia/unit/gallic_swordsman.png",
+  "unit:numidian_mercenary": "pedia/unit/numidian_mercenary.png",
+  "unit:javelin_thrower": "pedia/unit/javelin_thrower.png",
+  "unit:enkidu_warrior": "pedia/unit/enkidu_warrior.png",
+  "unit:chasqui_scout": "pedia/unit/chasqui_scout.png",
+  "unit:ancient_cavalry": "pedia/unit/ancient_cavalry.png",
+  "unit:crusader": "pedia/unit/crusader.png",
+  "unit:dromon": "pedia/unit/dromon.png",
+  "unit:rider": "pedia/unit/rider.png",
+  "unit:samurai": "pedia/unit/samurai.png",
+  "unit:war_elephant": "pedia/unit/war_elephant.png",
+  "unit:keshik": "pedia/unit/keshik.png",
+  "unit:ansar_warrior": "pedia/unit/ansar_warrior.png",
+  "unit:berserk": "pedia/unit/berserk.png",
+  "unit:musketeer": "pedia/unit/musketeer.png",
+  "unit:conquistador": "pedia/unit/conquistador.png",
+  "unit:sipahi": "pedia/unit/sipahi.png",
+  "unit:cossack": "pedia/unit/cossack.png",
+  "unit:swiss_mercenary": "pedia/unit/swiss_mercenary.png",
+  "unit:hwacha": "pedia/unit/hwacha.png",
+  "unit:carrack": "pedia/unit/carrack.png",
+  "unit:man_o_war": "pedia/unit/man_o_war.png",
+  "unit:leader": "pedia/unit/leader.png",
+  "unit:scientific_leader": "pedia/unit/scientific_leader.png",
+  "unit:army": "pedia/unit/army.png",
+  "unit:rifleman": "pedia/unit/rifleman.png",
+  "unit:infantry": "pedia/unit/infantry.png",
+  "unit:guerilla": "pedia/unit/guerilla.png",
+  "unit:marine": "pedia/unit/marine.png",
+  "unit:paratrooper": "pedia/unit/paratrooper.png",
+  "unit:tow_infantry": "pedia/unit/tow_infantry.png",
+  "unit:mech_infantry": "pedia/unit/mech_infantry.png",
+  "unit:artillery": "pedia/unit/artillery.png",
+  "unit:radar_artillery": "pedia/unit/radar_artillery.png",
+  "unit:flak": "pedia/unit/flak.png",
+  "unit:mobile_sam": "pedia/unit/mobile_sam.png",
+  "unit:tank": "pedia/unit/tank.png",
+  "unit:panzer": "pedia/unit/panzer.png",
+  "unit:ironclad": "pedia/unit/ironclad.png",
+  "unit:transport": "pedia/unit/transport.png",
+  "unit:destroyer": "pedia/unit/destroyer.png",
+  "unit:cruiser": "pedia/unit/cruiser.png",
+  "unit:battleship": "pedia/unit/battleship.png",
+  "unit:aegis_cruiser": "pedia/unit/aegis_cruiser.png",
+  "unit:carrier": "pedia/unit/carrier.png",
+  "unit:submarine": "pedia/unit/submarine.png",
+  "unit:nuclear_submarine": "pedia/unit/nuclear_submarine.png",
+  "unit:fighter": "pedia/unit/fighter.png",
+  "unit:bomber": "pedia/unit/bomber.png",
+  "unit:f_15": "pedia/unit/f_15.png",
+  "unit:stealth_fighter": "pedia/unit/stealth_fighter.png",
+  "unit:cruise_missile": "pedia/unit/cruise_missile.png",
+  "unit:tactical_nuke": "pedia/unit/tactical_nuke.png",
+  "unit:icbm": "pedia/unit/icbm.png"
  },
  "citizenHeads": {
   "sheet": "city/heads.png",
@@ -1311,6 +3300,130 @@
   "the_republic": "tech/the_republic.png",
   "theology": "tech/theology.png",
   "theory_of_gravity": "tech/theory_of_gravity.png",
-  "writing": "tech/writing.png"
+  "writing": "tech/writing.png",
+  "advanced_flight": "tech/advanced_flight.png",
+  "amphibious_war": "tech/amphibious_war.png",
+  "atomic_theory": "tech/atomic_theory.png",
+  "combustion": "tech/combustion.png",
+  "communism": "tech/communism.png",
+  "computers": "tech/computers.png",
+  "ecology": "tech/ecology.png",
+  "electricity": "tech/electricity.png",
+  "electronics": "tech/electronics.png",
+  "espionage": "tech/espionage.png",
+  "fascism": "tech/fascism.png",
+  "fission": "tech/fission.png",
+  "flight": "tech/flight.png",
+  "genetics": "tech/genetics.png",
+  "industrialization": "tech/industrialization.png",
+  "integrated_defense": "tech/integrated_defense.png",
+  "ironclads": "tech/ironclads.png",
+  "mass_production": "tech/mass_production.png",
+  "medicine": "tech/medicine.png",
+  "miniaturization": "tech/miniaturization.png",
+  "motorized_transportation": "tech/motorized_transportation.png",
+  "nationalism": "tech/nationalism.png",
+  "nuclear_power": "tech/nuclear_power.png",
+  "recycling": "tech/recycling.png",
+  "refining": "tech/refining.png",
+  "replaceable_parts": "tech/replaceable_parts.png",
+  "robotics": "tech/robotics.png",
+  "rocketry": "tech/rocketry.png",
+  "sanitation": "tech/sanitation.png",
+  "satellites": "tech/satellites.png",
+  "scientific_method": "tech/scientific_method.png",
+  "smart_weapons": "tech/smart_weapons.png",
+  "space_flight": "tech/space_flight.png",
+  "stealth": "tech/stealth.png",
+  "steam_power": "tech/steam_power.png",
+  "steel": "tech/steel.png",
+  "superconductor": "tech/superconductor.png",
+  "synthetic_fibers": "tech/synthetic_fibers.png",
+  "the_corporation": "tech/the_corporation.png",
+  "the_laser": "tech/the_laser.png"
+ },
+ "buildingIcons": {
+  "battlefield_medicine": "building/battlefield_medicine.png",
+  "hospital": "building/hospital.png",
+  "airport": "building/airport.png",
+  "apollo_program": "building/apollo_program.png",
+  "bank": "building/bank.png",
+  "cathedral": "building/cathedral.png",
+  "civil_defense": "building/civil_defense.png",
+  "coal_plant": "building/coal_plant.png",
+  "coastal_fortress": "building/coastal_fortress.png",
+  "commercial_dock": "building/commercial_dock.png",
+  "copernicus_observatory": "building/copernicus_observatory.png",
+  "cure_for_cancer": "building/cure_for_cancer.png",
+  "factory": "building/factory.png",
+  "forbidden_palace": "building/forbidden_palace.png",
+  "harbor": "building/harbor.png",
+  "heroic_epic": "building/heroic_epic.png",
+  "hoover_dam": "building/hoover_dam.png",
+  "hydro_plant": "building/hydro_plant.png",
+  "intelligence_agency": "building/intelligence_agency.png",
+  "iron_works": "building/iron_works.png",
+  "js_bachs_cathedral": "building/js_bachs_cathedral.png",
+  "knights_templar": "building/knights_templar.png",
+  "leonardos_workshop": "building/leonardos_workshop.png",
+  "longevity": "building/longevity.png",
+  "magellans_voyage": "building/magellans_voyage.png",
+  "manufacturing_plant": "building/manufacturing_plant.png",
+  "mass_transit_system": "building/mass_transit_system.png",
+  "military_academy": "building/military_academy.png",
+  "newtons_university": "building/newtons_university.png",
+  "nuclear_plant": "building/nuclear_plant.png",
+  "offshore_platform": "building/offshore_platform.png",
+  "police_station": "building/police_station.png",
+  "recycling_center": "building/recycling_center.png",
+  "research_lab": "building/research_lab.png",
+  "sam_missile_battery": "building/sam_missile_battery.png",
+  "secret_police_hq": "building/secret_police_hq.png",
+  "seti_program": "building/seti_program.png",
+  "shakespeares_theater": "building/shakespeares_theater.png",
+  "sistine_chapel": "building/sistine_chapel.png",
+  "smiths_trading_company": "building/smiths_trading_company.png",
+  "solar_plant": "building/solar_plant.png",
+  "ss_cockpit": "building/ss_cockpit.png",
+  "ss_docking_bay": "building/ss_docking_bay.png",
+  "ss_engine": "building/ss_engine.png",
+  "ss_exterior_casing": "building/ss_exterior_casing.png",
+  "ss_fuel_cells": "building/ss_fuel_cells.png",
+  "ss_life_support_system": "building/ss_life_support_system.png",
+  "ss_planetary_party_lounge": "building/ss_planetary_party_lounge.png",
+  "ss_stasis_chamber": "building/ss_stasis_chamber.png",
+  "ss_storage_supply": "building/ss_storage_supply.png",
+  "ss_thrusters": "building/ss_thrusters.png",
+  "stock_exchange": "building/stock_exchange.png",
+  "strategic_missile_defense": "building/strategic_missile_defense.png",
+  "sun_tzus_art_of_war": "building/sun_tzus_art_of_war.png",
+  "the_great_library": "building/the_great_library.png",
+  "the_great_lighthouse": "building/the_great_lighthouse.png",
+  "the_great_wall": "building/the_great_wall.png",
+  "the_hanging_gardens": "building/the_hanging_gardens.png",
+  "the_internet": "building/the_internet.png",
+  "the_manhattan_project": "building/the_manhattan_project.png",
+  "the_mausoleum_of_mausollos": "building/the_mausoleum_of_mausollos.png",
+  "the_oracle": "building/the_oracle.png",
+  "the_pentagon": "building/the_pentagon.png",
+  "the_pyramids": "building/the_pyramids.png",
+  "the_statue_of_zeus": "building/the_statue_of_zeus.png",
+  "the_temple_of_artemis": "building/the_temple_of_artemis.png",
+  "the_united_nations": "building/the_united_nations.png",
+  "theory_of_evolution": "building/theory_of_evolution.png",
+  "universal_suffrage": "building/universal_suffrage.png",
+  "university": "building/university.png",
+  "wall_street": "building/wall_street.png",
+  "aqueduct": "building/aqueduct.png",
+  "barracks": "building/barracks.png",
+  "colosseum": "building/colosseum.png",
+  "courthouse": "building/courthouse.png",
+  "granary": "building/granary.png",
+  "library": "building/library.png",
+  "marketplace": "building/marketplace.png",
+  "palace": "building/palace.png",
+  "temple": "building/temple.png",
+  "the_colossus": "building/the_colossus.png",
+  "walls": "building/walls.png"
  }
 }

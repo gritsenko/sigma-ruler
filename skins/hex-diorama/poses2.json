@@ -1,9 +1,849 @@
 {
  "frames": {
-  "unit/medieval_infantry/death/3/0": {
+  "unit/spearman/death/3/0.team": {
    "frame": {
     "x": 2,
     "y": 2,
+    "w": 152,
+    "h": 277
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 152,
+    "h": 277
+   },
+   "sourceSize": {
+    "w": 152,
+    "h": 277
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/archer/attack/3/0": {
+   "frame": {
+    "x": 156,
+    "y": 2,
+    "w": 184,
+    "h": 206
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 184,
+    "h": 206
+   },
+   "sourceSize": {
+    "w": 184,
+    "h": 206
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/archer/attack/3/0.team": {
+   "frame": {
+    "x": 342,
+    "y": 2,
+    "w": 184,
+    "h": 206
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 184,
+    "h": 206
+   },
+   "sourceSize": {
+    "w": 184,
+    "h": 206
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/archer/death/3/0": {
+   "frame": {
+    "x": 528,
+    "y": 2,
+    "w": 196,
+    "h": 177
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 196,
+    "h": 177
+   },
+   "sourceSize": {
+    "w": 196,
+    "h": 177
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/archer/death/3/0.team": {
+   "frame": {
+    "x": 726,
+    "y": 2,
+    "w": 196,
+    "h": 177
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 196,
+    "h": 177
+   },
+   "sourceSize": {
+    "w": 196,
+    "h": 177
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/chariot/attack/3/0": {
+   "frame": {
+    "x": 924,
+    "y": 2,
+    "w": 212,
+    "h": 278
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 212,
+    "h": 278
+   },
+   "sourceSize": {
+    "w": 212,
+    "h": 278
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/chariot/attack/3/0.team": {
+   "frame": {
+    "x": 1138,
+    "y": 2,
+    "w": 212,
+    "h": 278
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 212,
+    "h": 278
+   },
+   "sourceSize": {
+    "w": 212,
+    "h": 278
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/chariot/death/3/0": {
+   "frame": {
+    "x": 1352,
+    "y": 2,
+    "w": 203,
+    "h": 210
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 203,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 203,
+    "h": 210
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/chariot/death/3/0.team": {
+   "frame": {
+    "x": 1557,
+    "y": 2,
+    "w": 203,
+    "h": 210
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 203,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 203,
+    "h": 210
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/horseman/attack/3/0": {
+   "frame": {
+    "x": 1762,
+    "y": 2,
+    "w": 180,
+    "h": 262
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 180,
+    "h": 262
+   },
+   "sourceSize": {
+    "w": 180,
+    "h": 262
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/horseman/attack/3/0.team": {
+   "frame": {
+    "x": 2,
+    "y": 282,
+    "w": 180,
+    "h": 262
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 180,
+    "h": 262
+   },
+   "sourceSize": {
+    "w": 180,
+    "h": 262
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/horseman/death/3/0": {
+   "frame": {
+    "x": 184,
+    "y": 282,
+    "w": 200,
+    "h": 168
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 200,
+    "h": 168
+   },
+   "sourceSize": {
+    "w": 200,
+    "h": 168
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/horseman/death/3/0.team": {
+   "frame": {
+    "x": 386,
+    "y": 282,
+    "w": 200,
+    "h": 168
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 200,
+    "h": 168
+   },
+   "sourceSize": {
+    "w": 200,
+    "h": 168
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/swordsman/attack/3/0": {
+   "frame": {
+    "x": 588,
+    "y": 282,
+    "w": 142,
+    "h": 255
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 142,
+    "h": 255
+   },
+   "sourceSize": {
+    "w": 142,
+    "h": 255
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/swordsman/attack/3/0.team": {
+   "frame": {
+    "x": 732,
+    "y": 282,
+    "w": 142,
+    "h": 255
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 142,
+    "h": 255
+   },
+   "sourceSize": {
+    "w": 142,
+    "h": 255
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/swordsman/death/3/0": {
+   "frame": {
+    "x": 876,
+    "y": 282,
+    "w": 110,
+    "h": 243
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 110,
+    "h": 243
+   },
+   "sourceSize": {
+    "w": 110,
+    "h": 243
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/swordsman/death/3/0.team": {
+   "frame": {
+    "x": 988,
+    "y": 282,
+    "w": 110,
+    "h": 243
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 110,
+    "h": 243
+   },
+   "sourceSize": {
+    "w": 110,
+    "h": 243
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/catapult/attack/3/0": {
+   "frame": {
+    "x": 1100,
+    "y": 282,
+    "w": 263,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 263,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 263,
+    "h": 192
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/catapult/attack/3/0.team": {
+   "frame": {
+    "x": 1365,
+    "y": 282,
+    "w": 263,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 263,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 263,
+    "h": 192
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/catapult/death/3/0": {
+   "frame": {
+    "x": 1630,
+    "y": 282,
+    "w": 172,
+    "h": 151
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 172,
+    "h": 151
+   },
+   "sourceSize": {
+    "w": 172,
+    "h": 151
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/catapult/death/3/0.team": {
+   "frame": {
+    "x": 1804,
+    "y": 282,
+    "w": 172,
+    "h": 151
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 172,
+    "h": 151
+   },
+   "sourceSize": {
+    "w": 172,
+    "h": 151
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/curragh/attack/3/0": {
+   "frame": {
+    "x": 2,
+    "y": 546,
+    "w": 216,
+    "h": 204
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 204
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 204
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/curragh/attack/3/0.team": {
+   "frame": {
+    "x": 220,
+    "y": 546,
+    "w": 216,
+    "h": 204
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 204
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 204
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/curragh/death/3/0": {
+   "frame": {
+    "x": 438,
+    "y": 546,
+    "w": 131,
+    "h": 155
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 131,
+    "h": 155
+   },
+   "sourceSize": {
+    "w": 131,
+    "h": 155
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/curragh/death/3/0.team": {
+   "frame": {
+    "x": 571,
+    "y": 546,
+    "w": 131,
+    "h": 155
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 131,
+    "h": 155
+   },
+   "sourceSize": {
+    "w": 131,
+    "h": 155
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/galley/attack/3/0": {
+   "frame": {
+    "x": 704,
+    "y": 546,
+    "w": 218,
+    "h": 356
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 218,
+    "h": 356
+   },
+   "sourceSize": {
+    "w": 218,
+    "h": 356
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/galley/attack/3/0.team": {
+   "frame": {
+    "x": 924,
+    "y": 546,
+    "w": 218,
+    "h": 356
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 218,
+    "h": 356
+   },
+   "sourceSize": {
+    "w": 218,
+    "h": 356
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/galley/death/3/0": {
+   "frame": {
+    "x": 1144,
+    "y": 546,
+    "w": 205,
+    "h": 198
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 205,
+    "h": 198
+   },
+   "sourceSize": {
+    "w": 205,
+    "h": 198
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/galley/death/3/0.team": {
+   "frame": {
+    "x": 1351,
+    "y": 546,
+    "w": 205,
+    "h": 198
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 205,
+    "h": 198
+   },
+   "sourceSize": {
+    "w": 205,
+    "h": 198
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/pikeman/attack/3/0": {
+   "frame": {
+    "x": 1558,
+    "y": 546,
+    "w": 131,
+    "h": 329
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 131,
+    "h": 329
+   },
+   "sourceSize": {
+    "w": 131,
+    "h": 329
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/pikeman/attack/3/0.team": {
+   "frame": {
+    "x": 1691,
+    "y": 546,
+    "w": 131,
+    "h": 329
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 131,
+    "h": 329
+   },
+   "sourceSize": {
+    "w": 131,
+    "h": 329
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/pikeman/death/3/0": {
+   "frame": {
+    "x": 1824,
+    "y": 546,
+    "w": 210,
+    "h": 256
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 210,
+    "h": 256
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 256
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/pikeman/death/3/0.team": {
+   "frame": {
+    "x": 2,
+    "y": 904,
+    "w": 210,
+    "h": 256
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 210,
+    "h": 256
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 256
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/medieval_infantry/attack/3/0": {
+   "frame": {
+    "x": 214,
+    "y": 904,
+    "w": 236,
+    "h": 275
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 236,
+    "h": 275
+   },
+   "sourceSize": {
+    "w": 236,
+    "h": 275
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/medieval_infantry/attack/3/0.team": {
+   "frame": {
+    "x": 452,
+    "y": 904,
+    "w": 236,
+    "h": 275
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 236,
+    "h": 275
+   },
+   "sourceSize": {
+    "w": 236,
+    "h": 275
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/medieval_infantry/death/3/0": {
+   "frame": {
+    "x": 690,
+    "y": 904,
     "w": 210,
     "h": 170
    },
@@ -26,8 +866,8 @@
   },
   "unit/medieval_infantry/death/3/0.team": {
    "frame": {
-    "x": 214,
-    "y": 2,
+    "x": 902,
+    "y": 904,
     "w": 210,
     "h": 170
    },
@@ -50,8 +890,8 @@
   },
   "unit/longbowman/attack/3/0": {
    "frame": {
-    "x": 426,
-    "y": 2,
+    "x": 1114,
+    "y": 904,
     "w": 184,
     "h": 344
    },
@@ -74,8 +914,8 @@
   },
   "unit/longbowman/attack/3/0.team": {
    "frame": {
-    "x": 612,
-    "y": 2,
+    "x": 1300,
+    "y": 904,
     "w": 184,
     "h": 344
    },
@@ -98,8 +938,8 @@
   },
   "unit/longbowman/death/3/0": {
    "frame": {
-    "x": 798,
-    "y": 2,
+    "x": 1486,
+    "y": 904,
     "w": 195,
     "h": 197
    },
@@ -122,8 +962,8 @@
   },
   "unit/longbowman/death/3/0.team": {
    "frame": {
-    "x": 995,
-    "y": 2,
+    "x": 1683,
+    "y": 904,
     "w": 195,
     "h": 197
    },
@@ -146,8 +986,8 @@
   },
   "unit/knight/attack/3/0": {
    "frame": {
-    "x": 1192,
-    "y": 2,
+    "x": 2,
+    "y": 1250,
     "w": 224,
     "h": 297
    },
@@ -170,8 +1010,8 @@
   },
   "unit/knight/attack/3/0.team": {
    "frame": {
-    "x": 1418,
-    "y": 2,
+    "x": 228,
+    "y": 1250,
     "w": 224,
     "h": 297
    },
@@ -194,8 +1034,8 @@
   },
   "unit/knight/death/3/0": {
    "frame": {
-    "x": 1644,
-    "y": 2,
+    "x": 454,
+    "y": 1250,
     "w": 194,
     "h": 263
    },
@@ -218,8 +1058,8 @@
   },
   "unit/knight/death/3/0.team": {
    "frame": {
-    "x": 1840,
-    "y": 2,
+    "x": 650,
+    "y": 1250,
     "w": 194,
     "h": 263
    },
@@ -242,8 +1082,8 @@
   },
   "unit/trebuchet/attack/3/0": {
    "frame": {
-    "x": 2,
-    "y": 348,
+    "x": 846,
+    "y": 1250,
     "w": 265,
     "h": 256
    },
@@ -266,8 +1106,8 @@
   },
   "unit/trebuchet/death/3/0": {
    "frame": {
-    "x": 269,
-    "y": 348,
+    "x": 1113,
+    "y": 1250,
     "w": 211,
     "h": 233
    },
@@ -290,8 +1130,8 @@
   },
   "unit/trebuchet/death/3/0.team": {
    "frame": {
-    "x": 482,
-    "y": 348,
+    "x": 1326,
+    "y": 1250,
     "w": 211,
     "h": 233
    },
@@ -314,8 +1154,8 @@
   },
   "unit/cannon/attack/3/0": {
    "frame": {
-    "x": 695,
-    "y": 348,
+    "x": 1539,
+    "y": 1250,
     "w": 260,
     "h": 176
    },
@@ -338,8 +1178,8 @@
   },
   "unit/cannon/attack/3/0.team": {
    "frame": {
-    "x": 957,
-    "y": 348,
+    "x": 2,
+    "y": 1549,
     "w": 260,
     "h": 176
    },
@@ -362,8 +1202,8 @@
   },
   "unit/cannon/death/3/0": {
    "frame": {
-    "x": 1219,
-    "y": 348,
+    "x": 264,
+    "y": 1549,
     "w": 215,
     "h": 166
    },
@@ -386,8 +1226,8 @@
   },
   "unit/cannon/death/3/0.team": {
    "frame": {
-    "x": 1436,
-    "y": 348,
+    "x": 481,
+    "y": 1549,
     "w": 215,
     "h": 166
    },
@@ -410,8 +1250,8 @@
   },
   "unit/explorer/attack/3/0": {
    "frame": {
-    "x": 1653,
-    "y": 348,
+    "x": 698,
+    "y": 1549,
     "w": 260,
     "h": 248
    },
@@ -434,8 +1274,8 @@
   },
   "unit/explorer/attack/3/0.team": {
    "frame": {
-    "x": 2,
-    "y": 606,
+    "x": 960,
+    "y": 1549,
     "w": 260,
     "h": 248
    },
@@ -458,8 +1298,8 @@
   },
   "unit/explorer/death/3/0": {
    "frame": {
-    "x": 264,
-    "y": 606,
+    "x": 1222,
+    "y": 1549,
     "w": 189,
     "h": 148
    },
@@ -482,8 +1322,8 @@
   },
   "unit/explorer/death/3/0.team": {
    "frame": {
-    "x": 455,
-    "y": 606,
+    "x": 1413,
+    "y": 1549,
     "w": 189,
     "h": 148
    },
@@ -506,8 +1346,8 @@
   },
   "unit/musketman/attack/3/0": {
    "frame": {
-    "x": 646,
-    "y": 606,
+    "x": 1604,
+    "y": 1549,
     "w": 195,
     "h": 295
    },
@@ -530,8 +1370,8 @@
   },
   "unit/musketman/attack/3/0.team": {
    "frame": {
-    "x": 843,
-    "y": 606,
+    "x": 1801,
+    "y": 1549,
     "w": 195,
     "h": 295
    },
@@ -546,534 +1386,6 @@
    "sourceSize": {
     "w": 195,
     "h": 295
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/musketman/death/3/0": {
-   "frame": {
-    "x": 1040,
-    "y": 606,
-    "w": 142,
-    "h": 219
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 142,
-    "h": 219
-   },
-   "sourceSize": {
-    "w": 142,
-    "h": 219
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/musketman/death/3/0.team": {
-   "frame": {
-    "x": 1184,
-    "y": 606,
-    "w": 142,
-    "h": 219
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 142,
-    "h": 219
-   },
-   "sourceSize": {
-    "w": 142,
-    "h": 219
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/cavalry/attack/3/0": {
-   "frame": {
-    "x": 1328,
-    "y": 606,
-    "w": 183,
-    "h": 230
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 183,
-    "h": 230
-   },
-   "sourceSize": {
-    "w": 183,
-    "h": 230
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/cavalry/attack/3/0.team": {
-   "frame": {
-    "x": 1513,
-    "y": 606,
-    "w": 183,
-    "h": 230
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 183,
-    "h": 230
-   },
-   "sourceSize": {
-    "w": 183,
-    "h": 230
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/cavalry/death/3/0": {
-   "frame": {
-    "x": 1698,
-    "y": 606,
-    "w": 205,
-    "h": 258
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 205,
-    "h": 258
-   },
-   "sourceSize": {
-    "w": 205,
-    "h": 258
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/cavalry/death/3/0.team": {
-   "frame": {
-    "x": 2,
-    "y": 903,
-    "w": 205,
-    "h": 258
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 205,
-    "h": 258
-   },
-   "sourceSize": {
-    "w": 205,
-    "h": 258
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/caravel/attack/3/0": {
-   "frame": {
-    "x": 209,
-    "y": 903,
-    "w": 208,
-    "h": 311
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 208,
-    "h": 311
-   },
-   "sourceSize": {
-    "w": 208,
-    "h": 311
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/caravel/attack/3/0.team": {
-   "frame": {
-    "x": 419,
-    "y": 903,
-    "w": 208,
-    "h": 311
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 208,
-    "h": 311
-   },
-   "sourceSize": {
-    "w": 208,
-    "h": 311
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/caravel/death/3/0": {
-   "frame": {
-    "x": 629,
-    "y": 903,
-    "w": 173,
-    "h": 124
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 173,
-    "h": 124
-   },
-   "sourceSize": {
-    "w": 173,
-    "h": 124
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/caravel/death/3/0.team": {
-   "frame": {
-    "x": 804,
-    "y": 903,
-    "w": 173,
-    "h": 124
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 173,
-    "h": 124
-   },
-   "sourceSize": {
-    "w": 173,
-    "h": 124
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/galleon/attack/3/0": {
-   "frame": {
-    "x": 979,
-    "y": 903,
-    "w": 259,
-    "h": 371
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 259,
-    "h": 371
-   },
-   "sourceSize": {
-    "w": 259,
-    "h": 371
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/galleon/attack/3/0.team": {
-   "frame": {
-    "x": 1240,
-    "y": 903,
-    "w": 259,
-    "h": 371
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 259,
-    "h": 371
-   },
-   "sourceSize": {
-    "w": 259,
-    "h": 371
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/galleon/death/3/0": {
-   "frame": {
-    "x": 1501,
-    "y": 903,
-    "w": 150,
-    "h": 212
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 150,
-    "h": 212
-   },
-   "sourceSize": {
-    "w": 150,
-    "h": 212
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/galleon/death/3/0.team": {
-   "frame": {
-    "x": 1653,
-    "y": 903,
-    "w": 150,
-    "h": 212
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 150,
-    "h": 212
-   },
-   "sourceSize": {
-    "w": 150,
-    "h": 212
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/frigate/attack/3/0": {
-   "frame": {
-    "x": 1805,
-    "y": 903,
-    "w": 178,
-    "h": 354
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 178,
-    "h": 354
-   },
-   "sourceSize": {
-    "w": 178,
-    "h": 354
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/frigate/attack/3/0.team": {
-   "frame": {
-    "x": 2,
-    "y": 1276,
-    "w": 178,
-    "h": 354
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 178,
-    "h": 354
-   },
-   "sourceSize": {
-    "w": 178,
-    "h": 354
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/frigate/death/3/0": {
-   "frame": {
-    "x": 182,
-    "y": 1276,
-    "w": 190,
-    "h": 139
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 190,
-    "h": 139
-   },
-   "sourceSize": {
-    "w": 190,
-    "h": 139
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/frigate/death/3/0.team": {
-   "frame": {
-    "x": 374,
-    "y": 1276,
-    "w": 190,
-    "h": 139
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 190,
-    "h": 139
-   },
-   "sourceSize": {
-    "w": 190,
-    "h": 139
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/privateer/attack/3/0": {
-   "frame": {
-    "x": 566,
-    "y": 1276,
-    "w": 233,
-    "h": 289
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 233,
-    "h": 289
-   },
-   "sourceSize": {
-    "w": 233,
-    "h": 289
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/privateer/attack/3/0.team": {
-   "frame": {
-    "x": 801,
-    "y": 1276,
-    "w": 233,
-    "h": 289
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 233,
-    "h": 289
-   },
-   "sourceSize": {
-    "w": 233,
-    "h": 289
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/privateer/death/3/0": {
-   "frame": {
-    "x": 1036,
-    "y": 1276,
-    "w": 208,
-    "h": 222
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 208,
-    "h": 222
-   },
-   "sourceSize": {
-    "w": 208,
-    "h": 222
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/privateer/death/3/0.team": {
-   "frame": {
-    "x": 1246,
-    "y": 1276,
-    "w": 208,
-    "h": 222
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 208,
-    "h": 222
-   },
-   "sourceSize": {
-    "w": 208,
-    "h": 222
    },
    "anchor": {
     "x": 0.5,
@@ -1086,7 +1398,7 @@
   "format": "RGBA8888",
   "size": {
    "w": 2048,
-   "h": 1632
+   "h": 1846
   },
   "scale": "2.0"
  }

@@ -1,9 +1,249 @@
 {
  "frames": {
-  "unit/worker/idle/3/0": {
+  "unit/jet_fighter/idle/3/0": {
    "frame": {
     "x": 2,
     "y": 2,
+    "w": 271,
+    "h": 276
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 271,
+    "h": 276
+   },
+   "sourceSize": {
+    "w": 271,
+    "h": 276
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/jet_fighter/idle/3/0.team": {
+   "frame": {
+    "x": 275,
+    "y": 2,
+    "w": 271,
+    "h": 276
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 271,
+    "h": 276
+   },
+   "sourceSize": {
+    "w": 271,
+    "h": 276
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/helicopter/idle/3/0": {
+   "frame": {
+    "x": 548,
+    "y": 2,
+    "w": 246,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 246,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 246,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/helicopter/idle/3/0.team": {
+   "frame": {
+    "x": 796,
+    "y": 2,
+    "w": 246,
+    "h": 281
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 246,
+    "h": 281
+   },
+   "sourceSize": {
+    "w": 246,
+    "h": 281
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/stealth_bomber/idle/3/0": {
+   "frame": {
+    "x": 1044,
+    "y": 2,
+    "w": 334,
+    "h": 335
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 334,
+    "h": 335
+   },
+   "sourceSize": {
+    "w": 334,
+    "h": 335
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/stealth_bomber/idle/3/0.team": {
+   "frame": {
+    "x": 1380,
+    "y": 2,
+    "w": 334,
+    "h": 335
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 334,
+    "h": 335
+   },
+   "sourceSize": {
+    "w": 334,
+    "h": 335
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/modern_armor/idle/3/0": {
+   "frame": {
+    "x": 1716,
+    "y": 2,
+    "w": 200,
+    "h": 275
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 200,
+    "h": 275
+   },
+   "sourceSize": {
+    "w": 200,
+    "h": 275
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/modern_armor/idle/3/0.team": {
+   "frame": {
+    "x": 2,
+    "y": 339,
+    "w": 200,
+    "h": 275
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 200,
+    "h": 275
+   },
+   "sourceSize": {
+    "w": 200,
+    "h": 275
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/modern_paratrooper/idle/3/0": {
+   "frame": {
+    "x": 204,
+    "y": 339,
+    "w": 124,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 124,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 124,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/modern_paratrooper/idle/3/0.team": {
+   "frame": {
+    "x": 330,
+    "y": 339,
+    "w": 124,
+    "h": 270
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 124,
+    "h": 270
+   },
+   "sourceSize": {
+    "w": 124,
+    "h": 270
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/worker/idle/3/0": {
+   "frame": {
+    "x": 456,
+    "y": 339,
     "w": 140,
     "h": 255
    },
@@ -26,8 +266,8 @@
   },
   "unit/worker/idle/3/0.team": {
    "frame": {
-    "x": 144,
-    "y": 2,
+    "x": 598,
+    "y": 339,
     "w": 140,
     "h": 255
    },
@@ -50,8 +290,8 @@
   },
   "unit/settler/idle/3/0": {
    "frame": {
-    "x": 286,
-    "y": 2,
+    "x": 740,
+    "y": 339,
     "w": 233,
     "h": 291
    },
@@ -74,8 +314,8 @@
   },
   "unit/settler/idle/3/0.team": {
    "frame": {
-    "x": 521,
-    "y": 2,
+    "x": 975,
+    "y": 339,
     "w": 233,
     "h": 291
    },
@@ -98,8 +338,8 @@
   },
   "unit/warrior/idle/3/0": {
    "frame": {
-    "x": 756,
-    "y": 2,
+    "x": 1210,
+    "y": 339,
     "w": 174,
     "h": 255
    },
@@ -122,8 +362,8 @@
   },
   "unit/warrior/idle/3/0.team": {
    "frame": {
-    "x": 932,
-    "y": 2,
+    "x": 1386,
+    "y": 339,
     "w": 174,
     "h": 255
    },
@@ -146,8 +386,8 @@
   },
   "unit/scout/idle/3/0": {
    "frame": {
-    "x": 1108,
-    "y": 2,
+    "x": 1562,
+    "y": 339,
     "w": 115,
     "h": 255
    },
@@ -170,8 +410,8 @@
   },
   "unit/scout/idle/3/0.team": {
    "frame": {
-    "x": 1225,
-    "y": 2,
+    "x": 1679,
+    "y": 339,
     "w": 115,
     "h": 255
    },
@@ -194,8 +434,8 @@
   },
   "unit/spearman/idle/3/0": {
    "frame": {
-    "x": 1342,
-    "y": 2,
+    "x": 1796,
+    "y": 339,
     "w": 119,
     "h": 270
    },
@@ -218,8 +458,8 @@
   },
   "unit/spearman/idle/3/0.team": {
    "frame": {
-    "x": 1463,
-    "y": 2,
+    "x": 1917,
+    "y": 339,
     "w": 119,
     "h": 270
    },
@@ -242,8 +482,8 @@
   },
   "unit/archer/idle/3/0": {
    "frame": {
-    "x": 1584,
-    "y": 2,
+    "x": 2,
+    "y": 632,
     "w": 101,
     "h": 270
    },
@@ -266,8 +506,8 @@
   },
   "unit/archer/idle/3/0.team": {
    "frame": {
-    "x": 1687,
-    "y": 2,
+    "x": 105,
+    "y": 632,
     "w": 101,
     "h": 270
    },
@@ -290,8 +530,8 @@
   },
   "unit/chariot/idle/3/0": {
    "frame": {
-    "x": 1790,
-    "y": 2,
+    "x": 208,
+    "y": 632,
     "w": 212,
     "h": 272
    },
@@ -314,8 +554,8 @@
   },
   "unit/chariot/idle/3/0.team": {
    "frame": {
-    "x": 2,
-    "y": 295,
+    "x": 422,
+    "y": 632,
     "w": 212,
     "h": 272
    },
@@ -338,8 +578,8 @@
   },
   "unit/horseman/idle/3/0": {
    "frame": {
-    "x": 216,
-    "y": 295,
+    "x": 636,
+    "y": 632,
     "w": 154,
     "h": 291
    },
@@ -362,8 +602,8 @@
   },
   "unit/horseman/idle/3/0.team": {
    "frame": {
-    "x": 372,
-    "y": 295,
+    "x": 792,
+    "y": 632,
     "w": 154,
     "h": 291
    },
@@ -386,8 +626,8 @@
   },
   "unit/swordsman/idle/3/0": {
    "frame": {
-    "x": 528,
-    "y": 295,
+    "x": 948,
+    "y": 632,
     "w": 142,
     "h": 270
    },
@@ -410,8 +650,8 @@
   },
   "unit/swordsman/idle/3/0.team": {
    "frame": {
-    "x": 672,
-    "y": 295,
+    "x": 1092,
+    "y": 632,
     "w": 142,
     "h": 270
    },
@@ -434,8 +674,8 @@
   },
   "unit/catapult/idle/3/0": {
    "frame": {
-    "x": 816,
-    "y": 295,
+    "x": 1236,
+    "y": 632,
     "w": 263,
     "h": 194
    },
@@ -458,8 +698,8 @@
   },
   "unit/catapult/idle/3/0.team": {
    "frame": {
-    "x": 1081,
-    "y": 295,
+    "x": 1501,
+    "y": 632,
     "w": 263,
     "h": 194
    },
@@ -482,8 +722,8 @@
   },
   "unit/curragh/idle/3/0": {
    "frame": {
-    "x": 1346,
-    "y": 295,
+    "x": 1766,
+    "y": 632,
     "w": 202,
     "h": 250
    },
@@ -506,8 +746,8 @@
   },
   "unit/curragh/idle/3/0.team": {
    "frame": {
-    "x": 1550,
-    "y": 295,
+    "x": 2,
+    "y": 925,
     "w": 202,
     "h": 250
    },
@@ -530,8 +770,8 @@
   },
   "unit/galley/idle/3/0": {
    "frame": {
-    "x": 1754,
-    "y": 295,
+    "x": 206,
+    "y": 925,
     "w": 233,
     "h": 304
    },
@@ -554,8 +794,8 @@
   },
   "unit/galley/idle/3/0.team": {
    "frame": {
-    "x": 2,
-    "y": 601,
+    "x": 441,
+    "y": 925,
     "w": 233,
     "h": 304
    },
@@ -578,8 +818,8 @@
   },
   "unit/pikeman/idle/3/0": {
    "frame": {
-    "x": 237,
-    "y": 601,
+    "x": 676,
+    "y": 925,
     "w": 131,
     "h": 373
    },
@@ -602,8 +842,8 @@
   },
   "unit/pikeman/idle/3/0.team": {
    "frame": {
-    "x": 370,
-    "y": 601,
+    "x": 809,
+    "y": 925,
     "w": 131,
     "h": 373
    },
@@ -626,8 +866,8 @@
   },
   "unit/medieval_infantry/idle/3/0": {
    "frame": {
-    "x": 503,
-    "y": 601,
+    "x": 942,
+    "y": 925,
     "w": 172,
     "h": 270
    },
@@ -650,8 +890,8 @@
   },
   "unit/medieval_infantry/idle/3/0.team": {
    "frame": {
-    "x": 677,
-    "y": 601,
+    "x": 1116,
+    "y": 925,
     "w": 172,
     "h": 270
    },
@@ -674,8 +914,8 @@
   },
   "unit/longbowman/idle/3/0": {
    "frame": {
-    "x": 851,
-    "y": 601,
+    "x": 1290,
+    "y": 925,
     "w": 111,
     "h": 332
    },
@@ -698,8 +938,8 @@
   },
   "unit/longbowman/idle/3/0.team": {
    "frame": {
-    "x": 964,
-    "y": 601,
+    "x": 1403,
+    "y": 925,
     "w": 111,
     "h": 332
    },
@@ -722,8 +962,8 @@
   },
   "unit/knight/idle/3/0": {
    "frame": {
-    "x": 1077,
-    "y": 601,
+    "x": 1516,
+    "y": 925,
     "w": 176,
     "h": 322
    },
@@ -746,8 +986,8 @@
   },
   "unit/knight/idle/3/0.team": {
    "frame": {
-    "x": 1255,
-    "y": 601,
+    "x": 1694,
+    "y": 925,
     "w": 176,
     "h": 322
    },
@@ -770,8 +1010,8 @@
   },
   "unit/trebuchet/idle/3/0": {
    "frame": {
-    "x": 1433,
-    "y": 601,
+    "x": 2,
+    "y": 1300,
     "w": 261,
     "h": 297
    },
@@ -794,8 +1034,8 @@
   },
   "unit/trebuchet/idle/3/0.team": {
    "frame": {
-    "x": 1696,
-    "y": 601,
+    "x": 265,
+    "y": 1300,
     "w": 261,
     "h": 297
    },
@@ -818,8 +1058,8 @@
   },
   "unit/cannon/idle/3/0": {
    "frame": {
-    "x": 2,
-    "y": 976,
+    "x": 528,
+    "y": 1300,
     "w": 260,
     "h": 207
    },
@@ -842,8 +1082,8 @@
   },
   "unit/cannon/idle/3/0.team": {
    "frame": {
-    "x": 264,
-    "y": 976,
+    "x": 790,
+    "y": 1300,
     "w": 260,
     "h": 207
    },
@@ -866,8 +1106,8 @@
   },
   "unit/explorer/idle/3/0": {
    "frame": {
-    "x": 526,
-    "y": 976,
+    "x": 1052,
+    "y": 1300,
     "w": 144,
     "h": 260
    },
@@ -890,8 +1130,8 @@
   },
   "unit/explorer/idle/3/0.team": {
    "frame": {
-    "x": 672,
-    "y": 976,
+    "x": 1198,
+    "y": 1300,
     "w": 144,
     "h": 260
    },
@@ -914,8 +1154,8 @@
   },
   "unit/musketman/idle/3/0": {
    "frame": {
-    "x": 818,
-    "y": 976,
+    "x": 1344,
+    "y": 1300,
     "w": 105,
     "h": 270
    },
@@ -938,8 +1178,8 @@
   },
   "unit/musketman/idle/3/0.team": {
    "frame": {
-    "x": 925,
-    "y": 976,
+    "x": 1451,
+    "y": 1300,
     "w": 105,
     "h": 270
    },
@@ -962,8 +1202,8 @@
   },
   "unit/cavalry/idle/3/0": {
    "frame": {
-    "x": 1032,
-    "y": 976,
+    "x": 1558,
+    "y": 1300,
     "w": 137,
     "h": 311
    },
@@ -986,8 +1226,8 @@
   },
   "unit/cavalry/idle/3/0.team": {
    "frame": {
-    "x": 1171,
-    "y": 976,
+    "x": 1697,
+    "y": 1300,
     "w": 137,
     "h": 311
    },
@@ -1010,8 +1250,8 @@
   },
   "unit/caravel/idle/3/0": {
    "frame": {
-    "x": 1310,
-    "y": 976,
+    "x": 1836,
+    "y": 1300,
     "w": 171,
     "h": 333
    },
@@ -1026,174 +1266,6 @@
    "sourceSize": {
     "w": 171,
     "h": 333
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/caravel/idle/3/0.team": {
-   "frame": {
-    "x": 1483,
-    "y": 976,
-    "w": 171,
-    "h": 333
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 171,
-    "h": 333
-   },
-   "sourceSize": {
-    "w": 171,
-    "h": 333
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/galleon/idle/3/0": {
-   "frame": {
-    "x": 1656,
-    "y": 976,
-    "w": 201,
-    "h": 401
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 201,
-    "h": 401
-   },
-   "sourceSize": {
-    "w": 201,
-    "h": 401
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/galleon/idle/3/0.team": {
-   "frame": {
-    "x": 2,
-    "y": 1379,
-    "w": 201,
-    "h": 401
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 201,
-    "h": 401
-   },
-   "sourceSize": {
-    "w": 201,
-    "h": 401
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/frigate/idle/3/0": {
-   "frame": {
-    "x": 205,
-    "y": 1379,
-    "w": 229,
-    "h": 378
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 229,
-    "h": 378
-   },
-   "sourceSize": {
-    "w": 229,
-    "h": 378
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/frigate/idle/3/0.team": {
-   "frame": {
-    "x": 436,
-    "y": 1379,
-    "w": 229,
-    "h": 378
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 229,
-    "h": 378
-   },
-   "sourceSize": {
-    "w": 229,
-    "h": 378
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/privateer/idle/3/0": {
-   "frame": {
-    "x": 667,
-    "y": 1379,
-    "w": 200,
-    "h": 324
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 200,
-    "h": 324
-   },
-   "sourceSize": {
-    "w": 200,
-    "h": 324
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/privateer/idle/3/0.team": {
-   "frame": {
-    "x": 869,
-    "y": 1379,
-    "w": 200,
-    "h": 324
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 200,
-    "h": 324
-   },
-   "sourceSize": {
-    "w": 200,
-    "h": 324
    },
    "anchor": {
     "x": 0.5,
@@ -1206,7 +1278,7 @@
   "format": "RGBA8888",
   "size": {
    "w": 2048,
-   "h": 1782
+   "h": 1635
   },
   "scale": "2.0"
  }
