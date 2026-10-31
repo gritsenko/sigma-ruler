@@ -1,128 +1,8 @@
 {
  "frames": {
-  "unit/sipahi/idle/3/0.team": {
-   "frame": {
-    "x": 2,
-    "y": 2,
-    "w": 168,
-    "h": 311
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 168,
-    "h": 311
-   },
-   "sourceSize": {
-    "w": 168,
-    "h": 311
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/cossack/idle/3/0": {
-   "frame": {
-    "x": 172,
-    "y": 2,
-    "w": 170,
-    "h": 311
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 170,
-    "h": 311
-   },
-   "sourceSize": {
-    "w": 170,
-    "h": 311
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/cossack/idle/3/0.team": {
-   "frame": {
-    "x": 344,
-    "y": 2,
-    "w": 170,
-    "h": 311
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 170,
-    "h": 311
-   },
-   "sourceSize": {
-    "w": 170,
-    "h": 311
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/swiss_mercenary/idle/3/0": {
-   "frame": {
-    "x": 516,
-    "y": 2,
-    "w": 150,
-    "h": 373
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 150,
-    "h": 373
-   },
-   "sourceSize": {
-    "w": 150,
-    "h": 373
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/swiss_mercenary/idle/3/0.team": {
-   "frame": {
-    "x": 668,
-    "y": 2,
-    "w": 150,
-    "h": 373
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 150,
-    "h": 373
-   },
-   "sourceSize": {
-    "w": 150,
-    "h": 373
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
   "unit/hwacha/idle/3/0": {
    "frame": {
-    "x": 820,
+    "x": 2,
     "y": 2,
     "w": 236,
     "h": 234
@@ -146,7 +26,7 @@
   },
   "unit/hwacha/idle/3/0.team": {
    "frame": {
-    "x": 1058,
+    "x": 240,
     "y": 2,
     "w": 236,
     "h": 234
@@ -170,7 +50,7 @@
   },
   "unit/carrack/idle/3/0": {
    "frame": {
-    "x": 1296,
+    "x": 478,
     "y": 2,
     "w": 214,
     "h": 406
@@ -194,7 +74,7 @@
   },
   "unit/carrack/idle/3/0.team": {
    "frame": {
-    "x": 1512,
+    "x": 694,
     "y": 2,
     "w": 214,
     "h": 406
@@ -218,7 +98,7 @@
   },
   "unit/man_o_war/idle/3/0": {
    "frame": {
-    "x": 1728,
+    "x": 910,
     "y": 2,
     "w": 255,
     "h": 352
@@ -242,8 +122,8 @@
   },
   "unit/man_o_war/idle/3/0.team": {
    "frame": {
-    "x": 2,
-    "y": 410,
+    "x": 1167,
+    "y": 2,
     "w": 255,
     "h": 352
    },
@@ -266,8 +146,8 @@
   },
   "unit/leader/idle/3/0": {
    "frame": {
-    "x": 259,
-    "y": 410,
+    "x": 1424,
+    "y": 2,
     "w": 140,
     "h": 281
    },
@@ -290,8 +170,8 @@
   },
   "unit/leader/idle/3/0.team": {
    "frame": {
-    "x": 401,
-    "y": 410,
+    "x": 1566,
+    "y": 2,
     "w": 140,
     "h": 281
    },
@@ -314,8 +194,8 @@
   },
   "unit/scientific_leader/idle/3/0": {
    "frame": {
-    "x": 543,
-    "y": 410,
+    "x": 1708,
+    "y": 2,
     "w": 134,
     "h": 270
    },
@@ -338,8 +218,8 @@
   },
   "unit/scientific_leader/idle/3/0.team": {
    "frame": {
-    "x": 679,
-    "y": 410,
+    "x": 1844,
+    "y": 2,
     "w": 134,
     "h": 270
    },
@@ -362,7 +242,7 @@
   },
   "unit/army/idle/3/0": {
    "frame": {
-    "x": 815,
+    "x": 2,
     "y": 410,
     "w": 271,
     "h": 328
@@ -386,7 +266,7 @@
   },
   "unit/army/idle/3/0.team": {
    "frame": {
-    "x": 1088,
+    "x": 275,
     "y": 410,
     "w": 271,
     "h": 328
@@ -410,7 +290,7 @@
   },
   "unit/rifleman/idle/3/0": {
    "frame": {
-    "x": 1361,
+    "x": 548,
     "y": 410,
     "w": 102,
     "h": 281
@@ -434,7 +314,7 @@
   },
   "unit/rifleman/idle/3/0.team": {
    "frame": {
-    "x": 1465,
+    "x": 652,
     "y": 410,
     "w": 102,
     "h": 281
@@ -458,7 +338,7 @@
   },
   "unit/infantry/idle/3/0": {
    "frame": {
-    "x": 1569,
+    "x": 756,
     "y": 410,
     "w": 131,
     "h": 270
@@ -482,7 +362,7 @@
   },
   "unit/infantry/idle/3/0.team": {
    "frame": {
-    "x": 1702,
+    "x": 889,
     "y": 410,
     "w": 131,
     "h": 270
@@ -506,7 +386,7 @@
   },
   "unit/guerilla/idle/3/0": {
    "frame": {
-    "x": 1835,
+    "x": 1022,
     "y": 410,
     "w": 128,
     "h": 270
@@ -530,8 +410,8 @@
   },
   "unit/guerilla/idle/3/0.team": {
    "frame": {
-    "x": 2,
-    "y": 764,
+    "x": 1152,
+    "y": 410,
     "w": 128,
     "h": 270
    },
@@ -554,8 +434,8 @@
   },
   "unit/marine/idle/3/0": {
    "frame": {
-    "x": 132,
-    "y": 764,
+    "x": 1282,
+    "y": 410,
     "w": 128,
     "h": 270
    },
@@ -578,8 +458,8 @@
   },
   "unit/marine/idle/3/0.team": {
    "frame": {
-    "x": 262,
-    "y": 764,
+    "x": 1412,
+    "y": 410,
     "w": 128,
     "h": 270
    },
@@ -602,8 +482,8 @@
   },
   "unit/paratrooper/idle/3/0": {
    "frame": {
-    "x": 392,
-    "y": 764,
+    "x": 1542,
+    "y": 410,
     "w": 129,
     "h": 270
    },
@@ -626,8 +506,8 @@
   },
   "unit/paratrooper/idle/3/0.team": {
    "frame": {
-    "x": 523,
-    "y": 764,
+    "x": 1673,
+    "y": 410,
     "w": 129,
     "h": 270
    },
@@ -650,8 +530,8 @@
   },
   "unit/tow_infantry/idle/3/0": {
    "frame": {
-    "x": 654,
-    "y": 764,
+    "x": 1804,
+    "y": 410,
     "w": 230,
     "h": 240
    },
@@ -674,8 +554,8 @@
   },
   "unit/tow_infantry/idle/3/0.team": {
    "frame": {
-    "x": 886,
-    "y": 764,
+    "x": 2,
+    "y": 740,
     "w": 230,
     "h": 240
    },
@@ -698,8 +578,8 @@
   },
   "unit/mech_infantry/idle/3/0": {
    "frame": {
-    "x": 1118,
-    "y": 764,
+    "x": 234,
+    "y": 740,
     "w": 217,
     "h": 278
    },
@@ -722,8 +602,8 @@
   },
   "unit/mech_infantry/idle/3/0.team": {
    "frame": {
-    "x": 1337,
-    "y": 764,
+    "x": 453,
+    "y": 740,
     "w": 217,
     "h": 278
    },
@@ -746,8 +626,8 @@
   },
   "unit/artillery/idle/3/0": {
    "frame": {
-    "x": 1556,
-    "y": 764,
+    "x": 672,
+    "y": 740,
     "w": 264,
     "h": 175
    },
@@ -770,8 +650,8 @@
   },
   "unit/artillery/idle/3/0.team": {
    "frame": {
-    "x": 2,
-    "y": 1044,
+    "x": 938,
+    "y": 740,
     "w": 264,
     "h": 175
    },
@@ -794,8 +674,8 @@
   },
   "unit/radar_artillery/idle/3/0": {
    "frame": {
-    "x": 268,
-    "y": 1044,
+    "x": 1204,
+    "y": 740,
     "w": 214,
     "h": 224
    },
@@ -818,8 +698,8 @@
   },
   "unit/radar_artillery/idle/3/0.team": {
    "frame": {
-    "x": 484,
-    "y": 1044,
+    "x": 1420,
+    "y": 740,
     "w": 214,
     "h": 224
    },
@@ -842,8 +722,8 @@
   },
   "unit/flak/idle/3/0": {
    "frame": {
-    "x": 700,
-    "y": 1044,
+    "x": 1636,
+    "y": 740,
     "w": 229,
     "h": 235
    },
@@ -866,8 +746,8 @@
   },
   "unit/flak/idle/3/0.team": {
    "frame": {
-    "x": 931,
-    "y": 1044,
+    "x": 2,
+    "y": 1020,
     "w": 229,
     "h": 235
    },
@@ -890,8 +770,8 @@
   },
   "unit/mobile_sam/idle/3/0": {
    "frame": {
-    "x": 1162,
-    "y": 1044,
+    "x": 233,
+    "y": 1020,
     "w": 248,
     "h": 306
    },
@@ -914,8 +794,8 @@
   },
   "unit/mobile_sam/idle/3/0.team": {
    "frame": {
-    "x": 1412,
-    "y": 1044,
+    "x": 483,
+    "y": 1020,
     "w": 248,
     "h": 306
    },
@@ -938,8 +818,8 @@
   },
   "unit/tank/idle/3/0": {
    "frame": {
-    "x": 1662,
-    "y": 1044,
+    "x": 733,
+    "y": 1020,
     "w": 188,
     "h": 307
    },
@@ -962,8 +842,8 @@
   },
   "unit/tank/idle/3/0.team": {
    "frame": {
-    "x": 1852,
-    "y": 1044,
+    "x": 923,
+    "y": 1020,
     "w": 188,
     "h": 307
    },
@@ -986,8 +866,8 @@
   },
   "unit/panzer/idle/3/0": {
    "frame": {
-    "x": 2,
-    "y": 1353,
+    "x": 1113,
+    "y": 1020,
     "w": 184,
     "h": 284
    },
@@ -1010,8 +890,8 @@
   },
   "unit/panzer/idle/3/0.team": {
    "frame": {
-    "x": 188,
-    "y": 1353,
+    "x": 1299,
+    "y": 1020,
     "w": 184,
     "h": 284
    },
@@ -1034,8 +914,8 @@
   },
   "unit/ironclad/idle/3/0": {
    "frame": {
-    "x": 374,
-    "y": 1353,
+    "x": 1485,
+    "y": 1020,
     "w": 257,
     "h": 300
    },
@@ -1058,8 +938,8 @@
   },
   "unit/ironclad/idle/3/0.team": {
    "frame": {
-    "x": 633,
-    "y": 1353,
+    "x": 1744,
+    "y": 1020,
     "w": 257,
     "h": 300
    },
@@ -1082,8 +962,8 @@
   },
   "unit/transport/idle/3/0": {
    "frame": {
-    "x": 892,
-    "y": 1353,
+    "x": 2,
+    "y": 1329,
     "w": 242,
     "h": 320
    },
@@ -1106,8 +986,8 @@
   },
   "unit/transport/idle/3/0.team": {
    "frame": {
-    "x": 1136,
-    "y": 1353,
+    "x": 246,
+    "y": 1329,
     "w": 242,
     "h": 320
    },
@@ -1130,8 +1010,8 @@
   },
   "unit/destroyer/idle/3/0": {
    "frame": {
-    "x": 1380,
-    "y": 1353,
+    "x": 490,
+    "y": 1329,
     "w": 262,
     "h": 338
    },
@@ -1154,8 +1034,8 @@
   },
   "unit/destroyer/idle/3/0.team": {
    "frame": {
-    "x": 1644,
-    "y": 1353,
+    "x": 754,
+    "y": 1329,
     "w": 262,
     "h": 338
    },
@@ -1175,6 +1055,78 @@
     "x": 0.5,
     "y": 0.5
    }
+  },
+  "unit/cruiser/idle/3/0": {
+   "frame": {
+    "x": 1018,
+    "y": 1329,
+    "w": 284,
+    "h": 336
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 284,
+    "h": 336
+   },
+   "sourceSize": {
+    "w": 284,
+    "h": 336
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/cruiser/idle/3/0.team": {
+   "frame": {
+    "x": 1304,
+    "y": 1329,
+    "w": 284,
+    "h": 336
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 284,
+    "h": 336
+   },
+   "sourceSize": {
+    "w": 284,
+    "h": 336
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/battleship/idle/3/0": {
+   "frame": {
+    "x": 1590,
+    "y": 1329,
+    "w": 286,
+    "h": 392
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 286,
+    "h": 392
+   },
+   "sourceSize": {
+    "w": 286,
+    "h": 392
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
   }
  },
  "meta": {
@@ -1182,7 +1134,7 @@
   "format": "RGBA8888",
   "size": {
    "w": 2048,
-   "h": 1693
+   "h": 1723
   },
   "scale": "2.0"
  }

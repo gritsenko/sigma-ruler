@@ -1,80 +1,8 @@
 {
  "frames": {
-  "unit/cruiser/idle/3/0": {
-   "frame": {
-    "x": 2,
-    "y": 2,
-    "w": 284,
-    "h": 336
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 284,
-    "h": 336
-   },
-   "sourceSize": {
-    "w": 284,
-    "h": 336
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/cruiser/idle/3/0.team": {
-   "frame": {
-    "x": 288,
-    "y": 2,
-    "w": 284,
-    "h": 336
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 284,
-    "h": 336
-   },
-   "sourceSize": {
-    "w": 284,
-    "h": 336
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/battleship/idle/3/0": {
-   "frame": {
-    "x": 574,
-    "y": 2,
-    "w": 286,
-    "h": 392
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 286,
-    "h": 392
-   },
-   "sourceSize": {
-    "w": 286,
-    "h": 392
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
   "unit/battleship/idle/3/0.team": {
    "frame": {
-    "x": 862,
+    "x": 2,
     "y": 2,
     "w": 286,
     "h": 392
@@ -98,7 +26,7 @@
   },
   "unit/aegis_cruiser/idle/3/0": {
    "frame": {
-    "x": 1150,
+    "x": 290,
     "y": 2,
     "w": 259,
     "h": 398
@@ -122,7 +50,7 @@
   },
   "unit/aegis_cruiser/idle/3/0.team": {
    "frame": {
-    "x": 1411,
+    "x": 551,
     "y": 2,
     "w": 259,
     "h": 398
@@ -146,7 +74,7 @@
   },
   "unit/carrier/idle/3/0": {
    "frame": {
-    "x": 1672,
+    "x": 812,
     "y": 2,
     "w": 248,
     "h": 356
@@ -170,8 +98,8 @@
   },
   "unit/carrier/idle/3/0.team": {
    "frame": {
-    "x": 2,
-    "y": 402,
+    "x": 1062,
+    "y": 2,
     "w": 248,
     "h": 356
    },
@@ -194,8 +122,8 @@
   },
   "unit/submarine/idle/3/0": {
    "frame": {
-    "x": 252,
-    "y": 402,
+    "x": 1312,
+    "y": 2,
     "w": 250,
     "h": 296
    },
@@ -218,8 +146,8 @@
   },
   "unit/submarine/idle/3/0.team": {
    "frame": {
-    "x": 504,
-    "y": 402,
+    "x": 1564,
+    "y": 2,
     "w": 250,
     "h": 296
    },
@@ -242,7 +170,7 @@
   },
   "unit/nuclear_submarine/idle/3/0": {
    "frame": {
-    "x": 756,
+    "x": 2,
     "y": 402,
     "w": 267,
     "h": 316
@@ -266,7 +194,7 @@
   },
   "unit/nuclear_submarine/idle/3/0.team": {
    "frame": {
-    "x": 1025,
+    "x": 271,
     "y": 402,
     "w": 267,
     "h": 316
@@ -290,7 +218,7 @@
   },
   "unit/fighter/idle/3/0": {
    "frame": {
-    "x": 1294,
+    "x": 540,
     "y": 402,
     "w": 171,
     "h": 231
@@ -314,7 +242,7 @@
   },
   "unit/fighter/idle/3/0.team": {
    "frame": {
-    "x": 1467,
+    "x": 713,
     "y": 402,
     "w": 171,
     "h": 231
@@ -338,7 +266,7 @@
   },
   "unit/bomber/idle/3/0": {
    "frame": {
-    "x": 1640,
+    "x": 886,
     "y": 402,
     "w": 200,
     "h": 238
@@ -362,7 +290,7 @@
   },
   "unit/bomber/idle/3/0.team": {
    "frame": {
-    "x": 1842,
+    "x": 1088,
     "y": 402,
     "w": 200,
     "h": 238
@@ -386,8 +314,8 @@
   },
   "unit/f_15/idle/3/0": {
    "frame": {
-    "x": 2,
-    "y": 760,
+    "x": 1290,
+    "y": 402,
     "w": 272,
     "h": 281
    },
@@ -410,8 +338,8 @@
   },
   "unit/f_15/idle/3/0.team": {
    "frame": {
-    "x": 276,
-    "y": 760,
+    "x": 1564,
+    "y": 402,
     "w": 272,
     "h": 281
    },
@@ -434,8 +362,8 @@
   },
   "unit/stealth_fighter/idle/3/0": {
    "frame": {
-    "x": 550,
-    "y": 760,
+    "x": 2,
+    "y": 720,
     "w": 261,
     "h": 259
    },
@@ -458,8 +386,8 @@
   },
   "unit/stealth_fighter/idle/3/0.team": {
    "frame": {
-    "x": 813,
-    "y": 760,
+    "x": 265,
+    "y": 720,
     "w": 261,
     "h": 259
    },
@@ -482,8 +410,8 @@
   },
   "unit/cruise_missile/idle/3/0": {
    "frame": {
-    "x": 1076,
-    "y": 760,
+    "x": 528,
+    "y": 720,
     "w": 220,
     "h": 218
    },
@@ -506,8 +434,8 @@
   },
   "unit/cruise_missile/idle/3/0.team": {
    "frame": {
-    "x": 1298,
-    "y": 760,
+    "x": 750,
+    "y": 720,
     "w": 220,
     "h": 218
    },
@@ -530,8 +458,8 @@
   },
   "unit/tactical_nuke/idle/3/0": {
    "frame": {
-    "x": 1520,
-    "y": 760,
+    "x": 972,
+    "y": 720,
     "w": 120,
     "h": 281
    },
@@ -554,8 +482,8 @@
   },
   "unit/tactical_nuke/idle/3/0.team": {
    "frame": {
-    "x": 1642,
-    "y": 760,
+    "x": 1094,
+    "y": 720,
     "w": 120,
     "h": 281
    },
@@ -578,8 +506,8 @@
   },
   "unit/icbm/idle/3/0": {
    "frame": {
-    "x": 1764,
-    "y": 760,
+    "x": 1216,
+    "y": 720,
     "w": 146,
     "h": 383
    },
@@ -602,8 +530,8 @@
   },
   "unit/icbm/idle/3/0.team": {
    "frame": {
-    "x": 2,
-    "y": 1145,
+    "x": 1364,
+    "y": 720,
     "w": 146,
     "h": 383
    },
@@ -630,7 +558,7 @@
   "format": "RGBA8888",
   "size": {
    "w": 2048,
-   "h": 1530
+   "h": 1105
   },
   "scale": "2.0"
  }

@@ -2,7 +2,7 @@
  "format": "myciv3-skin",
  "version": 2,
  "name": "Hex diorama",
- "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s24:codex_1:jet_fighter+helicopter+stealth_bomber,s24:codex_2:modern_armor,s25:codex_0:modern_paratrooper,s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1,s20:codex_1,s22:codex_0 + poses s26:codex_0:poses26+poses27,s13:codex_1:poses1+poses2+poses6,s13:codex_0:poses3+poses5+poses7,s13:codex_3:poses4,s14:codex_4:posesw,s21:codex_1:poses8+poses9+poses10+poses11+poses12,s23:codex_0:poses13+poses14+poses15+poses16+poses17+poses18+poses19+poses20+poses21+poses22+poses23+poses24+poses25 + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + heads s4:codex_0 + techs s4:codex_1 + techs s7:codex_0 + techs s16:codex_0 + buildings s19:codex_0:hospital+battlefield_medicine + buildings s18:codex_0 + buildings s17:codex_0",
+ "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s28:codex_1:worker@1+worker@2+worker@3,s27:codex_3,s24:codex_1:jet_fighter+helicopter+stealth_bomber,s24:codex_2:modern_armor,s25:codex_0:modern_paratrooper,s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1,s20:codex_1,s22:codex_0 + poses s26:codex_0:poses26+poses27,s13:codex_1:poses1+poses2+poses6,s13:codex_0:poses3+poses5+poses7,s13:codex_3:poses4,s27:codex_6:posesw,s27:codex_9:poseswh,s28:codex_4:posesw@1+posesw@2+posesw@3,s28:codex_8:poseswh@1+poseswh@3,s28:codex_9:poseswh@2,s21:codex_1:poses8+poses9+poses10+poses11+poses12,s23:codex_0:poses13+poses14+poses15+poses16+poses17+poses18+poses19+poses20+poses21+poses22+poses23+poses24+poses25 + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + leaders tools/leader-art/raw + heads s4:codex_0 + techs s4:codex_1 + techs s7:codex_0 + techs s16:codex_0 + buildings s19:codex_0:hospital+battlefield_medicine + buildings s18:codex_0 + buildings s17:codex_0",
  "tileSize": 128,
  "atlases": [
   "objects.json",
@@ -14,7 +14,8 @@
   "sites.json",
   "props.json",
   "portraits.json",
-  "portraits2.json"
+  "portraits2.json",
+  "leaders.json"
  ],
  "overlays": {
   "terrain:mountains": {
@@ -282,6 +283,162 @@
   }
  },
  "units": {
+  "worker@1": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "road": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "irrigate": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "mine": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "clear": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "build": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "worker@2": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "road": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "irrigate": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "mine": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "clear": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "build": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "worker@3": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "road": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "irrigate": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "mine": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "clear": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "build": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true
+  },
+  "worker": {
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": true
+    },
+    "attack": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "death": {
+     "frames": 1,
+     "ms": 1000,
+     "loop": false
+    },
+    "road": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "irrigate": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "mine": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "clear": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    },
+    "build": {
+     "frames": 2,
+     "ms": 1000,
+     "loop": false
+    }
+   },
+   "mirror": true,
+   "eras": [
+    "worker",
+    "worker@1",
+    "worker@2",
+    "worker@3"
+   ]
+  },
   "jet_fighter": {
    "anims": {
     "idle": {
@@ -375,51 +532,6 @@
      "loop": false
     },
     "death": {
-     "frames": 1,
-     "ms": 1000,
-     "loop": false
-    }
-   },
-   "mirror": true
-  },
-  "worker": {
-   "anims": {
-    "idle": {
-     "frames": 1,
-     "ms": 1000,
-     "loop": true
-    },
-    "attack": {
-     "frames": 1,
-     "ms": 1000,
-     "loop": false
-    },
-    "death": {
-     "frames": 1,
-     "ms": 1000,
-     "loop": false
-    },
-    "road": {
-     "frames": 1,
-     "ms": 1000,
-     "loop": false
-    },
-    "irrigate": {
-     "frames": 1,
-     "ms": 1000,
-     "loop": false
-    },
-    "mine": {
-     "frames": 1,
-     "ms": 1000,
-     "loop": false
-    },
-    "clear": {
-     "frames": 1,
-     "ms": 1000,
-     "loop": false
-    },
-    "build": {
      "frames": 1,
      "ms": 1000,
      "loop": false
@@ -2464,290 +2576,300 @@
   }
  },
  "lazyAtlases": {
-  "jet_fighter": [
+  "worker@1": [
    "poses.json"
   ],
-  "helicopter": [
+  "worker@2": [
    "poses.json"
   ],
-  "stealth_bomber": [
-   "poses.json"
-  ],
-  "modern_armor": [
-   "poses.json"
-  ],
-  "modern_paratrooper": [
+  "worker@3": [
    "poses.json"
   ],
   "worker": [
-   "poses.json"
-  ],
-  "settler": [
-   "poses.json"
-  ],
-  "warrior": [
-   "poses.json"
-  ],
-  "scout": [
-   "poses.json"
-  ],
-  "spearman": [
    "poses.json",
    "poses2.json"
   ],
-  "archer": [
+  "jet_fighter": [
    "poses2.json"
   ],
-  "chariot": [
+  "helicopter": [
    "poses2.json"
   ],
-  "horseman": [
+  "stealth_bomber": [
    "poses2.json"
   ],
-  "swordsman": [
+  "modern_armor": [
    "poses2.json"
   ],
-  "catapult": [
+  "modern_paratrooper": [
    "poses2.json"
   ],
-  "curragh": [
+  "settler": [
    "poses2.json"
   ],
-  "galley": [
-   "poses2.json"
-  ],
-  "pikeman": [
-   "poses2.json"
-  ],
-  "medieval_infantry": [
-   "poses2.json"
-  ],
-  "longbowman": [
-   "poses2.json"
-  ],
-  "knight": [
-   "poses2.json"
-  ],
-  "trebuchet": [
-   "poses2.json"
-  ],
-  "cannon": [
-   "poses2.json"
-  ],
-  "explorer": [
-   "poses2.json"
-  ],
-  "musketman": [
+  "warrior": [
    "poses2.json",
    "poses3.json"
   ],
-  "cavalry": [
+  "scout": [
    "poses3.json"
+  ],
+  "spearman": [
+   "poses3.json"
+  ],
+  "archer": [
+   "poses3.json"
+  ],
+  "chariot": [
+   "poses3.json"
+  ],
+  "horseman": [
+   "poses3.json"
+  ],
+  "swordsman": [
+   "poses3.json"
+  ],
+  "catapult": [
+   "poses3.json"
+  ],
+  "curragh": [
+   "poses3.json"
+  ],
+  "galley": [
+   "poses3.json"
+  ],
+  "pikeman": [
+   "poses3.json"
+  ],
+  "medieval_infantry": [
+   "poses3.json"
+  ],
+  "longbowman": [
+   "poses3.json"
+  ],
+  "knight": [
+   "poses3.json"
+  ],
+  "trebuchet": [
+   "poses3.json"
+  ],
+  "cannon": [
+   "poses3.json"
+  ],
+  "explorer": [
+   "poses4.json"
+  ],
+  "musketman": [
+   "poses4.json"
+  ],
+  "cavalry": [
+   "poses4.json"
   ],
   "caravel": [
-   "poses3.json"
+   "poses4.json"
   ],
   "galleon": [
-   "poses3.json"
+   "poses4.json"
   ],
   "frigate": [
-   "poses3.json"
+   "poses4.json"
   ],
   "privateer": [
-   "poses3.json"
+   "poses4.json"
   ],
   "jaguar_warrior": [
-   "poses3.json"
+   "poses4.json"
   ],
   "bowman": [
-   "poses3.json"
+   "poses4.json"
   ],
   "hoplite": [
-   "poses3.json"
+   "poses4.json"
   ],
   "impi": [
-   "poses3.json"
+   "poses4.json"
   ],
   "legionary": [
-   "poses3.json"
+   "poses4.json"
   ],
   "immortals": [
-   "poses3.json"
+   "poses4.json"
   ],
   "war_chariot": [
-   "poses3.json"
+   "poses4.json"
   ],
   "three_man_chariot": [
-   "poses3.json"
-  ],
-  "mounted_warrior": [
-   "poses3.json"
-  ],
-  "gallic_swordsman": [
-   "poses3.json",
-   "poses4.json"
-  ],
-  "numidian_mercenary": [
-   "poses4.json"
-  ],
-  "javelin_thrower": [
-   "poses4.json"
-  ],
-  "enkidu_warrior": [
-   "poses4.json"
-  ],
-  "chasqui_scout": [
-   "poses4.json"
-  ],
-  "ancient_cavalry": [
-   "poses4.json"
-  ],
-  "crusader": [
-   "poses4.json"
-  ],
-  "dromon": [
-   "poses4.json"
-  ],
-  "rider": [
-   "poses4.json"
-  ],
-  "samurai": [
-   "poses4.json"
-  ],
-  "war_elephant": [
-   "poses4.json"
-  ],
-  "keshik": [
    "poses4.json",
    "poses5.json"
   ],
+  "mounted_warrior": [
+   "poses5.json"
+  ],
+  "gallic_swordsman": [
+   "poses5.json"
+  ],
+  "numidian_mercenary": [
+   "poses5.json"
+  ],
+  "javelin_thrower": [
+   "poses5.json"
+  ],
+  "enkidu_warrior": [
+   "poses5.json"
+  ],
+  "chasqui_scout": [
+   "poses5.json"
+  ],
+  "ancient_cavalry": [
+   "poses5.json"
+  ],
+  "crusader": [
+   "poses5.json"
+  ],
+  "dromon": [
+   "poses5.json"
+  ],
+  "rider": [
+   "poses5.json"
+  ],
+  "samurai": [
+   "poses5.json"
+  ],
+  "war_elephant": [
+   "poses5.json"
+  ],
+  "keshik": [
+   "poses5.json"
+  ],
   "ansar_warrior": [
-   "poses5.json"
-  ],
-  "berserk": [
-   "poses5.json"
-  ],
-  "musketeer": [
-   "poses5.json"
-  ],
-  "conquistador": [
-   "poses5.json"
-  ],
-  "sipahi": [
-   "poses5.json"
-  ],
-  "cossack": [
-   "poses5.json"
-  ],
-  "swiss_mercenary": [
-   "poses5.json"
-  ],
-  "hwacha": [
-   "poses5.json"
-  ],
-  "carrack": [
-   "poses5.json"
-  ],
-  "man_o_war": [
    "poses5.json",
    "poses6.json"
   ],
+  "berserk": [
+   "poses6.json"
+  ],
+  "musketeer": [
+   "poses6.json"
+  ],
+  "conquistador": [
+   "poses6.json"
+  ],
+  "sipahi": [
+   "poses6.json"
+  ],
+  "cossack": [
+   "poses6.json"
+  ],
+  "swiss_mercenary": [
+   "poses6.json"
+  ],
+  "hwacha": [
+   "poses6.json"
+  ],
+  "carrack": [
+   "poses6.json"
+  ],
+  "man_o_war": [
+   "poses6.json"
+  ],
   "leader": [
-   "poses6.json"
-  ],
-  "scientific_leader": [
-   "poses6.json"
-  ],
-  "army": [
-   "poses6.json"
-  ],
-  "rifleman": [
-   "poses6.json"
-  ],
-  "infantry": [
-   "poses6.json"
-  ],
-  "guerilla": [
-   "poses6.json"
-  ],
-  "marine": [
-   "poses6.json"
-  ],
-  "paratrooper": [
-   "poses6.json"
-  ],
-  "tow_infantry": [
-   "poses6.json"
-  ],
-  "mech_infantry": [
-   "poses6.json"
-  ],
-  "artillery": [
-   "poses6.json"
-  ],
-  "radar_artillery": [
-   "poses6.json"
-  ],
-  "flak": [
    "poses6.json",
    "poses7.json"
   ],
-  "mobile_sam": [
+  "scientific_leader": [
    "poses7.json"
+  ],
+  "army": [
+   "poses7.json"
+  ],
+  "rifleman": [
+   "poses7.json"
+  ],
+  "infantry": [
+   "poses7.json"
+  ],
+  "guerilla": [
+   "poses7.json"
+  ],
+  "marine": [
+   "poses7.json"
+  ],
+  "paratrooper": [
+   "poses7.json"
+  ],
+  "tow_infantry": [
+   "poses7.json"
+  ],
+  "mech_infantry": [
+   "poses7.json"
+  ],
+  "artillery": [
+   "poses7.json"
+  ],
+  "radar_artillery": [
+   "poses7.json"
+  ],
+  "flak": [
+   "poses7.json"
+  ],
+  "mobile_sam": [
+   "poses7.json",
+   "poses8.json"
   ],
   "tank": [
-   "poses7.json"
+   "poses8.json"
   ],
   "panzer": [
-   "poses7.json"
+   "poses8.json"
   ],
   "ironclad": [
-   "poses7.json"
+   "poses8.json"
   ],
   "transport": [
-   "poses7.json"
+   "poses8.json"
   ],
   "destroyer": [
-   "poses7.json"
+   "poses8.json"
   ],
   "cruiser": [
-   "poses7.json"
+   "poses8.json"
   ],
   "battleship": [
-   "poses7.json"
+   "poses8.json"
   ],
   "aegis_cruiser": [
-   "poses7.json"
+   "poses8.json"
   ],
   "carrier": [
-   "poses7.json"
+   "poses8.json"
   ],
   "submarine": [
-   "poses8.json"
+   "poses8.json",
+   "poses9.json"
   ],
   "nuclear_submarine": [
-   "poses8.json"
+   "poses9.json"
   ],
   "fighter": [
-   "poses8.json"
+   "poses9.json"
   ],
   "bomber": [
-   "poses8.json"
+   "poses9.json"
   ],
   "f_15": [
-   "poses8.json"
+   "poses9.json"
   ],
   "stealth_fighter": [
-   "poses8.json"
+   "poses9.json"
   ],
   "cruise_missile": [
-   "poses8.json"
+   "poses9.json"
   ],
   "tactical_nuke": [
-   "poses8.json"
+   "poses9.json"
   ],
   "icbm": [
-   "poses8.json"
+   "poses9.json"
   ]
  },
  "citySizes": [
@@ -2757,6 +2879,22 @@
  ],
  "wallsMaxSize": 6,
  "portraits": {
+  "worker@1": {
+   "base": "unit/worker@1/portrait",
+   "team": "unit/worker@1/portrait.team"
+  },
+  "worker@2": {
+   "base": "unit/worker@2/portrait",
+   "team": "unit/worker@2/portrait.team"
+  },
+  "worker@3": {
+   "base": "unit/worker@3/portrait",
+   "team": "unit/worker@3/portrait.team"
+  },
+  "worker": {
+   "base": "unit/worker/portrait",
+   "team": "unit/worker/portrait.team"
+  },
   "jet_fighter": {
    "base": "unit/jet_fighter/portrait",
    "team": "unit/jet_fighter/portrait.team"
@@ -2776,10 +2914,6 @@
   "modern_paratrooper": {
    "base": "unit/modern_paratrooper/portrait",
    "team": "unit/modern_paratrooper/portrait.team"
-  },
-  "worker": {
-   "base": "unit/worker/portrait",
-   "team": "unit/worker/portrait.team"
   },
   "settler": {
    "base": "unit/settler/portrait",
@@ -3128,15 +3262,108 @@
   "icbm": {
    "base": "unit/icbm/portrait",
    "team": "unit/icbm/portrait.team"
+  },
+  "leader:americans": {
+   "base": "leader:americans"
+  },
+  "leader:arabs": {
+   "base": "leader:arabs"
+  },
+  "leader:aztecs": {
+   "base": "leader:aztecs"
+  },
+  "leader:babylonians": {
+   "base": "leader:babylonians"
+  },
+  "leader:byzantines": {
+   "base": "leader:byzantines"
+  },
+  "leader:carthaginians": {
+   "base": "leader:carthaginians"
+  },
+  "leader:celts": {
+   "base": "leader:celts"
+  },
+  "leader:chinese": {
+   "base": "leader:chinese"
+  },
+  "leader:dutch": {
+   "base": "leader:dutch"
+  },
+  "leader:egyptians": {
+   "base": "leader:egyptians"
+  },
+  "leader:english": {
+   "base": "leader:english"
+  },
+  "leader:french": {
+   "base": "leader:french"
+  },
+  "leader:germans": {
+   "base": "leader:germans"
+  },
+  "leader:greeks": {
+   "base": "leader:greeks"
+  },
+  "leader:hittites": {
+   "base": "leader:hittites"
+  },
+  "leader:inca": {
+   "base": "leader:inca"
+  },
+  "leader:indians": {
+   "base": "leader:indians"
+  },
+  "leader:iroquois": {
+   "base": "leader:iroquois"
+  },
+  "leader:japanese": {
+   "base": "leader:japanese"
+  },
+  "leader:koreans": {
+   "base": "leader:koreans"
+  },
+  "leader:maya": {
+   "base": "leader:maya"
+  },
+  "leader:mongols": {
+   "base": "leader:mongols"
+  },
+  "leader:ottomans": {
+   "base": "leader:ottomans"
+  },
+  "leader:persians": {
+   "base": "leader:persians"
+  },
+  "leader:portuguese": {
+   "base": "leader:portuguese"
+  },
+  "leader:romans": {
+   "base": "leader:romans"
+  },
+  "leader:russians": {
+   "base": "leader:russians"
+  },
+  "leader:spanish": {
+   "base": "leader:spanish"
+  },
+  "leader:sumerians": {
+   "base": "leader:sumerians"
+  },
+  "leader:vikings": {
+   "base": "leader:vikings"
+  },
+  "leader:zulu": {
+   "base": "leader:zulu"
   }
  },
  "pediaArt": {
+  "unit:worker": "pedia/unit/worker.png",
   "unit:jet_fighter": "pedia/unit/jet_fighter.png",
   "unit:helicopter": "pedia/unit/helicopter.png",
   "unit:stealth_bomber": "pedia/unit/stealth_bomber.png",
   "unit:modern_armor": "pedia/unit/modern_armor.png",
   "unit:modern_paratrooper": "pedia/unit/modern_paratrooper.png",
-  "unit:worker": "pedia/unit/worker.png",
   "unit:settler": "pedia/unit/settler.png",
   "unit:warrior": "pedia/unit/warrior.png",
   "unit:scout": "pedia/unit/scout.png",
@@ -3223,7 +3450,38 @@
   "unit:stealth_fighter": "pedia/unit/stealth_fighter.png",
   "unit:cruise_missile": "pedia/unit/cruise_missile.png",
   "unit:tactical_nuke": "pedia/unit/tactical_nuke.png",
-  "unit:icbm": "pedia/unit/icbm.png"
+  "unit:icbm": "pedia/unit/icbm.png",
+  "leader:americans": "pedia/leader/americans.png",
+  "leader:arabs": "pedia/leader/arabs.png",
+  "leader:aztecs": "pedia/leader/aztecs.png",
+  "leader:babylonians": "pedia/leader/babylonians.png",
+  "leader:byzantines": "pedia/leader/byzantines.png",
+  "leader:carthaginians": "pedia/leader/carthaginians.png",
+  "leader:celts": "pedia/leader/celts.png",
+  "leader:chinese": "pedia/leader/chinese.png",
+  "leader:dutch": "pedia/leader/dutch.png",
+  "leader:egyptians": "pedia/leader/egyptians.png",
+  "leader:english": "pedia/leader/english.png",
+  "leader:french": "pedia/leader/french.png",
+  "leader:germans": "pedia/leader/germans.png",
+  "leader:greeks": "pedia/leader/greeks.png",
+  "leader:hittites": "pedia/leader/hittites.png",
+  "leader:inca": "pedia/leader/inca.png",
+  "leader:indians": "pedia/leader/indians.png",
+  "leader:iroquois": "pedia/leader/iroquois.png",
+  "leader:japanese": "pedia/leader/japanese.png",
+  "leader:koreans": "pedia/leader/koreans.png",
+  "leader:maya": "pedia/leader/maya.png",
+  "leader:mongols": "pedia/leader/mongols.png",
+  "leader:ottomans": "pedia/leader/ottomans.png",
+  "leader:persians": "pedia/leader/persians.png",
+  "leader:portuguese": "pedia/leader/portuguese.png",
+  "leader:romans": "pedia/leader/romans.png",
+  "leader:russians": "pedia/leader/russians.png",
+  "leader:spanish": "pedia/leader/spanish.png",
+  "leader:sumerians": "pedia/leader/sumerians.png",
+  "leader:vikings": "pedia/leader/vikings.png",
+  "leader:zulu": "pedia/leader/zulu.png"
  },
  "citizenHeads": {
   "sheet": "city/heads.png",
