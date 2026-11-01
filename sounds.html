@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sigma Ruler · Sound lab</title>
-    <script type="module" crossorigin src="/assets/sounds-mYvTOZRT.js"></script>
+    <script type="module" crossorigin src="/assets/sounds-Derev7an.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/src-JYdWrwiz.js">
-    <link rel="stylesheet" crossorigin href="/assets/sounds-B1AQYoxY.css">
+    <link rel="stylesheet" crossorigin href="/assets/sounds-BBOj1VoQ.css">
   </head>
   <body>
     <header>
@@ -15,34 +15,31 @@
         <input
           id="search"
           type="search"
-          placeholder="Найти звук, событие или юнита…"
+          placeholder="Найти звук, событие или юнита…  ( / )"
           aria-label="Поиск звуков"
         />
-        <select id="filter" aria-label="Статус звука">
-          <option value="all">Все звуки</option>
-          <option value="ready">Есть файл</option>
-          <option value="missing">Нужен звук</option>
-          <option value="local">Локальные пробы</option>
-          <option value="accepted">Принятые</option>
-          <option value="replace">Требуют замены</option>
-        </select>
         <label class="volume"
           >Громкость <input id="volume" type="range" min="0" max="1" step="0.05" value="0.7"
         /></label>
-        <button id="stop" type="button">Остановить всё</button>
+        <button id="stop" type="button" title="Esc">■ Стоп</button>
+        <a href="./sprites.html">Sprite lab ↗</a>
       </div>
-      <a href="./sprites.html">Sprite lab ↗</a>
+      <div id="filters" class="filters" role="toolbar" aria-label="Фильтр по статусу"></div>
     </header>
     <nav id="nav" aria-label="Разделы звуков"></nav>
     <main>
       <div class="intro">
-        <p class="eyebrow">АССЕТЫ / ЗВУК</p>
-        <h1>Как звучит твоя цивилизация</h1>
-        <p>Эффекты, связанные юниты и музыка — весь список для озвучки игры.</p>
-        <div id="summary" aria-live="polite">Загрузка каталога…</div>
-        <p class="hint">
-          Оценивайте звуки, сохраняйте варианты и запускайте генерацию прямо из таблицы. Принятый
-          вариант остаётся в лаборатории до подключения к игре.
+        <div class="intro-head">
+          <h1>Как звучит твоя цивилизация</h1>
+          <div id="summary" aria-live="polite">Загрузка каталога…</div>
+        </div>
+        <div id="progress" class="progress" title="Есть звук / принято">
+          <span class="progress-ready"></span><span class="progress-accepted"></span>
+        </div>
+        <p class="keys">
+          <kbd>↑</kbd><kbd>↓</kbd> выбрать · <kbd>Enter</kbd> раскрыть · <kbd>Space</kbd> наш звук ·
+          <kbd>B</kbd> оригинал · <kbd>Esc</kbd> стоп · <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> не
+          оценён / принят / на замену · <kbd>/</kbd> поиск
         </p>
         <p class="hint" id="save-status" role="status" aria-live="polite"></p>
         <details class="reference-settings">
@@ -59,12 +56,13 @@
           </div>
           <p class="hint" id="reference-status" role="status"></p>
           <p class="hint">
-            Референсы читаются из установки для сравнения. Кнопки A/B запускают записи с начала.
-            Длительности до 1 с округляются до 1 с, предел — 120 с.
+            Звуки юнитов берутся из их INI; составные .amb сводятся из WAV-слоёв с исходными
+            задержками. Длительность оригинала становится длительностью генерации (1–120 с).
           </p>
         </details>
       </div>
       <div id="notice" role="status" aria-live="polite"></div>
+      <dialog id="variants" aria-label="Варианты генерации"></dialog>
       <div id="catalog"></div>
       <footer>
         Каталог из docs/sounds.md · ассеты скина «Гексы». Первые эффекты ElevenLabs: временная
