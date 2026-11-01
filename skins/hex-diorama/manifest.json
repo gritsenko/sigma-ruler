@@ -3683,5 +3683,11 @@
   "temple": "building/temple.png",
   "the_colossus": "building/the_colossus.png",
   "walls": "building/walls.png"
+ },
+ "sounds": {
+  "ui:click": "sound/ui_click.mp3",
+  "ui:turn_end": "sound/ui_turn_end.mp3",
+  "tech:found": "sound/tech_found.mp3",
+  "unit:settler:build": "sound/city_found.mp3"
  }
 }

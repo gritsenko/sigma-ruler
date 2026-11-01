@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sigma Ruler · Sound lab</title>
+    <script type="module" crossorigin src="/assets/sounds-mYvTOZRT.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/src-JYdWrwiz.js">
+    <link rel="stylesheet" crossorigin href="/assets/sounds-B1AQYoxY.css">
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="./sounds.html">Sound lab <span>SIGMA RULER</span></a>
+      <div class="toolbar">
+        <input
+          id="search"
+          type="search"
+          placeholder="Найти звук, событие или юнита…"
+          aria-label="Поиск звуков"
+        />
+        <select id="filter" aria-label="Статус звука">
+          <option value="all">Все звуки</option>
+          <option value="ready">Есть файл</option>
+          <option value="missing">Нужен звук</option>
+          <option value="local">Локальные пробы</option>
+          <option value="accepted">Принятые</option>
+          <option value="replace">Требуют замены</option>
+        </select>
+        <label class="volume"
+          >Громкость <input id="volume" type="range" min="0" max="1" step="0.05" value="0.7"
+        /></label>
+        <button id="stop" type="button">Остановить всё</button>
+      </div>
+      <a href="./sprites.html">Sprite lab ↗</a>
+    </header>
+    <nav id="nav" aria-label="Разделы звуков"></nav>
+    <main>
+      <div class="intro">
+        <p class="eyebrow">АССЕТЫ / ЗВУК</p>
+        <h1>Как звучит твоя цивилизация</h1>
+        <p>Эффекты, связанные юниты и музыка — весь список для озвучки игры.</p>
+        <div id="summary" aria-live="polite">Загрузка каталога…</div>
+        <p class="hint">
+          Оценивайте звуки, сохраняйте варианты и запускайте генерацию прямо из таблицы. Принятый
+          вариант остаётся в лаборатории до подключения к игре.
+        </p>
+        <p class="hint" id="save-status" role="status" aria-live="polite"></p>
+        <details class="reference-settings">
+          <summary>Референсы Civilization III</summary>
+          <label for="reference-root">Папка установки на сервере</label>
+          <div class="reference-toolbar">
+            <input
+              id="reference-root"
+              type="text"
+              placeholder="C:\Games\Civilization III Complete"
+            />
+            <button id="reference-connect">Подключить</button>
+            <button id="reference-durations">Проставить длительности</button>
+          </div>
+          <p class="hint" id="reference-status" role="status"></p>
+          <p class="hint">
+            Референсы читаются из установки для сравнения. Кнопки A/B запускают записи с начала.
+            Длительности до 1 с округляются до 1 с, предел — 120 с.
+          </p>
+        </details>
+      </div>
+      <div id="notice" role="status" aria-live="polite"></div>
+      <div id="catalog"></div>
+      <footer>
+        Каталог из docs/sounds.md · ассеты скина «Гексы». Первые эффекты ElevenLabs: временная
+        некоммерческая лицензия, подробнее в THIRD_PARTY_NOTICES.md.
+      </footer>
+    </main>
+  </body>
+</html>
