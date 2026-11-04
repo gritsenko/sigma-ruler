@@ -1,0 +1,181 @@
+{
+ "frames": {
+  "fx/riot0": {
+   "frame": {
+    "x": 2,
+    "y": 2,
+    "w": 143,
+    "h": 300
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 143,
+    "h": 300
+   },
+   "sourceSize": {
+    "w": 143,
+    "h": 300
+   },
+   "anchor": {
+    "x": 0.3238,
+    "y": 1.0
+   }
+  },
+  "fx/riot1": {
+   "frame": {
+    "x": 147,
+    "y": 2,
+    "w": 143,
+    "h": 300
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 143,
+    "h": 300
+   },
+   "sourceSize": {
+    "w": 143,
+    "h": 300
+   },
+   "anchor": {
+    "x": 0.3238,
+    "y": 1.0
+   }
+  },
+  "fx/riot2": {
+   "frame": {
+    "x": 292,
+    "y": 2,
+    "w": 143,
+    "h": 300
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 143,
+    "h": 300
+   },
+   "sourceSize": {
+    "w": 143,
+    "h": 300
+   },
+   "anchor": {
+    "x": 0.3238,
+    "y": 1.0
+   }
+  },
+  "fx/bird0": {
+   "frame": {
+    "x": 437,
+    "y": 2,
+    "w": 48,
+    "h": 48
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 48,
+    "h": 48
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx/bird1": {
+   "frame": {
+    "x": 487,
+    "y": 2,
+    "w": 48,
+    "h": 48
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 48,
+    "h": 48
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx/bird2": {
+   "frame": {
+    "x": 537,
+    "y": 2,
+    "w": 48,
+    "h": 48
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 48,
+    "h": 48
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "fx/bird3": {
+   "frame": {
+    "x": 587,
+    "y": 2,
+    "w": 48,
+    "h": 48
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 48,
+    "h": 48
+   },
+   "sourceSize": {
+    "w": 48,
+    "h": 48
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ },
+ "meta": {
+  "image": "fx.webp",
+  "format": "RGBA8888",
+  "size": {
+   "w": 2048,
+   "h": 304
+  },
+  "scale": "2.0"
+ }
+}
