@@ -696,7 +696,7 @@
     "y": 0.5
    }
   },
-  "leader:vikings": {
+  "leader:tribe": {
    "frame": {
     "x": 1748,
     "y": 390,
@@ -720,9 +720,33 @@
     "y": 0.5
    }
   },
-  "leader:zulu": {
+  "leader:vikings": {
    "frame": {
     "x": 2,
+    "y": 584,
+    "w": 192,
+    "h": 192
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 192
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 192
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "leader:zulu": {
+   "frame": {
+    "x": 196,
     "y": 584,
     "w": 192,
     "h": 192
