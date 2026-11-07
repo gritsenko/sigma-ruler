@@ -2,7 +2,7 @@
  "format": "myciv3-skin",
  "version": 2,
  "name": "Hex diorama",
- "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s28:codex_1:worker@1+worker@2+worker@3,s27:codex_3,s24:codex_1:jet_fighter+helicopter+stealth_bomber,s24:codex_2:modern_armor,s25:codex_0:modern_paratrooper,s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1,s20:codex_1,s22:codex_0 + poses s26:codex_0:poses26+poses27,s13:codex_1:poses1+poses2+poses6,s13:codex_0:poses3+poses5+poses7,s13:codex_3:poses4,s27:codex_6:posesw,s27:codex_9:poseswh,s28:codex_4:posesw@1+posesw@2+posesw@3,s28:codex_8:poseswh@1+poseswh@3,s28:codex_9:poseswh@2,s21:codex_1:poses8+poses9+poses10+poses11+poses12,s23:codex_0:poses13+poses14+poses15+poses16+poses17+poses18+poses19+poses20+poses21+poses22+poses23+poses24+poses25 + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + leaders tools/leader-art/raw + heads s4:codex_0 + buildings s29:codex_0:academy + buildings s19:codex_0:hospital+battlefield_medicine + buildings s18:codex_0 + buildings s17:codex_0 + fx tools/riot-art/out,tools/bird-art/out + techs s4:codex_1 + techs s7:codex_0 + techs s16:codex_0 + techs s30:codex_3:trial_and_error",
+ "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s28:codex_1:worker@1+worker@2+worker@3,s27:codex_3,s24:codex_1:jet_fighter+helicopter+stealth_bomber,s24:codex_2:modern_armor,s25:codex_0:modern_paratrooper,s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1,s20:codex_1,s22:codex_0 + poses s26:codex_0:poses26+poses27,s13:codex_1:poses1+poses2+poses6,s13:codex_0:poses3+poses5+poses7,s13:codex_3:poses4,s27:codex_6:posesw,s27:codex_9:poseswh,s28:codex_4:posesw@1+posesw@2+posesw@3,s28:codex_8:poseswh@1+poseswh@3,s28:codex_9:poseswh@2,s21:codex_1:poses8+poses9+poses10+poses11+poses12,s23:codex_0:poses13+poses14+poses15+poses16+poses17+poses18+poses19+poses20+poses21+poses22+poses23+poses24+poses25 + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + crews s31:codex_0 + leaders tools/leader-art/raw + heads s4:codex_0 + techs s4:codex_1 + techs s7:codex_0 + techs s16:codex_0 + techs s30:codex_3:trial_and_error + buildings s29:codex_0:academy + buildings s19:codex_0:hospital+battlefield_medicine + buildings s18:codex_0 + buildings s17:codex_0 + fx tools/riot-art/out,tools/bird-art/out",
  "tileSize": 128,
  "atlases": [
   "objects.json",
@@ -15,6 +15,7 @@
   "props.json",
   "portraits.json",
   "portraits2.json",
+  "portraits3.json",
   "leaders.json",
   "fx.json"
  ],
@@ -2896,6 +2897,378 @@
  ],
  "wallsMaxSize": 6,
  "portraits": {
+  "face:worker@1": {
+   "base": "unit/worker@1/face",
+   "team": "unit/worker@1/face.team"
+  },
+  "face:worker@2": {
+   "base": "unit/worker@2/face",
+   "team": "unit/worker@2/face.team"
+  },
+  "face:worker@3": {
+   "base": "unit/worker@3/face",
+   "team": "unit/worker@3/face.team"
+  },
+  "face:worker": {
+   "base": "unit/worker/face",
+   "team": "unit/worker/face.team"
+  },
+  "face:jet_fighter": {
+   "base": "unit/jet_fighter/face",
+   "team": "unit/jet_fighter/face.team"
+  },
+  "face:helicopter": {
+   "base": "unit/helicopter/face",
+   "team": "unit/helicopter/face.team"
+  },
+  "face:stealth_bomber": {
+   "base": "unit/stealth_bomber/face",
+   "team": "unit/stealth_bomber/face.team"
+  },
+  "face:modern_armor": {
+   "base": "unit/modern_armor/face",
+   "team": "unit/modern_armor/face.team"
+  },
+  "face:modern_paratrooper": {
+   "base": "unit/modern_paratrooper/face",
+   "team": "unit/modern_paratrooper/face.team"
+  },
+  "face:settler": {
+   "base": "unit/settler/face",
+   "team": "unit/settler/face.team"
+  },
+  "face:warrior": {
+   "base": "unit/warrior/face",
+   "team": "unit/warrior/face.team"
+  },
+  "face:scout": {
+   "base": "unit/scout/face",
+   "team": "unit/scout/face.team"
+  },
+  "face:spearman": {
+   "base": "unit/spearman/face",
+   "team": "unit/spearman/face.team"
+  },
+  "face:archer": {
+   "base": "unit/archer/face",
+   "team": "unit/archer/face.team"
+  },
+  "face:chariot": {
+   "base": "unit/chariot/face",
+   "team": "unit/chariot/face.team"
+  },
+  "face:horseman": {
+   "base": "unit/horseman/face",
+   "team": "unit/horseman/face.team"
+  },
+  "face:swordsman": {
+   "base": "unit/swordsman/face",
+   "team": "unit/swordsman/face.team"
+  },
+  "face:catapult": {
+   "base": "unit/catapult/face",
+   "team": "unit/catapult/face.team"
+  },
+  "face:curragh": {
+   "base": "unit/curragh/face",
+   "team": "unit/curragh/face.team"
+  },
+  "face:galley": {
+   "base": "unit/galley/face",
+   "team": "unit/galley/face.team"
+  },
+  "face:pikeman": {
+   "base": "unit/pikeman/face",
+   "team": "unit/pikeman/face.team"
+  },
+  "face:medieval_infantry": {
+   "base": "unit/medieval_infantry/face",
+   "team": "unit/medieval_infantry/face.team"
+  },
+  "face:longbowman": {
+   "base": "unit/longbowman/face",
+   "team": "unit/longbowman/face.team"
+  },
+  "face:knight": {
+   "base": "unit/knight/face",
+   "team": "unit/knight/face.team"
+  },
+  "face:trebuchet": {
+   "base": "unit/trebuchet/face",
+   "team": "unit/trebuchet/face.team"
+  },
+  "face:cannon": {
+   "base": "unit/cannon/face",
+   "team": "unit/cannon/face.team"
+  },
+  "face:explorer": {
+   "base": "unit/explorer/face",
+   "team": "unit/explorer/face.team"
+  },
+  "face:musketman": {
+   "base": "unit/musketman/face",
+   "team": "unit/musketman/face.team"
+  },
+  "face:cavalry": {
+   "base": "unit/cavalry/face",
+   "team": "unit/cavalry/face.team"
+  },
+  "face:caravel": {
+   "base": "unit/caravel/face",
+   "team": "unit/caravel/face.team"
+  },
+  "face:galleon": {
+   "base": "unit/galleon/face",
+   "team": "unit/galleon/face.team"
+  },
+  "face:frigate": {
+   "base": "unit/frigate/face",
+   "team": "unit/frigate/face.team"
+  },
+  "face:privateer": {
+   "base": "unit/privateer/face",
+   "team": "unit/privateer/face.team"
+  },
+  "face:jaguar_warrior": {
+   "base": "unit/jaguar_warrior/face",
+   "team": "unit/jaguar_warrior/face.team"
+  },
+  "face:bowman": {
+   "base": "unit/bowman/face",
+   "team": "unit/bowman/face.team"
+  },
+  "face:hoplite": {
+   "base": "unit/hoplite/face",
+   "team": "unit/hoplite/face.team"
+  },
+  "face:impi": {
+   "base": "unit/impi/face",
+   "team": "unit/impi/face.team"
+  },
+  "face:legionary": {
+   "base": "unit/legionary/face",
+   "team": "unit/legionary/face.team"
+  },
+  "face:immortals": {
+   "base": "unit/immortals/face",
+   "team": "unit/immortals/face.team"
+  },
+  "face:war_chariot": {
+   "base": "unit/war_chariot/face",
+   "team": "unit/war_chariot/face.team"
+  },
+  "face:three_man_chariot": {
+   "base": "unit/three_man_chariot/face",
+   "team": "unit/three_man_chariot/face.team"
+  },
+  "face:mounted_warrior": {
+   "base": "unit/mounted_warrior/face",
+   "team": "unit/mounted_warrior/face.team"
+  },
+  "face:gallic_swordsman": {
+   "base": "unit/gallic_swordsman/face",
+   "team": "unit/gallic_swordsman/face.team"
+  },
+  "face:numidian_mercenary": {
+   "base": "unit/numidian_mercenary/face",
+   "team": "unit/numidian_mercenary/face.team"
+  },
+  "face:javelin_thrower": {
+   "base": "unit/javelin_thrower/face",
+   "team": "unit/javelin_thrower/face.team"
+  },
+  "face:enkidu_warrior": {
+   "base": "unit/enkidu_warrior/face",
+   "team": "unit/enkidu_warrior/face.team"
+  },
+  "face:chasqui_scout": {
+   "base": "unit/chasqui_scout/face",
+   "team": "unit/chasqui_scout/face.team"
+  },
+  "face:ancient_cavalry": {
+   "base": "unit/ancient_cavalry/face",
+   "team": "unit/ancient_cavalry/face.team"
+  },
+  "face:crusader": {
+   "base": "unit/crusader/face",
+   "team": "unit/crusader/face.team"
+  },
+  "face:dromon": {
+   "base": "unit/dromon/face",
+   "team": "unit/dromon/face.team"
+  },
+  "face:rider": {
+   "base": "unit/rider/face",
+   "team": "unit/rider/face.team"
+  },
+  "face:samurai": {
+   "base": "unit/samurai/face",
+   "team": "unit/samurai/face.team"
+  },
+  "face:war_elephant": {
+   "base": "unit/war_elephant/face",
+   "team": "unit/war_elephant/face.team"
+  },
+  "face:keshik": {
+   "base": "unit/keshik/face",
+   "team": "unit/keshik/face.team"
+  },
+  "face:ansar_warrior": {
+   "base": "unit/ansar_warrior/face",
+   "team": "unit/ansar_warrior/face.team"
+  },
+  "face:berserk": {
+   "base": "unit/berserk/face",
+   "team": "unit/berserk/face.team"
+  },
+  "face:musketeer": {
+   "base": "unit/musketeer/face",
+   "team": "unit/musketeer/face.team"
+  },
+  "face:conquistador": {
+   "base": "unit/conquistador/face",
+   "team": "unit/conquistador/face.team"
+  },
+  "face:sipahi": {
+   "base": "unit/sipahi/face",
+   "team": "unit/sipahi/face.team"
+  },
+  "face:cossack": {
+   "base": "unit/cossack/face",
+   "team": "unit/cossack/face.team"
+  },
+  "face:swiss_mercenary": {
+   "base": "unit/swiss_mercenary/face",
+   "team": "unit/swiss_mercenary/face.team"
+  },
+  "face:hwacha": {
+   "base": "unit/hwacha/face",
+   "team": "unit/hwacha/face.team"
+  },
+  "face:carrack": {
+   "base": "unit/carrack/face",
+   "team": "unit/carrack/face.team"
+  },
+  "face:man_o_war": {
+   "base": "unit/man_o_war/face",
+   "team": "unit/man_o_war/face.team"
+  },
+  "face:leader": {
+   "base": "unit/leader/face",
+   "team": "unit/leader/face.team"
+  },
+  "face:scientific_leader": {
+   "base": "unit/scientific_leader/face",
+   "team": "unit/scientific_leader/face.team"
+  },
+  "face:army": {
+   "base": "unit/army/face",
+   "team": "unit/army/face.team"
+  },
+  "face:rifleman": {
+   "base": "unit/rifleman/face",
+   "team": "unit/rifleman/face.team"
+  },
+  "face:infantry": {
+   "base": "unit/infantry/face",
+   "team": "unit/infantry/face.team"
+  },
+  "face:guerilla": {
+   "base": "unit/guerilla/face",
+   "team": "unit/guerilla/face.team"
+  },
+  "face:marine": {
+   "base": "unit/marine/face",
+   "team": "unit/marine/face.team"
+  },
+  "face:paratrooper": {
+   "base": "unit/paratrooper/face",
+   "team": "unit/paratrooper/face.team"
+  },
+  "face:tow_infantry": {
+   "base": "unit/tow_infantry/face",
+   "team": "unit/tow_infantry/face.team"
+  },
+  "face:mech_infantry": {
+   "base": "unit/mech_infantry/face",
+   "team": "unit/mech_infantry/face.team"
+  },
+  "face:artillery": {
+   "base": "unit/artillery/face",
+   "team": "unit/artillery/face.team"
+  },
+  "face:radar_artillery": {
+   "base": "unit/radar_artillery/face",
+   "team": "unit/radar_artillery/face.team"
+  },
+  "face:flak": {
+   "base": "unit/flak/face",
+   "team": "unit/flak/face.team"
+  },
+  "face:mobile_sam": {
+   "base": "unit/mobile_sam/face",
+   "team": "unit/mobile_sam/face.team"
+  },
+  "face:tank": {
+   "base": "unit/tank/face",
+   "team": "unit/tank/face.team"
+  },
+  "face:panzer": {
+   "base": "unit/panzer/face",
+   "team": "unit/panzer/face.team"
+  },
+  "face:ironclad": {
+   "base": "unit/ironclad/face",
+   "team": "unit/ironclad/face.team"
+  },
+  "face:transport": {
+   "base": "unit/transport/face",
+   "team": "unit/transport/face.team"
+  },
+  "face:destroyer": {
+   "base": "unit/destroyer/face",
+   "team": "unit/destroyer/face.team"
+  },
+  "face:cruiser": {
+   "base": "unit/cruiser/face",
+   "team": "unit/cruiser/face.team"
+  },
+  "face:battleship": {
+   "base": "unit/battleship/face",
+   "team": "unit/battleship/face.team"
+  },
+  "face:aegis_cruiser": {
+   "base": "unit/aegis_cruiser/face",
+   "team": "unit/aegis_cruiser/face.team"
+  },
+  "face:carrier": {
+   "base": "unit/carrier/face",
+   "team": "unit/carrier/face.team"
+  },
+  "face:submarine": {
+   "base": "unit/submarine/face",
+   "team": "unit/submarine/face.team"
+  },
+  "face:nuclear_submarine": {
+   "base": "unit/nuclear_submarine/face",
+   "team": "unit/nuclear_submarine/face.team"
+  },
+  "face:fighter": {
+   "base": "unit/fighter/face",
+   "team": "unit/fighter/face.team"
+  },
+  "face:bomber": {
+   "base": "unit/bomber/face",
+   "team": "unit/bomber/face.team"
+  },
+  "face:f_15": {
+   "base": "unit/f_15/face",
+   "team": "unit/f_15/face.team"
+  },
+  "face:stealth_fighter": {
+   "base": "unit/stealth_fighter/face",
+   "team": "unit/stealth_fighter/face.team"
+  },
   "worker@1": {
    "base": "unit/worker@1/portrait",
    "team": "unit/worker@1/portrait.team"

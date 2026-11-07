@@ -1,6 +1,6 @@
 {
  "frames": {
-  "unit/worker@1/portrait": {
+  "unit/worker@1/face": {
    "frame": {
     "x": 2,
     "y": 2,
@@ -24,7 +24,7 @@
     "y": 0.5
    }
   },
-  "unit/worker@1/portrait.team": {
+  "unit/worker@1/face.team": {
    "frame": {
     "x": 164,
     "y": 2,
@@ -48,57 +48,33 @@
     "y": 0.5
    }
   },
-  "unit/worker@2/portrait": {
+  "unit/worker@2/face": {
    "frame": {
     "x": 326,
     "y": 2,
-    "w": 152,
-    "h": 152
+    "w": 160,
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 152,
-    "h": 152
+    "w": 160,
+    "h": 160
    },
    "sourceSize": {
-    "w": 152,
-    "h": 152
+    "w": 160,
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/worker@2/portrait.team": {
+  "unit/worker@2/face.team": {
    "frame": {
-    "x": 480,
-    "y": 2,
-    "w": 152,
-    "h": 152
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 152,
-    "h": 152
-   },
-   "sourceSize": {
-    "w": 152,
-    "h": 152
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/worker@3/portrait": {
-   "frame": {
-    "x": 634,
+    "x": 488,
     "y": 2,
     "w": 160,
     "h": 160
@@ -120,9 +96,9 @@
     "y": 0.5
    }
   },
-  "unit/worker@3/portrait.team": {
+  "unit/worker@3/face": {
    "frame": {
-    "x": 796,
+    "x": 650,
     "y": 2,
     "w": 160,
     "h": 160
@@ -144,9 +120,9 @@
     "y": 0.5
    }
   },
-  "unit/worker/portrait": {
+  "unit/worker@3/face.team": {
    "frame": {
-    "x": 958,
+    "x": 812,
     "y": 2,
     "w": 160,
     "h": 160
@@ -168,9 +144,9 @@
     "y": 0.5
    }
   },
-  "unit/worker/portrait.team": {
+  "unit/worker/face": {
    "frame": {
-    "x": 1120,
+    "x": 974,
     "y": 2,
     "w": 160,
     "h": 160
@@ -192,12 +168,12 @@
     "y": 0.5
    }
   },
-  "unit/jet_fighter/portrait": {
+  "unit/worker/face.team": {
    "frame": {
-    "x": 1282,
+    "x": 1136,
     "y": 2,
     "w": 160,
-    "h": 131
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -205,23 +181,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 131
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 131
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/jet_fighter/portrait.team": {
+  "unit/jet_fighter/face": {
    "frame": {
-    "x": 1444,
+    "x": 1298,
     "y": 2,
     "w": 160,
-    "h": 131
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -229,23 +205,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 131
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 131
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/helicopter/portrait": {
+  "unit/jet_fighter/face.team": {
    "frame": {
-    "x": 1606,
+    "x": 1460,
     "y": 2,
     "w": 160,
-    "h": 138
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -253,23 +229,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 138
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 138
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/helicopter/portrait.team": {
+  "unit/helicopter/face": {
    "frame": {
-    "x": 1768,
+    "x": 1622,
     "y": 2,
     "w": 160,
-    "h": 138
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -277,23 +253,47 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 138
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 138
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/stealth_bomber/portrait": {
+  "unit/helicopter/face.team": {
+   "frame": {
+    "x": 1784,
+    "y": 2,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/stealth_bomber/face": {
    "frame": {
     "x": 2,
     "y": 164,
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -301,23 +301,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/stealth_bomber/portrait.team": {
+  "unit/stealth_bomber/face.team": {
    "frame": {
     "x": 164,
     "y": 164,
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -325,23 +325,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/modern_armor/portrait": {
+  "unit/modern_armor/face": {
    "frame": {
     "x": 326,
     "y": 164,
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -349,23 +349,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/modern_armor/portrait.team": {
+  "unit/modern_armor/face.team": {
    "frame": {
     "x": 488,
     "y": 164,
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -373,18 +373,18 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/modern_paratrooper/portrait": {
+  "unit/modern_paratrooper/face": {
    "frame": {
     "x": 650,
     "y": 164,
@@ -408,7 +408,7 @@
     "y": 0.5
    }
   },
-  "unit/modern_paratrooper/portrait.team": {
+  "unit/modern_paratrooper/face.team": {
    "frame": {
     "x": 812,
     "y": 164,
@@ -432,12 +432,12 @@
     "y": 0.5
    }
   },
-  "unit/settler/portrait": {
+  "unit/settler/face": {
    "frame": {
     "x": 974,
     "y": 164,
     "w": 160,
-    "h": 123
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -445,23 +445,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 123
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 123
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/settler/portrait.team": {
+  "unit/settler/face.team": {
    "frame": {
     "x": 1136,
     "y": 164,
     "w": 160,
-    "h": 123
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -469,23 +469,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 123
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 123
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/warrior/portrait": {
+  "unit/warrior/face": {
    "frame": {
     "x": 1298,
     "y": 164,
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -493,23 +493,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/warrior/portrait.team": {
+  "unit/warrior/face.team": {
    "frame": {
     "x": 1460,
     "y": 164,
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -517,18 +517,18 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 134
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/scout/portrait": {
+  "unit/scout/face": {
    "frame": {
     "x": 1622,
     "y": 164,
@@ -552,7 +552,7 @@
     "y": 0.5
    }
   },
-  "unit/scout/portrait.team": {
+  "unit/scout/face.team": {
    "frame": {
     "x": 1784,
     "y": 164,
@@ -576,7 +576,7 @@
     "y": 0.5
    }
   },
-  "unit/spearman/portrait": {
+  "unit/spearman/face": {
    "frame": {
     "x": 2,
     "y": 326,
@@ -600,7 +600,7 @@
     "y": 0.5
    }
   },
-  "unit/spearman/portrait.team": {
+  "unit/spearman/face.team": {
    "frame": {
     "x": 164,
     "y": 326,
@@ -624,7 +624,7 @@
     "y": 0.5
    }
   },
-  "unit/archer/portrait": {
+  "unit/archer/face": {
    "frame": {
     "x": 326,
     "y": 326,
@@ -648,7 +648,7 @@
     "y": 0.5
    }
   },
-  "unit/archer/portrait.team": {
+  "unit/archer/face.team": {
    "frame": {
     "x": 488,
     "y": 326,
@@ -672,12 +672,12 @@
     "y": 0.5
    }
   },
-  "unit/chariot/portrait": {
+  "unit/chariot/face": {
    "frame": {
     "x": 650,
     "y": 326,
     "w": 160,
-    "h": 151
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -685,23 +685,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 151
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 151
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/chariot/portrait.team": {
+  "unit/chariot/face.team": {
    "frame": {
     "x": 812,
     "y": 326,
     "w": 160,
-    "h": 151
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -709,18 +709,18 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 151
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 151
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/horseman/portrait": {
+  "unit/horseman/face": {
    "frame": {
     "x": 974,
     "y": 326,
@@ -744,7 +744,7 @@
     "y": 0.5
    }
   },
-  "unit/horseman/portrait.team": {
+  "unit/horseman/face.team": {
    "frame": {
     "x": 1136,
     "y": 326,
@@ -768,7 +768,7 @@
     "y": 0.5
    }
   },
-  "unit/swordsman/portrait": {
+  "unit/swordsman/face": {
    "frame": {
     "x": 1298,
     "y": 326,
@@ -792,7 +792,7 @@
     "y": 0.5
    }
   },
-  "unit/swordsman/portrait.team": {
+  "unit/swordsman/face.team": {
    "frame": {
     "x": 1460,
     "y": 326,
@@ -816,12 +816,12 @@
     "y": 0.5
    }
   },
-  "unit/catapult/portrait": {
+  "unit/catapult/face": {
    "frame": {
     "x": 1622,
     "y": 326,
     "w": 160,
-    "h": 115
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -829,23 +829,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 115
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 115
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/catapult/portrait.team": {
+  "unit/catapult/face.team": {
    "frame": {
     "x": 1784,
     "y": 326,
     "w": 160,
-    "h": 115
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -853,22 +853,22 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 115
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 115
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/curragh/portrait": {
+  "unit/curragh/face": {
    "frame": {
     "x": 2,
     "y": 488,
-    "w": 148,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -876,11 +876,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 148,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 148,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -888,81 +888,9 @@
     "y": 0.5
    }
   },
-  "unit/curragh/portrait.team": {
+  "unit/curragh/face.team": {
    "frame": {
-    "x": 152,
-    "y": 488,
-    "w": 148,
-    "h": 160
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 148,
-    "h": 160
-   },
-   "sourceSize": {
-    "w": 148,
-    "h": 160
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/galley/portrait": {
-   "frame": {
-    "x": 302,
-    "y": 488,
-    "w": 160,
-    "h": 143
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 160,
-    "h": 143
-   },
-   "sourceSize": {
-    "w": 160,
-    "h": 143
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/galley/portrait.team": {
-   "frame": {
-    "x": 464,
-    "y": 488,
-    "w": 160,
-    "h": 143
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 160,
-    "h": 143
-   },
-   "sourceSize": {
-    "w": 160,
-    "h": 143
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/pikeman/portrait": {
-   "frame": {
-    "x": 626,
+    "x": 164,
     "y": 488,
     "w": 160,
     "h": 160
@@ -984,9 +912,9 @@
     "y": 0.5
    }
   },
-  "unit/pikeman/portrait.team": {
+  "unit/galley/face": {
    "frame": {
-    "x": 788,
+    "x": 326,
     "y": 488,
     "w": 160,
     "h": 160
@@ -1008,57 +936,9 @@
     "y": 0.5
    }
   },
-  "unit/medieval_infantry/portrait": {
+  "unit/galley/face.team": {
    "frame": {
-    "x": 950,
-    "y": 488,
-    "w": 160,
-    "h": 159
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 160,
-    "h": 159
-   },
-   "sourceSize": {
-    "w": 160,
-    "h": 159
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/medieval_infantry/portrait.team": {
-   "frame": {
-    "x": 1112,
-    "y": 488,
-    "w": 160,
-    "h": 159
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 160,
-    "h": 159
-   },
-   "sourceSize": {
-    "w": 160,
-    "h": 159
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/longbowman/portrait": {
-   "frame": {
-    "x": 1274,
+    "x": 488,
     "y": 488,
     "w": 160,
     "h": 160
@@ -1080,9 +960,9 @@
     "y": 0.5
    }
   },
-  "unit/longbowman/portrait.team": {
+  "unit/pikeman/face": {
    "frame": {
-    "x": 1436,
+    "x": 650,
     "y": 488,
     "w": 160,
     "h": 160
@@ -1104,9 +984,9 @@
     "y": 0.5
    }
   },
-  "unit/knight/portrait": {
+  "unit/pikeman/face.team": {
    "frame": {
-    "x": 1598,
+    "x": 812,
     "y": 488,
     "w": 160,
     "h": 160
@@ -1128,9 +1008,9 @@
     "y": 0.5
    }
   },
-  "unit/knight/portrait.team": {
+  "unit/medieval_infantry/face": {
    "frame": {
-    "x": 1760,
+    "x": 974,
     "y": 488,
     "w": 160,
     "h": 160
@@ -1152,12 +1032,132 @@
     "y": 0.5
    }
   },
-  "unit/trebuchet/portrait": {
+  "unit/medieval_infantry/face.team": {
+   "frame": {
+    "x": 1136,
+    "y": 488,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/longbowman/face": {
+   "frame": {
+    "x": 1298,
+    "y": 488,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/longbowman/face.team": {
+   "frame": {
+    "x": 1460,
+    "y": 488,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/knight/face": {
+   "frame": {
+    "x": 1622,
+    "y": 488,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/knight/face.team": {
+   "frame": {
+    "x": 1784,
+    "y": 488,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/trebuchet/face": {
    "frame": {
     "x": 2,
     "y": 650,
     "w": 160,
-    "h": 145
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -1165,23 +1165,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 145
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 145
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/trebuchet/portrait.team": {
+  "unit/trebuchet/face.team": {
    "frame": {
     "x": 164,
     "y": 650,
     "w": 160,
-    "h": 145
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -1189,23 +1189,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 145
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 145
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/cannon/portrait": {
+  "unit/cannon/face": {
    "frame": {
     "x": 326,
     "y": 650,
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -1213,23 +1213,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/cannon/portrait.team": {
+  "unit/cannon/face.team": {
    "frame": {
     "x": 488,
     "y": 650,
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -1237,22 +1237,22 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 121
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/explorer/portrait": {
+  "unit/explorer/face": {
    "frame": {
     "x": 650,
     "y": 650,
-    "w": 157,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -1260,11 +1260,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 157,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 157,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -1272,81 +1272,9 @@
     "y": 0.5
    }
   },
-  "unit/explorer/portrait.team": {
+  "unit/explorer/face.team": {
    "frame": {
-    "x": 809,
-    "y": 650,
-    "w": 157,
-    "h": 160
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 157,
-    "h": 160
-   },
-   "sourceSize": {
-    "w": 157,
-    "h": 160
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/musketman/portrait": {
-   "frame": {
-    "x": 968,
-    "y": 650,
-    "w": 152,
-    "h": 152
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 152,
-    "h": 152
-   },
-   "sourceSize": {
-    "w": 152,
-    "h": 152
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/musketman/portrait.team": {
-   "frame": {
-    "x": 1122,
-    "y": 650,
-    "w": 152,
-    "h": 152
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 152,
-    "h": 152
-   },
-   "sourceSize": {
-    "w": 152,
-    "h": 152
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/cavalry/portrait": {
-   "frame": {
-    "x": 1276,
+    "x": 812,
     "y": 650,
     "w": 160,
     "h": 160
@@ -1368,9 +1296,9 @@
     "y": 0.5
    }
   },
-  "unit/cavalry/portrait.team": {
+  "unit/musketman/face": {
    "frame": {
-    "x": 1438,
+    "x": 974,
     "y": 650,
     "w": 160,
     "h": 160
@@ -1392,11 +1320,11 @@
     "y": 0.5
    }
   },
-  "unit/caravel/portrait": {
+  "unit/musketman/face.team": {
    "frame": {
-    "x": 1600,
+    "x": 1136,
     "y": 650,
-    "w": 141,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -1404,11 +1332,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 141,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 141,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -1416,11 +1344,11 @@
     "y": 0.5
    }
   },
-  "unit/caravel/portrait.team": {
+  "unit/cavalry/face": {
    "frame": {
-    "x": 1743,
+    "x": 1298,
     "y": 650,
-    "w": 141,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -1428,11 +1356,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 141,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 141,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -1440,11 +1368,11 @@
     "y": 0.5
    }
   },
-  "unit/galleon/portrait": {
+  "unit/cavalry/face.team": {
    "frame": {
-    "x": 1886,
+    "x": 1460,
     "y": 650,
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -1452,11 +1380,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -1464,11 +1392,59 @@
     "y": 0.5
    }
   },
-  "unit/galleon/portrait.team": {
+  "unit/caravel/face": {
+   "frame": {
+    "x": 1622,
+    "y": 650,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/caravel/face.team": {
+   "frame": {
+    "x": 1784,
+    "y": 650,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/galleon/face": {
    "frame": {
     "x": 2,
     "y": 812,
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -1476,11 +1452,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -1488,105 +1464,9 @@
     "y": 0.5
    }
   },
-  "unit/frigate/portrait": {
+  "unit/galleon/face.team": {
    "frame": {
-    "x": 146,
-    "y": 812,
-    "w": 150,
-    "h": 160
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 150,
-    "h": 160
-   },
-   "sourceSize": {
-    "w": 150,
-    "h": 160
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/frigate/portrait.team": {
-   "frame": {
-    "x": 298,
-    "y": 812,
-    "w": 150,
-    "h": 160
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 150,
-    "h": 160
-   },
-   "sourceSize": {
-    "w": 150,
-    "h": 160
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/privateer/portrait": {
-   "frame": {
-    "x": 450,
-    "y": 812,
-    "w": 155,
-    "h": 160
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 155,
-    "h": 160
-   },
-   "sourceSize": {
-    "w": 155,
-    "h": 160
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/privateer/portrait.team": {
-   "frame": {
-    "x": 607,
-    "y": 812,
-    "w": 155,
-    "h": 160
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 155,
-    "h": 160
-   },
-   "sourceSize": {
-    "w": 155,
-    "h": 160
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/jaguar_warrior/portrait": {
-   "frame": {
-    "x": 764,
+    "x": 164,
     "y": 812,
     "w": 160,
     "h": 160
@@ -1608,9 +1488,9 @@
     "y": 0.5
    }
   },
-  "unit/jaguar_warrior/portrait.team": {
+  "unit/frigate/face": {
    "frame": {
-    "x": 926,
+    "x": 326,
     "y": 812,
     "w": 160,
     "h": 160
@@ -1632,9 +1512,9 @@
     "y": 0.5
    }
   },
-  "unit/bowman/portrait": {
+  "unit/frigate/face.team": {
    "frame": {
-    "x": 1088,
+    "x": 488,
     "y": 812,
     "w": 160,
     "h": 160
@@ -1656,9 +1536,9 @@
     "y": 0.5
    }
   },
-  "unit/bowman/portrait.team": {
+  "unit/privateer/face": {
    "frame": {
-    "x": 1250,
+    "x": 650,
     "y": 812,
     "w": 160,
     "h": 160
@@ -1680,9 +1560,9 @@
     "y": 0.5
    }
   },
-  "unit/hoplite/portrait": {
+  "unit/privateer/face.team": {
    "frame": {
-    "x": 1412,
+    "x": 812,
     "y": 812,
     "w": 160,
     "h": 160
@@ -1704,9 +1584,9 @@
     "y": 0.5
    }
   },
-  "unit/hoplite/portrait.team": {
+  "unit/jaguar_warrior/face": {
    "frame": {
-    "x": 1574,
+    "x": 974,
     "y": 812,
     "w": 160,
     "h": 160
@@ -1728,9 +1608,9 @@
     "y": 0.5
    }
   },
-  "unit/impi/portrait": {
+  "unit/jaguar_warrior/face.team": {
    "frame": {
-    "x": 1736,
+    "x": 1136,
     "y": 812,
     "w": 160,
     "h": 160
@@ -1752,7 +1632,103 @@
     "y": 0.5
    }
   },
-  "unit/impi/portrait.team": {
+  "unit/bowman/face": {
+   "frame": {
+    "x": 1298,
+    "y": 812,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/bowman/face.team": {
+   "frame": {
+    "x": 1460,
+    "y": 812,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/hoplite/face": {
+   "frame": {
+    "x": 1622,
+    "y": 812,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/hoplite/face.team": {
+   "frame": {
+    "x": 1784,
+    "y": 812,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/impi/face": {
    "frame": {
     "x": 2,
     "y": 974,
@@ -1776,7 +1752,7 @@
     "y": 0.5
    }
   },
-  "unit/legionary/portrait": {
+  "unit/impi/face.team": {
    "frame": {
     "x": 164,
     "y": 974,
@@ -1800,7 +1776,7 @@
     "y": 0.5
    }
   },
-  "unit/legionary/portrait.team": {
+  "unit/legionary/face": {
    "frame": {
     "x": 326,
     "y": 974,
@@ -1824,7 +1800,7 @@
     "y": 0.5
    }
   },
-  "unit/immortals/portrait": {
+  "unit/legionary/face.team": {
    "frame": {
     "x": 488,
     "y": 974,
@@ -1848,7 +1824,7 @@
     "y": 0.5
    }
   },
-  "unit/immortals/portrait.team": {
+  "unit/immortals/face": {
    "frame": {
     "x": 650,
     "y": 974,
@@ -1872,12 +1848,12 @@
     "y": 0.5
    }
   },
-  "unit/war_chariot/portrait": {
+  "unit/immortals/face.team": {
    "frame": {
     "x": 812,
     "y": 974,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -1885,23 +1861,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/war_chariot/portrait.team": {
+  "unit/war_chariot/face": {
    "frame": {
     "x": 974,
     "y": 974,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -1909,22 +1885,22 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/three_man_chariot/portrait": {
+  "unit/war_chariot/face.team": {
    "frame": {
     "x": 1136,
     "y": 974,
-    "w": 159,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -1932,11 +1908,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 159,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 159,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -1944,11 +1920,11 @@
     "y": 0.5
    }
   },
-  "unit/three_man_chariot/portrait.team": {
+  "unit/three_man_chariot/face": {
    "frame": {
-    "x": 1297,
+    "x": 1298,
     "y": 974,
-    "w": 159,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -1956,11 +1932,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 159,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 159,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -1968,11 +1944,11 @@
     "y": 0.5
    }
   },
-  "unit/mounted_warrior/portrait": {
+  "unit/three_man_chariot/face.team": {
    "frame": {
-    "x": 1458,
+    "x": 1460,
     "y": 974,
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -1980,11 +1956,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -1992,11 +1968,11 @@
     "y": 0.5
    }
   },
-  "unit/mounted_warrior/portrait.team": {
+  "unit/mounted_warrior/face": {
    "frame": {
-    "x": 1602,
+    "x": 1622,
     "y": 974,
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -2004,11 +1980,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 142,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -2016,11 +1992,11 @@
     "y": 0.5
    }
   },
-  "unit/gallic_swordsman/portrait": {
+  "unit/mounted_warrior/face.team": {
    "frame": {
-    "x": 1746,
+    "x": 1784,
     "y": 974,
-    "w": 152,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -2028,11 +2004,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 152,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 152,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -2040,11 +2016,11 @@
     "y": 0.5
    }
   },
-  "unit/gallic_swordsman/portrait.team": {
+  "unit/gallic_swordsman/face": {
    "frame": {
     "x": 2,
     "y": 1136,
-    "w": 152,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -2052,11 +2028,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 152,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 152,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -2064,9 +2040,9 @@
     "y": 0.5
    }
   },
-  "unit/numidian_mercenary/portrait": {
+  "unit/gallic_swordsman/face.team": {
    "frame": {
-    "x": 156,
+    "x": 164,
     "y": 1136,
     "w": 160,
     "h": 160
@@ -2088,9 +2064,9 @@
     "y": 0.5
    }
   },
-  "unit/numidian_mercenary/portrait.team": {
+  "unit/numidian_mercenary/face": {
    "frame": {
-    "x": 318,
+    "x": 326,
     "y": 1136,
     "w": 160,
     "h": 160
@@ -2112,57 +2088,9 @@
     "y": 0.5
    }
   },
-  "unit/javelin_thrower/portrait": {
+  "unit/numidian_mercenary/face.team": {
    "frame": {
-    "x": 480,
-    "y": 1136,
-    "w": 149,
-    "h": 160
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 149,
-    "h": 160
-   },
-   "sourceSize": {
-    "w": 149,
-    "h": 160
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/javelin_thrower/portrait.team": {
-   "frame": {
-    "x": 631,
-    "y": 1136,
-    "w": 149,
-    "h": 160
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 149,
-    "h": 160
-   },
-   "sourceSize": {
-    "w": 149,
-    "h": 160
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/enkidu_warrior/portrait": {
-   "frame": {
-    "x": 782,
+    "x": 488,
     "y": 1136,
     "w": 160,
     "h": 160
@@ -2184,9 +2112,9 @@
     "y": 0.5
    }
   },
-  "unit/enkidu_warrior/portrait.team": {
+  "unit/javelin_thrower/face": {
    "frame": {
-    "x": 944,
+    "x": 650,
     "y": 1136,
     "w": 160,
     "h": 160
@@ -2208,9 +2136,9 @@
     "y": 0.5
    }
   },
-  "unit/chasqui_scout/portrait": {
+  "unit/javelin_thrower/face.team": {
    "frame": {
-    "x": 1106,
+    "x": 812,
     "y": 1136,
     "w": 160,
     "h": 160
@@ -2232,9 +2160,9 @@
     "y": 0.5
    }
   },
-  "unit/chasqui_scout/portrait.team": {
+  "unit/enkidu_warrior/face": {
    "frame": {
-    "x": 1268,
+    "x": 974,
     "y": 1136,
     "w": 160,
     "h": 160
@@ -2256,9 +2184,9 @@
     "y": 0.5
    }
   },
-  "unit/ancient_cavalry/portrait": {
+  "unit/enkidu_warrior/face.team": {
    "frame": {
-    "x": 1430,
+    "x": 1136,
     "y": 1136,
     "w": 160,
     "h": 160
@@ -2280,9 +2208,9 @@
     "y": 0.5
    }
   },
-  "unit/ancient_cavalry/portrait.team": {
+  "unit/chasqui_scout/face": {
    "frame": {
-    "x": 1592,
+    "x": 1298,
     "y": 1136,
     "w": 160,
     "h": 160
@@ -2304,11 +2232,11 @@
     "y": 0.5
    }
   },
-  "unit/crusader/portrait": {
+  "unit/chasqui_scout/face.team": {
    "frame": {
-    "x": 1754,
+    "x": 1460,
     "y": 1136,
-    "w": 145,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -2316,11 +2244,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 145,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 145,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -2328,11 +2256,11 @@
     "y": 0.5
    }
   },
-  "unit/crusader/portrait.team": {
+  "unit/ancient_cavalry/face": {
    "frame": {
-    "x": 1901,
+    "x": 1622,
     "y": 1136,
-    "w": 145,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -2340,11 +2268,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 145,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 145,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -2352,12 +2280,36 @@
     "y": 0.5
    }
   },
-  "unit/dromon/portrait": {
+  "unit/ancient_cavalry/face.team": {
+   "frame": {
+    "x": 1784,
+    "y": 1136,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/crusader/face": {
    "frame": {
     "x": 2,
     "y": 1298,
     "w": 160,
-    "h": 140
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -2365,23 +2317,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 140
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 140
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/dromon/portrait.team": {
+  "unit/crusader/face.team": {
    "frame": {
     "x": 164,
     "y": 1298,
     "w": 160,
-    "h": 140
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -2389,18 +2341,18 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 140
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 140
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/rider/portrait": {
+  "unit/dromon/face": {
    "frame": {
     "x": 326,
     "y": 1298,
@@ -2424,7 +2376,7 @@
     "y": 0.5
    }
   },
-  "unit/rider/portrait.team": {
+  "unit/dromon/face.team": {
    "frame": {
     "x": 488,
     "y": 1298,
@@ -2448,7 +2400,7 @@
     "y": 0.5
    }
   },
-  "unit/samurai/portrait": {
+  "unit/rider/face": {
    "frame": {
     "x": 650,
     "y": 1298,
@@ -2472,7 +2424,7 @@
     "y": 0.5
    }
   },
-  "unit/samurai/portrait.team": {
+  "unit/rider/face.team": {
    "frame": {
     "x": 812,
     "y": 1298,
@@ -2496,11 +2448,11 @@
     "y": 0.5
    }
   },
-  "unit/war_elephant/portrait": {
+  "unit/samurai/face": {
    "frame": {
     "x": 974,
     "y": 1298,
-    "w": 144,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -2508,11 +2460,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 144,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 144,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -2520,33 +2472,9 @@
     "y": 0.5
    }
   },
-  "unit/war_elephant/portrait.team": {
+  "unit/samurai/face.team": {
    "frame": {
-    "x": 1120,
-    "y": 1298,
-    "w": 144,
-    "h": 160
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 144,
-    "h": 160
-   },
-   "sourceSize": {
-    "w": 144,
-    "h": 160
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/keshik/portrait": {
-   "frame": {
-    "x": 1266,
+    "x": 1136,
     "y": 1298,
     "w": 160,
     "h": 160
@@ -2568,9 +2496,9 @@
     "y": 0.5
    }
   },
-  "unit/keshik/portrait.team": {
+  "unit/war_elephant/face": {
    "frame": {
-    "x": 1428,
+    "x": 1298,
     "y": 1298,
     "w": 160,
     "h": 160
@@ -2592,11 +2520,11 @@
     "y": 0.5
    }
   },
-  "unit/ansar_warrior/portrait": {
+  "unit/war_elephant/face.team": {
    "frame": {
-    "x": 1590,
+    "x": 1460,
     "y": 1298,
-    "w": 144,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -2604,11 +2532,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 144,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 144,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -2616,11 +2544,11 @@
     "y": 0.5
    }
   },
-  "unit/ansar_warrior/portrait.team": {
+  "unit/keshik/face": {
    "frame": {
-    "x": 1736,
+    "x": 1622,
     "y": 1298,
-    "w": 144,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -2628,11 +2556,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 144,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 144,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -2640,11 +2568,11 @@
     "y": 0.5
    }
   },
-  "unit/berserk/portrait": {
+  "unit/keshik/face.team": {
    "frame": {
-    "x": 1882,
+    "x": 1784,
     "y": 1298,
-    "w": 143,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -2652,11 +2580,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 143,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 143,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -2664,11 +2592,11 @@
     "y": 0.5
    }
   },
-  "unit/berserk/portrait.team": {
+  "unit/ansar_warrior/face": {
    "frame": {
     "x": 2,
     "y": 1460,
-    "w": 143,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -2676,11 +2604,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 143,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 143,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -2688,57 +2616,9 @@
     "y": 0.5
    }
   },
-  "unit/musketeer/portrait": {
+  "unit/ansar_warrior/face.team": {
    "frame": {
-    "x": 147,
-    "y": 1460,
-    "w": 160,
-    "h": 148
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 160,
-    "h": 148
-   },
-   "sourceSize": {
-    "w": 160,
-    "h": 148
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/musketeer/portrait.team": {
-   "frame": {
-    "x": 309,
-    "y": 1460,
-    "w": 160,
-    "h": 148
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 160,
-    "h": 148
-   },
-   "sourceSize": {
-    "w": 160,
-    "h": 148
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/conquistador/portrait": {
-   "frame": {
-    "x": 471,
+    "x": 164,
     "y": 1460,
     "w": 160,
     "h": 160
@@ -2760,9 +2640,9 @@
     "y": 0.5
    }
   },
-  "unit/conquistador/portrait.team": {
+  "unit/berserk/face": {
    "frame": {
-    "x": 633,
+    "x": 326,
     "y": 1460,
     "w": 160,
     "h": 160
@@ -2784,9 +2664,9 @@
     "y": 0.5
    }
   },
-  "unit/sipahi/portrait": {
+  "unit/berserk/face.team": {
    "frame": {
-    "x": 795,
+    "x": 488,
     "y": 1460,
     "w": 160,
     "h": 160
@@ -2808,9 +2688,9 @@
     "y": 0.5
    }
   },
-  "unit/sipahi/portrait.team": {
+  "unit/musketeer/face": {
    "frame": {
-    "x": 957,
+    "x": 650,
     "y": 1460,
     "w": 160,
     "h": 160
@@ -2832,9 +2712,9 @@
     "y": 0.5
    }
   },
-  "unit/cossack/portrait": {
+  "unit/musketeer/face.team": {
    "frame": {
-    "x": 1119,
+    "x": 812,
     "y": 1460,
     "w": 160,
     "h": 160
@@ -2856,9 +2736,9 @@
     "y": 0.5
    }
   },
-  "unit/cossack/portrait.team": {
+  "unit/conquistador/face": {
    "frame": {
-    "x": 1281,
+    "x": 974,
     "y": 1460,
     "w": 160,
     "h": 160
@@ -2880,9 +2760,9 @@
     "y": 0.5
    }
   },
-  "unit/swiss_mercenary/portrait": {
+  "unit/conquistador/face.team": {
    "frame": {
-    "x": 1443,
+    "x": 1136,
     "y": 1460,
     "w": 160,
     "h": 160
@@ -2904,9 +2784,9 @@
     "y": 0.5
    }
   },
-  "unit/swiss_mercenary/portrait.team": {
+  "unit/sipahi/face": {
    "frame": {
-    "x": 1605,
+    "x": 1298,
     "y": 1460,
     "w": 160,
     "h": 160
@@ -2928,12 +2808,12 @@
     "y": 0.5
    }
   },
-  "unit/hwacha/portrait": {
+  "unit/sipahi/face.team": {
    "frame": {
-    "x": 1767,
+    "x": 1460,
     "y": 1460,
     "w": 160,
-    "h": 132
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -2941,23 +2821,71 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 132
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 132
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/hwacha/portrait.team": {
+  "unit/cossack/face": {
+   "frame": {
+    "x": 1622,
+    "y": 1460,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/cossack/face.team": {
+   "frame": {
+    "x": 1784,
+    "y": 1460,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/swiss_mercenary/face": {
    "frame": {
     "x": 2,
     "y": 1622,
     "w": 160,
-    "h": 132
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -2965,18 +2893,18 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 132
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 132
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/carrack/portrait": {
+  "unit/swiss_mercenary/face.team": {
    "frame": {
     "x": 164,
     "y": 1622,
@@ -3000,7 +2928,7 @@
     "y": 0.5
    }
   },
-  "unit/carrack/portrait.team": {
+  "unit/hwacha/face": {
    "frame": {
     "x": 326,
     "y": 1622,
@@ -3024,12 +2952,12 @@
     "y": 0.5
    }
   },
-  "unit/man_o_war/portrait": {
+  "unit/hwacha/face.team": {
    "frame": {
     "x": 488,
     "y": 1622,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -3037,23 +2965,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/man_o_war/portrait.team": {
+  "unit/carrack/face": {
    "frame": {
     "x": 650,
     "y": 1622,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -3061,18 +2989,18 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/leader/portrait": {
+  "unit/carrack/face.team": {
    "frame": {
     "x": 812,
     "y": 1622,
@@ -3096,7 +3024,7 @@
     "y": 0.5
    }
   },
-  "unit/leader/portrait.team": {
+  "unit/man_o_war/face": {
    "frame": {
     "x": 974,
     "y": 1622,
@@ -3120,7 +3048,7 @@
     "y": 0.5
    }
   },
-  "unit/scientific_leader/portrait": {
+  "unit/man_o_war/face.team": {
    "frame": {
     "x": 1136,
     "y": 1622,
@@ -3144,7 +3072,7 @@
     "y": 0.5
    }
   },
-  "unit/scientific_leader/portrait.team": {
+  "unit/leader/face": {
    "frame": {
     "x": 1298,
     "y": 1622,
@@ -3168,12 +3096,12 @@
     "y": 0.5
    }
   },
-  "unit/army/portrait": {
+  "unit/leader/face.team": {
    "frame": {
     "x": 1460,
     "y": 1622,
     "w": 160,
-    "h": 159
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -3181,23 +3109,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 159
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 159
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/army/portrait.team": {
+  "unit/scientific_leader/face": {
    "frame": {
     "x": 1622,
     "y": 1622,
     "w": 160,
-    "h": 159
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -3205,18 +3133,18 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 159
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 159
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/rifleman/portrait": {
+  "unit/scientific_leader/face.team": {
    "frame": {
     "x": 1784,
     "y": 1622,
@@ -3240,7 +3168,7 @@
     "y": 0.5
    }
   },
-  "unit/rifleman/portrait.team": {
+  "unit/army/face": {
    "frame": {
     "x": 2,
     "y": 1784,
@@ -3264,11 +3192,11 @@
     "y": 0.5
    }
   },
-  "unit/infantry/portrait": {
+  "unit/army/face.team": {
    "frame": {
     "x": 164,
     "y": 1784,
-    "w": 141,
+    "w": 160,
     "h": 160
    },
    "rotated": false,
@@ -3276,11 +3204,11 @@
    "spriteSourceSize": {
     "x": 0,
     "y": 0,
-    "w": 141,
+    "w": 160,
     "h": 160
    },
    "sourceSize": {
-    "w": 141,
+    "w": 160,
     "h": 160
    },
    "anchor": {
@@ -3288,33 +3216,9 @@
     "y": 0.5
    }
   },
-  "unit/infantry/portrait.team": {
+  "unit/rifleman/face": {
    "frame": {
-    "x": 307,
-    "y": 1784,
-    "w": 141,
-    "h": 160
-   },
-   "rotated": false,
-   "trimmed": false,
-   "spriteSourceSize": {
-    "x": 0,
-    "y": 0,
-    "w": 141,
-    "h": 160
-   },
-   "sourceSize": {
-    "w": 141,
-    "h": 160
-   },
-   "anchor": {
-    "x": 0.5,
-    "y": 0.5
-   }
-  },
-  "unit/guerilla/portrait": {
-   "frame": {
-    "x": 450,
+    "x": 326,
     "y": 1784,
     "w": 160,
     "h": 160
@@ -3336,9 +3240,9 @@
     "y": 0.5
    }
   },
-  "unit/guerilla/portrait.team": {
+  "unit/rifleman/face.team": {
    "frame": {
-    "x": 612,
+    "x": 488,
     "y": 1784,
     "w": 160,
     "h": 160
@@ -3360,9 +3264,9 @@
     "y": 0.5
    }
   },
-  "unit/marine/portrait": {
+  "unit/infantry/face": {
    "frame": {
-    "x": 774,
+    "x": 650,
     "y": 1784,
     "w": 160,
     "h": 160
@@ -3384,9 +3288,9 @@
     "y": 0.5
    }
   },
-  "unit/marine/portrait.team": {
+  "unit/infantry/face.team": {
    "frame": {
-    "x": 936,
+    "x": 812,
     "y": 1784,
     "w": 160,
     "h": 160
@@ -3408,9 +3312,9 @@
     "y": 0.5
    }
   },
-  "unit/paratrooper/portrait": {
+  "unit/guerilla/face": {
    "frame": {
-    "x": 1098,
+    "x": 974,
     "y": 1784,
     "w": 160,
     "h": 160
@@ -3432,9 +3336,9 @@
     "y": 0.5
    }
   },
-  "unit/paratrooper/portrait.team": {
+  "unit/guerilla/face.team": {
    "frame": {
-    "x": 1260,
+    "x": 1136,
     "y": 1784,
     "w": 160,
     "h": 160
@@ -3456,12 +3360,12 @@
     "y": 0.5
    }
   },
-  "unit/tow_infantry/portrait": {
+  "unit/marine/face": {
    "frame": {
-    "x": 1422,
+    "x": 1298,
     "y": 1784,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -3469,23 +3373,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/tow_infantry/portrait.team": {
+  "unit/marine/face.team": {
    "frame": {
-    "x": 1584,
+    "x": 1460,
     "y": 1784,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -3493,23 +3397,23 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 148
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
     "y": 0.5
    }
   },
-  "unit/mech_infantry/portrait": {
+  "unit/paratrooper/face": {
    "frame": {
-    "x": 1746,
+    "x": 1622,
     "y": 1784,
     "w": 160,
-    "h": 136
+    "h": 160
    },
    "rotated": false,
    "trimmed": false,
@@ -3517,11 +3421,35 @@
     "x": 0,
     "y": 0,
     "w": 160,
-    "h": 136
+    "h": 160
    },
    "sourceSize": {
     "w": 160,
-    "h": 136
+    "h": 160
+   },
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  "unit/paratrooper/face.team": {
+   "frame": {
+    "x": 1784,
+    "y": 1784,
+    "w": 160,
+    "h": 160
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 160
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 160
    },
    "anchor": {
     "x": 0.5,
