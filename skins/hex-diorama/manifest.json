@@ -2,7 +2,7 @@
  "format": "myciv3-skin",
  "version": 2,
  "name": "Hex diorama",
- "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s28:codex_1:worker@1+worker@2+worker@3,s27:codex_3,s24:codex_1:jet_fighter+helicopter+stealth_bomber,s24:codex_2:modern_armor,s25:codex_0:modern_paratrooper,s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1,s20:codex_1,s22:codex_0 + poses s26:codex_0:poses26+poses27,s13:codex_1:poses1+poses2+poses6,s13:codex_0:poses3+poses5+poses7,s13:codex_3:poses4,s27:codex_6:posesw,s27:codex_9:poseswh,s28:codex_4:posesw@1+posesw@2+posesw@3,s28:codex_8:poseswh@1+poseswh@3,s28:codex_9:poseswh@2,s21:codex_1:poses8+poses9+poses10+poses11+poses12,s23:codex_0:poses13+poses14+poses15+poses16+poses17+poses18+poses19+poses20+poses21+poses22+poses23+poses24+poses25 + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + crews s31:codex_0 + leaders tools/leader-art/raw + heads s4:codex_0 + techs s4:codex_1 + techs s7:codex_0 + techs s16:codex_0 + techs s30:codex_3:trial_and_error + buildings s29:codex_0:academy + buildings s19:codex_0:hospital+battlefield_medicine + buildings s18:codex_0 + buildings s17:codex_0 + fx tools/riot-art/out,tools/bird-art/out",
+ "generator": "tools/imgen/export_hex_skin.py from lab set c3 + units s28:codex_1:worker@1+worker@2+worker@3,s27:codex_3,s24:codex_1:jet_fighter+helicopter+stealth_bomber,s24:codex_2:modern_armor,s25:codex_0:modern_paratrooper,s12:codex_0,s2:codex_1,s3:codex_0,s4:codex_0,s7:codex_1,s20:codex_1,s22:codex_0 + poses s26:codex_0:poses26+poses27,s13:codex_1:poses1+poses2+poses6,s13:codex_0:poses3+poses5+poses7,s13:codex_3:poses4,s27:codex_6:posesw,s27:codex_9:poseswh,s28:codex_4:posesw@1+posesw@2+posesw@3,s28:codex_8:poseswh@1+poseswh@3,s28:codex_9:poseswh@2,s21:codex_1:poses8+poses9+poses10+poses11+poses12,s23:codex_0:poses13+poses14+poses15+poses16+poses17+poses18+poses19+poses20+poses21+poses22+poses23+poses24+poses25 + sites s2:codex_3 + sites s7:codex_1 + resources s3:codex_0 + works s3:codex_1 + volcano s3:codex_0 + forts s4:codex_0 + crews s31:codex_0 + leaders tools/leader-art/raw + heads s4:codex_0 + techs s4:codex_1 + techs s7:codex_0 + techs s16:codex_0 + techs s30:codex_3:trial_and_error + buildings s29:codex_0:academy + buildings s19:codex_0:hospital+battlefield_medicine + buildings s18:codex_0 + buildings s17:codex_0 + fx tools/riot-art/out,tools/bird-art/out,tools/hut-smoke-art/out",
  "tileSize": 128,
  "atlases": [
   "objects.json",
@@ -297,6 +297,14 @@
     "fx/bird1",
     "fx/bird2",
     "fx/bird3"
+   ]
+  },
+  "fx:puff": {
+   "variants": [
+    "fx/puff0",
+    "fx/puff1",
+    "fx/puff2",
+    "fx/puff3"
    ]
   }
  },
